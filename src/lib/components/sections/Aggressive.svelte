@@ -4,7 +4,7 @@
 
 <section class="h-screen bg-bright flex justify-center items-center text-dark">
 	<div class="flex max-w-7xl px-8 w-full">
-		<div class="w-1/2 pr-24 relative z-10">
+		<div class="w-1/2 pr-24 relative">
 			<h2 class="text-title">
 				Aggressive mode
 			</h2>

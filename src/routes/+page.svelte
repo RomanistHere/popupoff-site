@@ -1,5 +1,9 @@
-<h1 class="text-red-500">Welcome to SvelteKit</h1>
-<p>
-	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a>
-	to read the documentation
-</p>
+<script>
+	import Main from "$lib/components/screens/Main.svelte";
+	import Slogan from "$lib/components/screens/Slogan.svelte";
+	import Aggressive from "$lib/components/screens/Aggressive.svelte";
+</script>
+
+<Main />
+<Slogan />
+<Aggressive />

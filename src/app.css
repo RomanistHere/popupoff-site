@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: Monkstead;
+		font-weight: 400;
+		src: url(/fonts/Monkstead.woff2) format("woff2"),
+			url(/fonts/Monkstead.woff) format("woff");
+	}
+}
+
+@layer components {
+	.text-basic {
+		@apply text-2xl leading-8 tracking-wider mb-8;
+	}
+
+	.text-title {
+		@apply font-logo text-6xl mb-12 text-accent title-shadow;
+	}
+}
+
+.title-shadow {
+	text-shadow: 3px 3px 0 #222831;
+}

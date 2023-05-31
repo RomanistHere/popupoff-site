@@ -2,7 +2,7 @@
 	// drop-shadow-[0_1px_2px_rgb(255,0,0)]
 </script>
 
-<section class="h-screen font-logo flex justify-center items-center">
+<section class="min-h-screen font-logo flex justify-center items-center">
 	<div>
 		<h1 class="text-[10rem] drop-shadow">
 			PopUp<span class="text-accent">OFF</span>

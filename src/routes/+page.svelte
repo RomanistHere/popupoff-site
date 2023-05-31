@@ -6,6 +6,7 @@
 	import Antipaid from "$lib/components/sections/Antipaid.svelte";
 	import Points from "$lib/components/sections/Points.svelte";
 	import Video from "$lib/components/sections/Video.svelte";
+	import FAQ from "$lib/components/sections/FAQ.svelte";
 </script>
 
 <Main />
@@ -15,3 +16,4 @@
 <Antipaid />
 <Points />
 <Video />
+<FAQ />

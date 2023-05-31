@@ -1,17 +1,46 @@
 <script>
-
+	let isYouTube = false;
 </script>
 
 <section class="h-screen bg-bright flex justify-center items-center text-dark">
 	<div class="max-w-7xl px-8 w-full text-center">
 		<h1 class="text-title">
-			See yourself
+			See in action
 		</h1>
+
+		<div class="mx-auto my-8 py-1 px-1 bg-accent rounded-3xl inline-flex justify-center items-center">
+			<button
+				class="py-2 px-6 rounded-3xl"
+				class:bg-dark={!isYouTube}
+				class:text-bright={!isYouTube}
+				on:click={() => { isYouTube = false }}
+			>
+				Video
+			</button>
+			<button
+				class="py-2 px-6 rounded-3xl"
+				class:bg-dark={isYouTube}
+				class:text-bright={isYouTube}
+				on:click={() => { isYouTube = true }}
+			>
+				YouTube
+			</button>
+		</div>
 
 		<div
 			class="flex justify-center"
 		>
-			<iframe width="860" height="490" src="https://www.youtube-nocookie.com/embed/3jTKRCxLyPE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			{#if isYouTube}
+				<iframe width="860" height="490" src="https://www.youtube-nocookie.com/embed/3jTKRCxLyPE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			{:else}
+				<video controls autoplay muted width="860" height="490">
+					<source src="PopUpOFF.mp4" type="video/mp4" />
+					<p>
+						Your browser doesn't support HTML video. Here is a
+						<a href="https://www.youtube.com/watch?v=3jTKRCxLyPE">link to the youtube video</a> instead.
+					</p>
+				</video>
+			{/if}
 		</div>
 	</div>
 </section>

@@ -1,4 +1,6 @@
 <script>
+	import { isScrollingStore } from "$lib/stores/index.js";
+
 	let customClass = "";
 	export { customClass as class };
 	export let text;
@@ -19,7 +21,7 @@
 
 <div
 	class="fixed inset-0 bg-black opacity-0 pointer-events-none z-10 transition-opacity duration-1000"
-	class:opacity-50={isHovered}
+	class:opacity-50={isHovered && !$isScrollingStore}
 ></div>
 
 <div
@@ -35,8 +37,8 @@
 		{src}
 		{alt}
 		class="relative w-full shadow-xl transition-transform duration-1000"
-		class:z-10={isHovered}
-		class:scale-125={isHovered}
+		class:z-10={isHovered && !$isScrollingStore}
+		class:scale-125={isHovered && !$isScrollingStore}
 		on:mouseenter={handleMouseEnter}
 		on:mouseleave={handleMouseLeave}
 	>

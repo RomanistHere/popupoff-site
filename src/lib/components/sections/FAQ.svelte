@@ -39,6 +39,7 @@
 				title="Can I stop/disable PopUpOFF on certain websites?"
 				handleClick={() => { showAnswer("first") }}
 				shouldShow={state.first}
+				isShouldShowSeparator={false}
 			>
 				<p class="block mb-4">
 					Yes, you can. <span class="bg-accent">Open the website, click on icon of the extension and choose “Dormant”</span> mode.

@@ -8,7 +8,7 @@
 			Support the project
 		</h1>
 
-		<div class="text-basic  mx-auto leading-10">
+		<div class="text-basic  mx-auto leading-9">
 			<strong class="block mb-8">
 				Why should you consider supporting PopUpOFF:
 			</strong>

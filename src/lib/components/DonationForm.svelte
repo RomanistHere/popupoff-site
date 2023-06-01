@@ -1,42 +1,89 @@
 <script>
-	const oneTimeButtons = [{
+	import PrimaryButton from "$lib/components/PrimaryButton.svelte";
+
+	const options = [{
 		text: "$2.00",
-		link: "",
+		linkOneTime: "https://donate.stripe.com/7sI4kn5tXejGgRG3ch",
+		linkSubscribe: "https://buy.stripe.com/9AQ7wz7C58ZmcBq145",
 		number: 1,
 	}, {
 		text: "$5.00",
-		link: "",
+		linkOneTime: "https://donate.stripe.com/00g6sv09DejG8la7sy",
+		linkSubscribe: "https://buy.stripe.com/7sI9EH2hL5Na1WMdQS",
 		number: 3,
 	}, {
 		text: "$10.00",
-		link: "",
+		linkOneTime: "https://donate.stripe.com/3cs2cf8G9ejGgRG6ov",
+		linkSubscribe: "https://buy.stripe.com/dR69EH5tX2AYeJy9AD",
 		number: 5,
 	}, {
 		text: "$25.00",
-		link: "",
+		linkOneTime: "https://donate.stripe.com/fZecQT6y10sQati28g",
+		linkSubscribe: "https://buy.stripe.com/14k18be0tejGati3cg",
 		number: 3,
 	}, {
 		text: "Custom",
-		link: "",
+		linkOneTime: "https://donate.stripe.com/9AQ3gjg8B8Zm1WM6oo",
 	}];
+
+	let state = null;
+
+	const handleDonationButtonClick = (e, oneTime, subscribe) => {
+		e.preventDefault();
+
+		if (!subscribe) {
+			document.location.href = oneTime;
+			return;
+		}
+
+		state = { oneTime, subscribe };
+	};
+
+	const resetDonation = e => {
+		e.preventDefault();
+		state = null;
+	};
 </script>
 
 <ul class="flex justify-center">
-	{#each oneTimeButtons as { text, link, number }}
+	{#if state}
 		<li class="relative m-3">
-			<a
-				class="relative block py-3 px-8 text-2xl rounded-3xl bg-accent font-logo z-10 transition-transform hover:-translate-x-px hover:-translate-y-px active:translate-x-1 active:translate-y-1 tracking-wide"
-				href={link}
-				on:click|preventDefault={() => {}}
-			>
-				{text}
-			</a>
-			<span class="absolute bg-dark inset-0 rounded-3xl translate-x-1 translate-y-1 z-0"></span>
-			{#if number}
-				<p class="absolute italic inset-x-0 -bottom-8">
-					{number} supporters
-				</p>
-			{/if}
+			<PrimaryButton
+				href="/"
+				on:click={resetDonation}
+			/>
 		</li>
-	{/each}
+		<li class="relative m-3">
+			<PrimaryButton
+				href={state.oneTime}
+				title="Single time"
+			/>
+		</li>
+		<li class="relative m-3">
+			<PrimaryButton
+				href={state.subscribe}
+				title="Every month"
+			/>
+		</li>
+	{:else}
+		{#each options as { text, linkOneTime, linkSubscribe, number }}
+			<li class="relative m-3">
+				<PrimaryButton
+					href={linkOneTime}
+					title={text}
+					on:click={e => { handleDonationButtonClick(e, linkOneTime, linkSubscribe) }}
+				/>
+				{#if number}
+					<p class="absolute italic inset-x-0 -bottom-8">
+						{number}
+						{#if number === 1}
+							supporter
+						{:else}
+							supporters
+						{/if}
+					</p>
+				{/if}
+			</li>
+		{/each}
+	{/if}
 </ul>

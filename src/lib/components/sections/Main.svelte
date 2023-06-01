@@ -7,8 +7,8 @@
 		<h1 class="text-[10rem] drop-shadow">
 			PopUp<span class="text-accent">OFF</span>
 		</h1>
-		<h2 class="text-[3.2rem] -mt-8 text-accent drop-shadow">
-			Popup and overlay <span class="text-bright">blocker</span>
+		<h2 class="text-[3.2rem] -mt-8 drop-shadow">
+			<span class="text-accent">Popup and overlay</span> blocker
 		</h2>
 	</div>
 </section>

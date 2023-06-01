@@ -1,15 +1,23 @@
 <script>
+	import { onMount } from "svelte";
+
 	import ImageShowcase from "$lib/components/ImageShowcase.svelte";
+
+	// for users with disabled js
+	let isJsEnabled = false;
+	onMount(() => { isJsEnabled = true });
 </script>
 
-<section class="min-h-screen bg-bright flex justify-center items-center text-dark">
+<section
+	class="min-h-screen flex justify-center items-center text-dark overflow-hidden"
+	class:bg-bright={!isJsEnabled}
+>
 	<div class="flex max-w-7xl px-8 w-full">
 		<div class="w-1/2 pr-24 relative">
 			<h2 class="text-title">
 				Aggressive mode
 			</h2>
 			<p class="text-basic">
-<!--				Unleash the power of web without distractions*-->
 				Discover web without distractions*
 			</p>
 			<p class="text-basic">
@@ -23,13 +31,13 @@
 		</div>
 		<div class="w-1/2 relative">
 			<ImageShowcase
-				class="-top-60"
+				class="-top-60 -left-12"
 				text="Before"
 				src="images/wo1.png"
 				alt="example of website with popups"
 			/>
 			<ImageShowcase
-				class="-bottom-60 -right-24"
+				class="-bottom-60 -right-12"
 				text="After"
 				src="images/wi1.png"
 				alt="example of website without popups"

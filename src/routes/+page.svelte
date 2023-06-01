@@ -10,6 +10,23 @@
 	import Support from "$lib/components/sections/Support.svelte";
 
 	import ScrollHandler from "$lib/components/ScrollHandler.svelte";
+
+	import { isBgDark } from "$lib/stores/index.js";
+
+	const updateBodyClass = isDark => {
+		if (typeof document === "undefined")
+			return;
+
+		if (isDark) {
+			document.body.classList.remove("bg-bright", "text-dark");
+			document.body.classList.add("bg-dark", "text-bright");
+		} else {
+			document.body.classList.add("bg-bright", "text-dark");
+			document.body.classList.remove("bg-dark", "text-bright");
+		}
+	};
+
+	$: updateBodyClass($isBgDark);
 </script>
 
 <ScrollHandler />

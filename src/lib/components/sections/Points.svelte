@@ -12,7 +12,8 @@
 <section class="min-h-screen bg-bright flex justify-center items-center text-dark">
 	<div class="max-w-7xl px-8 w-full text-center">
 		<h1 class="text-title leading-[4.2rem]">
-			Privacy and performance <br> from the beginning
+			Privacy and performance <br />
+			from the beginning
 		</h1>
 		<ul class="text-basic leading-10 list-disc list-inside">
 			{#each points as text}

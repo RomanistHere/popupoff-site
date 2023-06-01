@@ -2,18 +2,16 @@
 	import ImageShowcase from "$lib/components/ImageShowcase.svelte";
 </script>
 
-<section class="min-h-screen bg-bright flex justify-center items-center text-dark overflow-hidden">
+<section
+	class="min-h-screen bg-bright flex justify-center items-center text-dark overflow-hidden"
+>
 	<div class="flex max-w-7xl px-8 w-full">
 		<div class="w-1/2 pr-24 relative">
-			<h2 class="text-title">
-				There's "Anti-paid"
-			</h2>
+			<h2 class="text-title">There's "Anti-paid"</h2>
 			<p class="text-basic">
 				Experimental feature. <span class="bg-accent">Unhides content</span>
 			</p>
-			<p class="text-basic">
-				Works only if the content is seen while the page loads
-			</p>
+			<p class="text-basic">Works only if the content is seen while the page loads</p>
 		</div>
 		<div class="w-1/2 relative">
 			<ImageShowcase

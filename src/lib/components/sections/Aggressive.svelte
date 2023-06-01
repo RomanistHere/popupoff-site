@@ -5,7 +5,9 @@
 
 	// for users with disabled js
 	let isJsEnabled = false;
-	onMount(() => { isJsEnabled = true });
+	onMount(() => {
+		isJsEnabled = true;
+	});
 </script>
 
 <section
@@ -14,20 +16,14 @@
 >
 	<div class="flex max-w-7xl px-8 w-full">
 		<div class="w-1/2 pr-24 relative">
-			<h2 class="text-title">
-				Aggressive mode
-			</h2>
-			<p class="text-basic">
-				Discover web without distractions*
-			</p>
+			<h2 class="text-title">Aggressive mode</h2>
+			<p class="text-basic">Discover web without distractions*</p>
 			<p class="text-basic">
 				Removes all sticky elements from screen:
 				<span class="bg-accent">no cookies, no popups, no useless bars</span>
 				at the top or bottom of the page
 			</p>
-			<p class="text-basic">
-				* - causes addiction (it's a joke... or is it?)
-			</p>
+			<p class="text-basic">* - causes addiction (it's a joke... or is it?)</p>
 		</div>
 		<div class="w-1/2 relative">
 			<ImageShowcase

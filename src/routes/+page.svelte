@@ -14,8 +14,7 @@
 	import { isBgDark } from "$lib/stores/index.js";
 
 	const updateBodyClass = isDark => {
-		if (typeof document === "undefined")
-			return;
+		if (typeof document === "undefined") return;
 
 		if (isDark) {
 			document.body.classList.remove("bg-bright", "text-dark");

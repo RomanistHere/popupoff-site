@@ -20,17 +20,13 @@
 			/>
 		</div>
 		<div class="w-1/2 pl-24 relative">
-			<h2 class="text-title">
-				Moderate mode
-			</h2>
+			<h2 class="text-title">Moderate mode</h2>
 			<p class="text-basic">
-				Enjoy the web without
-				paywalls and overlays
-				while keeping main
-				elements on
+				Enjoy the web without paywalls and overlays while keeping main elements on
 			</p>
 			<p class="text-basic">
-				Tip! <span class="bg-accent">Good default option</span> if you surf around the web a lot
+				Tip! <span class="bg-accent">Good default option</span>
+				if you surf around the web a lot
 			</p>
 		</div>
 	</div>

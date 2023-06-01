@@ -17,7 +17,8 @@
 					startIntersecting();
 				} else {
 					const viewportOffset = first.target.getBoundingClientRect();
-					const isAbove = viewportOffset.top + viewportOffset.height < window.innerHeight / 2;
+					const isAbove =
+						viewportOffset.top + viewportOffset.height < window.innerHeight / 2;
 					stopIntersecting(isAbove);
 				}
 			},

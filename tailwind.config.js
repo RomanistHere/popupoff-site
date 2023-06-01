@@ -7,10 +7,10 @@ export default {
 				logo: ["Monkstead"],
 			},
 			colors: {
-				"dark": "#222831",
-				"bright": "#F9FFEE",
-				"accent": "#EFBB35",
-			}
+				dark: "#222831",
+				bright: "#F9FFEE",
+				accent: "#EFBB35",
+			},
 		},
 	},
 	plugins: [],

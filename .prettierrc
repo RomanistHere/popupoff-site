@@ -8,7 +8,6 @@
 	"singleAttributePerLine": true,
 	"bracketSameLine": false,
 	"svelteBracketNewLine": true,
-	"htmlWhitespaceSensitivity": "ignore",
 	"plugins": ["prettier-plugin-svelte"],
 	"svelteSortOrder": "options-scripts-markup-styles",
 	"pluginSearchDirs": ["."],

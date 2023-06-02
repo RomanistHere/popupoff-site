@@ -1,5 +1,5 @@
 <script>
-	import PrimaryButton from "$lib/components/PrimaryButton.svelte";
+	import PrimaryButtonLink from "$lib/components/PrimaryButtonLink.svelte";
 
 	const options = [
 		{
@@ -54,19 +54,19 @@
 <ul class="flex justify-center">
 	{#if state}
 		<li class="relative m-3">
-			<PrimaryButton
+			<PrimaryButtonLink
 				href="/"
 				on:click={resetDonation}
 			/>
 		</li>
 		<li class="relative m-3">
-			<PrimaryButton
+			<PrimaryButtonLink
 				href={state.oneTime}
 				title="Single time"
 			/>
 		</li>
 		<li class="relative m-3">
-			<PrimaryButton
+			<PrimaryButtonLink
 				href={state.subscribe}
 				title="Every month"
 			/>
@@ -74,7 +74,7 @@
 	{:else}
 		{#each options as { text, linkOneTime, linkSubscribe, number }}
 			<li class="relative m-3">
-				<PrimaryButton
+				<PrimaryButtonLink
 					href={linkOneTime}
 					title={text}
 					on:click={e => {

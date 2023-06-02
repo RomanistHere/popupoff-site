@@ -8,6 +8,7 @@
 	import Video from "$lib/components/sections/Video.svelte";
 	import FAQ from "$lib/components/sections/FAQ.svelte";
 	import Support from "$lib/components/sections/Support.svelte";
+	import GetInTouch from "$lib/components/sections/GetInTouch.svelte";
 
 	import ScrollHandler from "$lib/components/ScrollHandler.svelte";
 
@@ -39,3 +40,4 @@
 <Video />
 <FAQ />
 <Support />
+<GetInTouch />

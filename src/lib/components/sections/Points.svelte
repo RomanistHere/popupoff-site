@@ -9,6 +9,8 @@
 	];
 </script>
 
+<p id="about"></p>
+
 <section class="min-h-screen bg-bright flex justify-center items-center text-dark">
 	<div class="max-w-7xl px-8 w-full text-center">
 		<h1 class="text-title leading-[4.2rem]">

@@ -1,6 +1,6 @@
 # todo
 
-- add ratings on main section, probably nav bar
+- download buttons (icons) different stores
 - create thanks-for-support page
 - update links to pass amount of money, so we will add to the list
 - create feedback/complain form
@@ -9,7 +9,6 @@
 - go through content and insert links where needed
 - update images accordingly
 - add images with reviews on background
-- add anchors to sections
 - make a light mobile design
 
 ### after extension update

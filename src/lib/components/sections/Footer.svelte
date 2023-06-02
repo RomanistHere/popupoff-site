@@ -35,7 +35,7 @@
 				>
 					LinkedIn Quick Replies
 				</a>
-				to answer easier
+				to reply easier
 				<p class="mt-2">***</p>
 			</li>
 			<li>

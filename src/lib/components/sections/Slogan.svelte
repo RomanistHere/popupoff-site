@@ -32,13 +32,16 @@
 
 	const updateBgColor = () => {
 		isBgDark.set(false);
+		elementRefScroll.classList.add("text-title");
 	};
 
 	const checkBgColorUpdate = isAbove => {
 		if (isAbove && $isBgDark) {
 			isBgDark.set(false);
+			elementRefScroll.classList.add("text-title");
 		} else if (!isAbove && !$isBgDark) {
 			isBgDark.set(true);
+			elementRefScroll.classList.remove("text-title");
 		}
 	};
 
@@ -53,7 +56,7 @@
 
 <section class="min-h-screen font-logo flex justify-center items-center">
 	<h1
-		class="text-6xl drop-shadow"
+		class="text-6xl transition-colors duration-500"
 		bind:this={elementRefScroll}
 	>
 		Better internet begins here

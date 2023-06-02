@@ -10,6 +10,8 @@
 	});
 </script>
 
+<p id="aggressive"></p>
+
 <section
 	class="min-h-screen flex justify-center items-center text-dark overflow-hidden"
 	class:bg-bright={!isJsEnabled}

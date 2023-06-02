@@ -24,7 +24,7 @@
 	};
 </script>
 
-<p id="getintouch"></p>
+<p id="getintouch" />
 
 <section class="min-h-screen bg-bright flex justify-center items-center text-dark">
 	<div class="max-w-7xl px-8 w-full text-center">

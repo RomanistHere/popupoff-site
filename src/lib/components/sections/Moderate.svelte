@@ -2,7 +2,7 @@
 	import ImageShowcase from "$lib/components/ImageShowcase.svelte";
 </script>
 
-<p id="moderate"></p>
+<p id="moderate" />
 
 <section class="min-h-screen bg-bright flex justify-center items-center text-dark">
 	<div class="flex max-w-7xl px-8 w-full">

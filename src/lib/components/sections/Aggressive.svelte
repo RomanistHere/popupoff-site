@@ -10,7 +10,7 @@
 	});
 </script>
 
-<p id="aggressive"></p>
+<p id="aggressive" />
 
 <section
 	class="min-h-screen flex justify-center items-center text-dark overflow-hidden"

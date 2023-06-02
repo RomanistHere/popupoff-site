@@ -9,7 +9,9 @@
 			<a
 				class="transition-colors border-b-2 border-dark hover:border-accent block p-2 mx-2 hover:text-accent"
 				href="#donate"
-				on:click|preventDefault={() => { smoothScroll("#donate") }}
+				on:click|preventDefault={() => {
+					smoothScroll("#donate");
+				}}
 			>
 				Donate
 			</a>
@@ -18,7 +20,9 @@
 			<a
 				class="transition-colors border-b-2 border-dark hover:border-accent block p-2 mx-2 hover:text-accent"
 				href="#faq"
-				on:click|preventDefault={() => { smoothScroll("#faq") }}
+				on:click|preventDefault={() => {
+					smoothScroll("#faq");
+				}}
 			>
 				FAQ
 			</a>
@@ -35,7 +39,9 @@
 			<a
 				class="transition-colors border-b-2 border-dark hover:border-accent block p-2 mx-2 hover:text-accent"
 				href="#getintouch"
-				on:click|preventDefault={() => { smoothScroll("#getintouch") }}
+				on:click|preventDefault={() => {
+					smoothScroll("#getintouch");
+				}}
 			>
 				Contact
 			</a>

@@ -2,7 +2,7 @@
 	import ImageShowcase from "$lib/components/ImageShowcase.svelte";
 </script>
 
-<p id="antipaid"></p>
+<p id="antipaid" />
 
 <section
 	class="min-h-screen bg-bright flex justify-center items-center text-dark overflow-hidden"

@@ -29,7 +29,7 @@
 	};
 </script>
 
-<p id="faq"></p>
+<p id="faq" />
 
 <section class="min-h-screen bg-bright flex justify-center items-center text-dark">
 	<div class="max-w-7xl px-8 w-full text-center">

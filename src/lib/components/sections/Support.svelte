@@ -2,7 +2,7 @@
 	import DonationForm from "$lib/components/DonationForm.svelte";
 </script>
 
-<p id="donate"></p>
+<p id="donate" />
 
 <section class="h-screen bg-bright flex justify-center items-center text-dark">
 	<div class="max-w-7xl px-8 w-full text-center">

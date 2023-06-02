@@ -2,7 +2,7 @@
 	let isYouTube = false;
 </script>
 
-<p id="video"></p>
+<p id="video" />
 
 <section class="h-screen bg-bright flex justify-center items-center text-dark">
 	<div class="max-w-7xl px-8 w-full text-center">

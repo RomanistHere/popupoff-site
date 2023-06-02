@@ -9,6 +9,7 @@
 	import FAQ from "$lib/components/sections/FAQ.svelte";
 	import Support from "$lib/components/sections/Support.svelte";
 	import GetInTouch from "$lib/components/sections/GetInTouch.svelte";
+	import Footer from "$lib/components/sections/Footer.svelte";
 
 	import ScrollHandler from "$lib/components/ScrollHandler.svelte";
 
@@ -41,3 +42,4 @@
 <FAQ />
 <Support />
 <GetInTouch />
+<Footer />

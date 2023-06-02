@@ -1,6 +1,6 @@
 # todo
 
-- footer
+- add ratings on main section, probably nav bar
 - create thanks-for-support page
 - update links to pass amount of money, so we will add to the list
 - create feedback/complain form
@@ -11,7 +11,6 @@
 - add images with reviews on background
 - add anchors to sections
 - make a light mobile design
-- add ratings on main section, probably nav bar
 
 ### after extension update
 

@@ -51,7 +51,7 @@
 
 			<PrimaryButton
 				title="Submit"
-				class="px-20"
+				class="px-12"
 			/>
 		</form>
 	</div>

@@ -1,4 +1,6 @@
-<footer class="min-h-screen bg-bright flex justify-center items-center text-dark text-center relative">
+<footer
+	class="min-h-screen bg-bright flex justify-center items-center text-dark text-center relative"
+>
 	<div>
 		<h1 class="text-2xl w-full mb-16">
 			<i>
@@ -8,7 +10,9 @@
 					class="group relative py-1 border-b-2 border-dark transition-colors hover:text-bright"
 				>
 					<span class="relative z-10">RomanistHere</span>
-					<span class="absolute z-0 -inset-1 bg-dark transition-opacity opacity-0 group-hover:opacity-100 -skew-x-[10deg]"></span>
+					<span
+						class="absolute z-0 -inset-1 bg-dark transition-opacity opacity-0 group-hover:opacity-100 -skew-x-[10deg]"
+					/>
 				</a>
 			</i>
 		</h1>

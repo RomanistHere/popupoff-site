@@ -15,16 +15,14 @@
 			return;
 		}
 
-		const observer = new IntersectionObserver(
-			entries => {
-				const first = entries[0];
-				if (first.isIntersecting) {
-					action();
+		const observer = new IntersectionObserver(entries => {
+			const first = entries[0];
+			if (first.isIntersecting) {
+				action();
 
-					observer.disconnect();
-				}
+				observer.disconnect();
 			}
-		);
+		});
 
 		observer.observe(element);
 	};
@@ -35,7 +33,9 @@
 	onMount(() => {
 		observeTillElementMet({
 			action: () => {
-				setTimeout(() => { isVisited = true }, 500);
+				setTimeout(() => {
+					isVisited = true;
+				}, 500);
 			},
 			element: ref,
 		});

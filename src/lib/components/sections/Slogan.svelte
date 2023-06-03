@@ -65,9 +65,7 @@
 			Better internet begins here
 		</h1>
 		<div class="absolute inset-x-0 -bottom-40 flex flex-wrap justify-center items-end">
-			<p class="w-full pb-1 pr-2 text-center text-basic mb-0">
-				Download
-			</p>
+			<p class="w-full pb-1 pr-2 text-center text-basic mb-0">Download</p>
 			<DownloadBlock />
 		</div>
 	</div>

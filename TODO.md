@@ -1,15 +1,18 @@
 # todo
 
+- go through content and insert links where needed
+- update images accordingly
+- make a light mobile design
+- test!
+
+## migrate
+
 - create thanks-for-support page
 - add a textarea there, so people can add a comment on their donation
 - update links to pass amount of money, so we will add to the list
 - create feedback/complain form
 - create submit issue form
 - create why-delete page/form
-- go through content and insert links where needed
-- update images accordingly
-- make a light mobile design
-- update images in header component
 
 ### after extension update
 

@@ -3,7 +3,7 @@
 	export let description =
 		// eslint-disable-next-line max-len
 		"Non-commercial and open-source browser extension. Removes popups, overlays, cookie and 'please, disable adBlock' notifications. Made for people, not profit.";
-	export let image;
+	export let image = "https://popupoff.org/logo-big.png";
 </script>
 
 <svelte:head>
@@ -50,41 +50,41 @@
 		property="og:description"
 		content={description}
 	/>
-	<!--{#if image}-->
-	<!--	<meta-->
-	<!--		property="og:image"-->
-	<!--		content={image}-->
-	<!--	/>-->
-	<!--	<meta-->
-	<!--		property="og:image:width"-->
-	<!--		content="1200"-->
-	<!--	/>-->
-	<!--	<meta-->
-	<!--		property="og:image:height"-->
-	<!--		content="627"-->
-	<!--	/>-->
-	<!--	<meta-->
-	<!--		property="og:image:alt"-->
-	<!--		content="image preview"-->
-	<!--	/>-->
-	<!--{:else}-->
-	<!--	<meta-->
-	<!--		property="og:image"-->
-	<!--		content="https://melme.io/logo-192x192.png"-->
-	<!--	/>-->
-	<!--	<meta-->
-	<!--		property="og:image:width"-->
-	<!--		content="400"-->
-	<!--	/>-->
-	<!--	<meta-->
-	<!--		property="og:image:height"-->
-	<!--		content="400"-->
-	<!--	/>-->
-	<!--	<meta-->
-	<!--		property="og:image:alt"-->
-	<!--		content="melme logo"-->
-	<!--	/>-->
-	<!--{/if}-->
+	{#if image}
+		<meta
+			property="og:image"
+			content={image}
+		/>
+		<meta
+			property="og:image:width"
+			content="1200"
+		/>
+		<meta
+			property="og:image:height"
+			content="627"
+		/>
+		<meta
+			property="og:image:alt"
+			content="image preview"
+		/>
+	{:else}
+		<meta
+			property="og:image"
+			content="https://popupoff.org/logo-big.png"
+		/>
+		<meta
+			property="og:image:width"
+			content="400"
+		/>
+		<meta
+			property="og:image:height"
+			content="400"
+		/>
+		<meta
+			property="og:image:alt"
+			content="melme logo"
+		/>
+	{/if}
 
 	<meta
 		name="twitter:card"
@@ -99,15 +99,15 @@
 		name="twitter:site"
 		content={"@RomanistHere"}
 	/>
-	<!--{#if image}-->
-	<!--	<meta-->
-	<!--		name="twitter:image"-->
-	<!--		content={image}-->
-	<!--	/>-->
-	<!--{:else}-->
-	<!--	<meta-->
-	<!--		name="twitter:image"-->
-	<!--		content="https://melme.io/logo-192x192.png"-->
-	<!--	/>-->
-	<!--{/if}-->
+	{#if image}
+		<meta
+			name="twitter:image"
+			content={image}
+		/>
+	{:else}
+		<meta
+			name="twitter:image"
+			content="https://popupoff.org/logo-big.png"
+		/>
+	{/if}
 </svelte:head>

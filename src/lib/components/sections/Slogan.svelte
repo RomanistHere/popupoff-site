@@ -1,6 +1,8 @@
 <script>
 	import { onMount } from "svelte";
 
+	import DownloadBlock from "$lib/components/DownloadBlock.svelte";
+
 	import { isBgDark } from "$lib/stores/index.js";
 
 	let elementRefScroll = null;
@@ -54,11 +56,19 @@
 	});
 </script>
 
-<section class="min-h-screen font-logo flex justify-center items-center">
-	<h1
-		class="text-6xl transition-colors duration-500"
-		bind:this={elementRefScroll}
-	>
-		Better internet begins here
-	</h1>
+<section class="min-h-screen flex justify-center items-center">
+	<div class="relative">
+		<h1
+			class="text-6xl font-logo mb-12 transition-colors duration-500"
+			bind:this={elementRefScroll}
+		>
+			Better internet begins here
+		</h1>
+		<div class="absolute inset-x-0 -bottom-40 flex flex-wrap justify-center items-end">
+			<p class="w-full pb-1 pr-2 text-center text-basic mb-0">
+				Download
+			</p>
+			<DownloadBlock />
+		</div>
+	</div>
 </section>

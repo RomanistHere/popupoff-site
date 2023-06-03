@@ -1,6 +1,5 @@
 # todo
 
-- go through content and insert links where needed
 - update images accordingly
 - make a light mobile design
 - test!

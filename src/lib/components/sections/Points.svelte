@@ -4,7 +4,8 @@
 	const points = [
 		"created for people, not for profit",
 		"no tracking or analytics",
-		"free & open source",
+		// eslint-disable-next-line quotes
+		`free & <a href="https://github.com/RomanistHere/PopUpOFF" rel="nofollow" target="_blank" class="underline transition-colors hover:bg-dark hover:no-underline hover:text-bright">open source</a>`,
 		"all information stored locally",
 		"maintained by individuals, not commerce",
 		"plain HTML, CSS and JavaScript, <50 KiB",
@@ -35,7 +36,7 @@
 			action: () => {
 				setTimeout(() => {
 					isVisited = true;
-				}, 500);
+				}, 200);
 			},
 			element: ref,
 		});
@@ -144,7 +145,7 @@
 		>
 			{#each points as text}
 				<li>
-					{text}
+					{@html text}
 				</li>
 			{/each}
 		</ul>

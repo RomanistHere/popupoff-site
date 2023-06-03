@@ -177,7 +177,7 @@
 					<span class="not-italic">😁</span>
 				</p>
 				<p class="block mb-4">
-					We accept donations from people who appreciate the time and stress PopUpOFF
+					<a href="#donate" class="underline">We accept donations</a> from people who appreciate the time and stress PopUpOFF
 					saved them. Consider supporting!
 				</p>
 			</AnswerFAQ>
@@ -192,7 +192,10 @@
 				<p class="block mb-4">
 					Nah, <span class="bg-accent">we don't sell or even collect anything</span>
 					really. Both
-					<span class="bg-accent">PopUpOFF and this site are open source</span>
+					<span class="bg-accent">
+						PopUpOFF and this site are
+						<a href="https://github.com/RomanistHere/" class="underline" target="_blank" rel="noreferrer">open source</a>
+					</span>
 					, so you're free to check if we collect anything yourself. And without collecting
 					we can't really sell anything, can we? Proof enough.
 				</p>
@@ -207,10 +210,10 @@
 			>
 				<p class="block mb-4">
 					<span class="bg-accent">PopUpOFF does not remove context ads</span>
-					. Nor does it have a goal to any time in the future.
+					. Nor does it have a goal to.
 				</p>
 				<p class="block mb-4">
-					Pair it with other solutions like uBlock Origin or Brave browser to achieve
+					Pair it with already existing solutions like uBlock Origin or Brave browser to achieve
 					adless.
 				</p>
 			</AnswerFAQ>

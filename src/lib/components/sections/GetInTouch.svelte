@@ -10,16 +10,21 @@
 	const enhanceCallback = async ({ data, cancel }) => {
 		cancel();
 
-		const resp = await fetch("/api/intouch/submit", {
-			method: "POST",
-			body: data,
-		});
+		try {
+			const resp = await fetch("/api/intouch/submit", {
+				method: "POST",
+				body: data,
+			});
 
-		const { success } = await resp.json();
+			const { success } = await resp.json();
 
-		if (success) {
-			state = "success";
-		} else {
+			if (success) {
+				state = "success";
+			} else {
+				state = "fail";
+			}
+		} catch (e) {
+			console.log(e);
 			state = "fail";
 		}
 	};

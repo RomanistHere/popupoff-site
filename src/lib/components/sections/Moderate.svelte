@@ -10,13 +10,13 @@
 			<ImageShowcase
 				class="-top-60 -2xl:-top-48 -md:w-full -md:my-4 -md:static"
 				text="Before"
-				src="images/wo1.png"
+				src="images/wi2.png"
 				alt="example of website with popups"
 			/>
 			<ImageShowcase
 				class="-bottom-60 -right-12 -2xl:-bottom-48 -md:w-full -md:my-4 -md:static"
 				text="After"
-				src="images/wi1.png"
+				src="images/wo2.png"
 				alt="example of website without popups"
 				textTop={false}
 			/>

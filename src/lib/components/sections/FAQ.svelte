@@ -12,6 +12,7 @@
 		eighth: false,
 		ninth: false,
 		tenth: false,
+		eleventh: false,
 	};
 
 	let state = { ...initState };
@@ -222,6 +223,18 @@
 				<p class="block mb-4">
 					Pair it with already existing solutions like uBlock Origin or Brave browser to
 					achieve adless.
+				</p>
+			</AnswerFAQ>
+
+			<AnswerFAQ
+				title="Can I use PopUpOFF on a mobile phone?"
+				handleClick={() => {
+					showAnswer("eleventh");
+				}}
+				shouldShow={state.eleventh}
+			>
+				<p class="block mb-4">
+					<span class="bg-accent">Not yet</span>, but we're researching this topic. Stay in touch!
 				</p>
 			</AnswerFAQ>
 		</ul>

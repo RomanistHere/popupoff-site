@@ -1,7 +1,5 @@
 # todo
 
-- update images accordingly
-- if on load there is #anchor in url, go to smoothly
 - test!
 
 ## migrate

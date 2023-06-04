@@ -1,7 +1,10 @@
 import mongoose from "mongoose";
+import { dev } from "$app/environment";
 
 export const startMongo = async () => {
-	const key = await fetch("/api/getConnectStringDB");
+	const host = dev ? "http://localhost:5173" : "https://popupoff.org";
+	const resp = await fetch(`${host}/api/keys/getConnectStringDB`);
+	const { key } = await resp.json();
 	return mongoose.connect(key);
 };
 

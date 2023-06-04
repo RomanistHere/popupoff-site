@@ -36,7 +36,7 @@
 			class="max-w-md mx-auto"
 		>
 			<Textarea
-				title="Your message (required)"
+				title="Your message"
 				id="getInTouchMessage"
 				placeholder="You send a complaint, suggest a feature or just say hi, you'll be welcome nevertheless!"
 				name="message"

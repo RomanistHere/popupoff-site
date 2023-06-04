@@ -1,7 +1,7 @@
 const plugin = require("tailwindcss/plugin");
 
 // reference: https://stackoverflow.com/a/67458852/11698825
-const hoverPlugin = plugin(function ({ addVariant, e, postcss }) {
+const hoverPlugin = plugin(({ addVariant, e, postcss }) => {
 	addVariant("hover", ({ container, separator }) => {
 		const hoverRule = postcss.atRule({
 			name: "media",

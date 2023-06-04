@@ -27,7 +27,9 @@
 			</p>
 			<p class="text-basic">* - causes addiction (it's a joke... or is it?)</p>
 		</div>
-		<div class="w-1/2 relative -xl:w-2/5 -lg:w-full -lg:flex -lg:justify-between -md:flex -md:flex-wrap">
+		<div
+			class="w-1/2 relative -xl:w-2/5 -lg:w-full -lg:flex -lg:justify-between -md:flex -md:flex-wrap"
+		>
 			<ImageShowcase
 				class="-top-52 -left-12 -2xl:-top-40 -xl:-left-20 -lg:static -lg:w-1/2 -lg:mr-2 -md:w-full -md:mr-0 -md:my-4"
 				text="Before"

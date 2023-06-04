@@ -1,16 +1,6 @@
 <script>
 	import { onMount } from "svelte";
 
-	const points = [
-		"created for people, not for profit",
-		"no tracking or analytics",
-		// eslint-disable-next-line quotes
-		`free & <a href="https://github.com/RomanistHere/PopUpOFF" rel="nofollow" target="_blank" class="underline transition-colors hover:bg-dark hover:no-underline hover:text-bright">open source</a>`,
-		"all information stored locally",
-		"maintained by individuals, not commerce",
-		"plain HTML, CSS and JavaScript, <50 KiB",
-	];
-
 	const observeTillElementMet = ({ action, element }) => {
 		if (!element) {
 			return;
@@ -73,7 +63,9 @@
 			/>
 		</div>
 
-		<div class="absolute left-[12%] top-[80vh] rotate-12 -2xl:top-[75vh] -2xl:rotate-3 -lg:left-16">
+		<div
+			class="absolute left-[12%] top-[80vh] rotate-12 -2xl:top-[75vh] -2xl:rotate-3 -lg:left-16"
+		>
 			<img
 				src="/bg/1.png"
 				alt=""
@@ -139,15 +131,29 @@
 			Privacy and performance <br />
 			from the beginning
 		</h1>
+		
 		<ul
 			bind:this={ref}
 			class="text-basic leading-10 list-disc list-inside"
 		>
-			{#each points as text}
-				<li>
-					{@html text}
-				</li>
-			{/each}
+			<li>
+				created for people, not for profit
+			</li>
+			<li>
+				no tracking or analytics
+			</li>
+			<li>
+				free & <a href="https://github.com/RomanistHere/PopUpOFF" rel="nofollow" target="_blank" class="underline transition-colors hover:bg-dark hover:no-underline hover:text-bright">open source</a>
+			</li>
+			<li>
+				all information stored locally
+			</li>
+			<li>
+				maintained by individuals, not commerce
+			</li>
+			<li>
+				plain HTML, CSS and JavaScript, {"<"}50 KiB
+			</li>
 		</ul>
 	</div>
 </section>

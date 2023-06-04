@@ -177,8 +177,10 @@
 					<span class="not-italic">😁</span>
 				</p>
 				<p class="block mb-4">
-					<a href="#donate" class="underline">We accept donations</a> from people who appreciate the time and stress PopUpOFF
-					saved them. Consider supporting!
+					<a
+						href="#donate"
+						class="underline">We accept donations</a
+					> from people who appreciate the time and stress PopUpOFF saved them. Consider supporting!
 				</p>
 			</AnswerFAQ>
 
@@ -194,7 +196,12 @@
 					really. Both
 					<span class="bg-accent">
 						PopUpOFF and this site are
-						<a href="https://github.com/RomanistHere/" class="underline" target="_blank" rel="noreferrer">open source</a>
+						<a
+							href="https://github.com/RomanistHere/"
+							class="underline"
+							target="_blank"
+							rel="noreferrer">open source</a
+						>
 					</span>
 					, so you're free to check if we collect anything yourself. And without collecting
 					we can't really sell anything, can we? Proof enough.
@@ -213,8 +220,8 @@
 					. Nor does it have a goal to.
 				</p>
 				<p class="block mb-4">
-					Pair it with already existing solutions like uBlock Origin or Brave browser to achieve
-					adless.
+					Pair it with already existing solutions like uBlock Origin or Brave browser to
+					achieve adless.
 				</p>
 			</AnswerFAQ>
 		</ul>

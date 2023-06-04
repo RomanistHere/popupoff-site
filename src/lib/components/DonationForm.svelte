@@ -51,7 +51,7 @@
 	};
 </script>
 
-<ul class="flex justify-center">
+<ul class="flex justify-center -md:flex -md:flex-wrap">
 	{#if state}
 		<li class="relative m-3">
 			<PrimaryButtonLink
@@ -73,7 +73,7 @@
 		</li>
 	{:else}
 		{#each options as { text, linkOneTime, linkSubscribe, number }}
-			<li class="relative m-3">
+			<li class="relative m-3 -md:mb-8">
 				<PrimaryButtonLink
 					href={linkOneTime}
 					title={text}

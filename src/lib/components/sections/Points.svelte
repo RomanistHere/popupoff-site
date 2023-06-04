@@ -48,7 +48,7 @@
 <section
 	class="relative min-h-screen py-16 bg-bright flex justify-center items-center text-dark"
 >
-	<div class="absolute inset-0 z-0 pointer-events-none ">
+	<div class="absolute inset-0 z-0 pointer-events-none -md:hidden">
 		<div class="absolute right-[15%] top-[70vh] w-[36rem] -rotate-12 -lg:top-[65vh]">
 			<img
 				src="/bg/4.png"
@@ -135,7 +135,7 @@
 	</div>
 
 	<div class="max-w-7xl px-8 w-full text-center relative">
-		<h1 class="text-title leading-[4.2rem]">
+		<h1 class="text-title leading-[4.2rem] -md:leading-[3rem]">
 			Privacy and performance <br />
 			from the beginning
 		</h1>

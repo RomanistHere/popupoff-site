@@ -1,5 +1,5 @@
 <footer
-	class="min-h-screen bg-bright flex justify-center items-center text-dark text-center relative"
+	class="min-h-screen py-12 px-8 bg-bright flex justify-center items-center text-dark text-center relative"
 >
 	<div>
 		<h1 class="text-2xl w-full mb-16">
@@ -60,7 +60,7 @@
 		</ul>
 	</div>
 
-	<div class="absolute bottom-8 left-1/2 -translate-x-1/2">
+	<div class="absolute bottom-8 left-1/2 -translate-x-1/2 whitespace-nowrap">
 		© All rights reserved. 2019-{new Date().getFullYear()}
 	</div>
 </footer>

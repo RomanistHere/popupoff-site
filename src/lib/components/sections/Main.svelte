@@ -7,10 +7,10 @@
 	<Nav />
 
 	<div class="font-logo">
-		<h1 class="text-[10rem] drop-shadow">
+		<h1 class="text-[10rem] drop-shadow -md:text-8xl">
 			PopUp<span class="text-accent">OFF</span>
 		</h1>
-		<h2 class="text-[3.2rem] -mt-8 drop-shadow">
+		<h2 class="text-[3.2rem] -mt-8 drop-shadow -md:text-3xl -md:mt-2">
 			<span class="text-accent">Popup and overlay</span>
 			blocker
 		</h2>

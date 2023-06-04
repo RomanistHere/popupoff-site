@@ -14,6 +14,14 @@
 		-webkit-tap-highlight-color: transparent;
 	}
 
+	.title-shadow {
+		text-shadow: 3px 3px 0 #222831;
+	}
+
+	.title-shadow-bright {
+		text-shadow: 3px 3px 0 #efbb35;
+	}
+
 	@media screen and (max-width: 1440px) {
 		html {
 			font-size: 14px;
@@ -26,27 +34,35 @@
 		}
 	}
 
+	@media screen and (max-width: 767px) {
+		html {
+			font-size: 14px;
+		}
+	}
+
 	@media screen and (min-width: 2048px) {
 		html {
 			font-size: 20px;
+		}
+	}
+
+	@media screen and (max-width: 767px) {
+		.title-shadow {
+			text-shadow: 2px 2px 0 #222831;
+		}
+
+		.title-shadow-bright {
+			text-shadow: 2px 2px 0 #efbb35;
 		}
 	}
 }
 
 @layer components {
 	.text-basic {
-		@apply text-2xl leading-8 tracking-wider mb-8;
+		@apply text-2xl leading-8 tracking-wider mb-8 -md:text-2xl -md:mb-4;
 	}
 
 	.text-title {
-		@apply font-logo text-6xl mb-12 text-accent title-shadow;
+		@apply font-logo text-6xl mb-12 text-accent title-shadow -md:text-4xl;
 	}
-}
-
-.title-shadow {
-	text-shadow: 3px 3px 0 #222831;
-}
-
-.title-shadow-bright {
-	text-shadow: 3px 3px 0 #efbb35;
 }

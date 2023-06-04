@@ -26,7 +26,7 @@
 
 <div class="absolute w-full {customClass}">
 	{#if textTop}
-		<p class="font-logo text-2xl text-dark p-2">
+		<p class="font-logo text-2xl text-dark p-2 -md:text-lg">
 			{text}
 		</p>
 	{/if}
@@ -42,7 +42,7 @@
 	/>
 
 	{#if !textTop}
-		<p class="font-logo text-2xl text-dark p-2 text-right">
+		<p class="font-logo text-2xl text-dark p-2 text-right -md:text-lg">
 			{text}
 		</p>
 	{/if}

@@ -25,7 +25,7 @@
 				}
 			},
 			{
-				rootMargin: "-200px",
+				rootMargin: "-100px",
 			}
 		);
 
@@ -59,7 +59,7 @@
 <section class="min-h-screen flex justify-center items-center">
 	<div class="relative">
 		<h1
-			class="text-6xl font-logo mb-12 transition-colors duration-500"
+			class="text-6xl font-logo mb-12 transition-colors duration-500 -md:text-3xl"
 			bind:this={elementRefScroll}
 		>
 			Better internet begins here

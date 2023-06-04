@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-cloudflare": "^2.3.0",
 		"mongoose": "^7.2.2"
 	}
 }

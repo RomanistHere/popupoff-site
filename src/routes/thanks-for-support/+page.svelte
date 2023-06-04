@@ -53,9 +53,7 @@
 		<p class="text-basic italic mb-2">
 			I can't emphasize it enough how much I appreciate it!
 		</p>
-		<p class="text-basic italic mb-12">
-			If you want, add a comment to your donation.
-		</p>
+		<p class="text-basic italic mb-12">If you want, add a comment to your donation.</p>
 
 		{#if state === "success"}
 			<p class="text-basic">Thank you! I'll get to your message ASAP.</p>
@@ -100,7 +98,7 @@
 		<a
 			href="/"
 			class="underline text-lg block absolute -bottom-16 left-1/2 -translate-x-1/2"
-		>← Go to main page</a
+			>← Go to main page</a
 		>
 	</div>
 </section>

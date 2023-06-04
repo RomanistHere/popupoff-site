@@ -1,7 +1,6 @@
 # todo
 
 - update images accordingly
-- make a light mobile design
 - if on load there is #anchor in url, go to smoothly
 - test!
 

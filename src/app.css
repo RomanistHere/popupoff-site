@@ -8,6 +8,7 @@
 		font-weight: 400;
 		src: url(/fonts/Monkstead.woff2) format("woff2"),
 			url(/fonts/Monkstead.woff) format("woff");
+		font-display: block;
 	}
 
 	html {

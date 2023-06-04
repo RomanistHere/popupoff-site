@@ -9,6 +9,28 @@
 		src: url(/fonts/Monkstead.woff2) format("woff2"),
 			url(/fonts/Monkstead.woff) format("woff");
 	}
+
+	html {
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	@media screen and (max-width: 1440px) {
+		html {
+			font-size: 14px;
+		}
+	}
+
+	@media screen and (max-width: 1280px) {
+		html {
+			font-size: 12px;
+		}
+	}
+
+	@media screen and (min-width: 2048px) {
+		html {
+			font-size: 20px;
+		}
+	}
 }
 
 @layer components {
@@ -27,10 +49,4 @@
 
 .title-shadow-bright {
 	text-shadow: 3px 3px 0 #efbb35;
-}
-
-@media screen and (max-width: 1366px) {
-	html {
-		font-size: 14px;
-	}
 }

@@ -25,7 +25,7 @@
 				}
 			},
 			{
-				rootMargin: "-400px",
+				rootMargin: "-200px",
 			}
 		);
 

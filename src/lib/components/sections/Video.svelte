@@ -4,7 +4,7 @@
 
 <p id="video" />
 
-<section class="h-screen bg-bright flex justify-center items-center text-dark">
+<section class="min-h-screen py-16 bg-bright flex justify-center items-center text-dark">
 	<div class="max-w-7xl px-8 w-full text-center">
 		<h1 class="text-title">See in action</h1>
 

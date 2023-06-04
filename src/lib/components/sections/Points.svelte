@@ -46,52 +46,52 @@
 <p id="about" />
 
 <section
-	class="relative min-h-screen bg-bright flex justify-center items-center text-dark"
+	class="relative min-h-screen py-16 bg-bright flex justify-center items-center text-dark"
 >
-	<div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+	<div class="absolute inset-0 z-0 pointer-events-none ">
 		<div class="absolute right-[15%] top-[70vh] w-[36rem] -rotate-12">
 			<img
 				src="/bg/4.png"
 				alt=""
 				width="885"
 				height="165"
-				class="rounded-lg opacity-80"
+				class="rounded-lg opacity-80 shadow-lg"
 				class:animation-1={isVisited}
 				class:scale-0={!isVisited}
 			/>
 		</div>
 
-		<div class="absolute right-0 top-[40vh] w-[35rem] rotate-[10deg]">
+		<div class="absolute right-8 top-[40vh] w-[35rem] rotate-[10deg]">
 			<img
 				src="/bg/6.png"
 				alt=""
 				width="633"
 				height="103"
-				class="rounded-lg opacity-90"
+				class="rounded-lg opacity-90 shadow-lg"
 				class:animation-2={isVisited}
 				class:scale-0={!isVisited}
 			/>
 		</div>
 
-		<div class="absolute left-[12%] top-[80vh] rotate-12">
+		<div class="absolute left-[12%] top-[80vh] rotate-12 -2xl:top-[75vh] -2xl:rotate-3">
 			<img
 				src="/bg/1.png"
 				alt=""
 				width="610"
 				height="125"
-				class="rounded-lg"
+				class="rounded-lg shadow-lg"
 				class:animation-3={isVisited}
 				class:scale-0={!isVisited}
 			/>
 		</div>
 
-		<div class="absolute right-[5%] top-[55vh] -rotate-6">
+		<div class="absolute right-[5%] -rotate-6 top-[80vh]">
 			<img
 				src="/bg/2.png"
 				alt=""
 				width="374"
 				height="67"
-				class="rounded-lg"
+				class="rounded-lg shadow-lg"
 				class:animation-4={isVisited}
 				class:scale-0={!isVisited}
 			/>
@@ -103,7 +103,7 @@
 				alt=""
 				width="876"
 				height="135"
-				class="w-[40rem] rounded-lg"
+				class="w-[40rem] rounded-lg shadow-lg"
 				class:animation-5={isVisited}
 				class:scale-0={!isVisited}
 			/>
@@ -115,7 +115,7 @@
 				alt=""
 				width="417"
 				height="166"
-				class="w-[24rem] rounded-lg opacity-90"
+				class="w-[24rem] rounded-lg opacity-90 shadow-lg"
 				class:animation-6={isVisited}
 				class:scale-0={!isVisited}
 			/>
@@ -127,7 +127,7 @@
 				alt=""
 				width="798"
 				height="281"
-				class="w-[40rem] rounded-lg"
+				class="w-[40rem] rounded-lg shadow-lg"
 				class:animation-7={isVisited}
 				class:scale-0={!isVisited}
 			/>

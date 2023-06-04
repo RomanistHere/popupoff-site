@@ -2,6 +2,7 @@
 	let customClass = "";
 	export { customClass as class };
 	export let title;
+	export let disabled;
 </script>
 
 <div class="relative inline-block">
@@ -9,6 +10,9 @@
 		class="relative block py-3 px-8 text-2xl rounded-3xl bg-accent font-logo z-10
 		transition-transform hover:-translate-x-px hover:-translate-y-px
 		active:translate-x-1 active:translate-y-1 tracking-wide {customClass}"
+		class:translate-x-1={disabled}
+		class:translate-y-1={disabled}
+		{disabled}
 		on:click
 	>
 		{title}

@@ -4,13 +4,16 @@
 	import Input from "$lib/components/Input.svelte";
 	import Textarea from "$lib/components/Textarea.svelte";
 	import PrimaryButton from "$lib/components/PrimaryButton.svelte";
+	import Spinner from "$lib/components/Spinner.svelte";
 
+	// state: null | "loading" | "success" | "fail"
 	let state = null;
 
 	const enhanceCallback = async ({ data, cancel }) => {
 		cancel();
 
 		try {
+			state = "loading";
 			const resp = await fetch("/api/intouch/submit", {
 				method: "POST",
 				body: data,
@@ -21,11 +24,9 @@
 			if (!error) {
 				state = "success";
 			} else {
-				console.log(error);
 				state = "fail";
 			}
 		} catch (e) {
-			console.log(e);
 			state = "fail";
 		}
 	};
@@ -45,9 +46,9 @@
 			<form
 				method="POST"
 				use:enhance={enhanceCallback}
-				class="max-w-md mx-auto"
-				class:opacity-0={state}
-				class:absolute={state}
+				class="max-w-md mx-auto relative"
+				class:opacity-0={state === "success" || state === "fail"}
+				class:absolute={state === "success" || state === "fail"}
 			>
 				<Textarea
 					title="Your message"
@@ -68,7 +69,12 @@
 				<PrimaryButton
 					title="Submit"
 					class="px-12"
+					disabled={state === "loading"}
 				/>
+
+				{#if state === "loading"}
+					<Spinner />
+				{/if}
 			</form>
 		{/if}
 	</div>

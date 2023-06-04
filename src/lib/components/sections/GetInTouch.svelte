@@ -53,7 +53,7 @@
 				<Textarea
 					title="Your message"
 					id="getInTouchMessage"
-					placeholder="You send a complaint, suggest a feature or just say hi, you'll be welcome nevertheless!"
+					placeholder="Send a complaint, suggest a feature or just say hi, you'll be welcome in any case!"
 					name="message"
 					maxlength={1024}
 				/>

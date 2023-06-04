@@ -9,7 +9,7 @@
 		<h1 class="text-title">See in action</h1>
 
 		<div
-			class="mx-auto my-8 py-1 px-1 bg-accent rounded-3xl inline-flex justify-center items-center"
+			class="relative mx-auto my-8 py-1 px-1 bg-accent rounded-3xl inline-flex justify-center items-center"
 		>
 			<button
 				class="py-2 px-6 rounded-3xl"
@@ -31,6 +31,10 @@
 			>
 				YouTube
 			</button>
+			<span class="absolute text-xs italic -top-10 -right-16 rotate-12">
+				YouTube version is separated<br />
+				because of <a href="https://deletegoogle.com/" class="underline" target="_blank">privacy concerns</a>
+			</span>
 		</div>
 
 		<div class="flex justify-center">

@@ -5,6 +5,7 @@
 	import Textarea from "$lib/components/Textarea.svelte";
 	import PrimaryButton from "$lib/components/PrimaryButton.svelte";
 	import Spinner from "$lib/components/Spinner.svelte";
+	import SEO from "$lib/components/SEO.svelte";
 
 	// state: null | "loading" | "success" | "fail"
 	let state = null;
@@ -31,6 +32,11 @@
 		}
 	};
 </script>
+
+<SEO
+	title="PopUpOFF | Submit your issue"
+	description="Update the database of known issues to get help on the sites you like."
+/>
 
 <section class="min-h-screen bg-bright flex justify-center items-center text-dark">
 	<div class="max-w-7xl px-8 w-full text-center">

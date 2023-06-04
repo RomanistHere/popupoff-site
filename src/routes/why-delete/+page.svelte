@@ -5,6 +5,7 @@
 	import Textarea from "$lib/components/Textarea.svelte";
 	import PrimaryButton from "$lib/components/PrimaryButton.svelte";
 	import Spinner from "$lib/components/Spinner.svelte";
+	import SEO from "$lib/components/SEO.svelte";
 
 	// state: null | "loading" | "success" | "fail"
 	let state = null;
@@ -31,6 +32,11 @@
 		}
 	};
 </script>
+
+<SEO
+	title="PopUpOFF | Share your feedback"
+	description="Tell us why do you uninstall the extension."
+/>
 
 <section class="min-h-screen py-12 bg-bright flex justify-center items-center text-dark">
 	<div class="max-w-7xl px-8 w-full text-center">

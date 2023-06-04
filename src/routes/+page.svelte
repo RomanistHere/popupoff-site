@@ -12,7 +12,7 @@
 	import Footer from "$lib/components/sections/Footer.svelte";
 
 	import ScrollHandler from "$lib/components/ScrollHandler.svelte";
-	import Header from "$lib/components/Header.svelte";
+	import SEO from "$lib/components/SEO.svelte";
 
 	import { isBgDark } from "$lib/stores/index.js";
 
@@ -31,7 +31,7 @@
 	$: updateBodyClass($isBgDark);
 </script>
 
-<Header />
+<SEO />
 <ScrollHandler />
 
 <Main />

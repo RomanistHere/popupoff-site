@@ -25,8 +25,8 @@
 	}
 
 	::selection {
-		color: #F9FFEE;
-		background-color: #EFBB35;
+		color: #f9ffee;
+		background-color: #efbb35;
 	}
 
 	@media screen and (max-width: 1440px) {

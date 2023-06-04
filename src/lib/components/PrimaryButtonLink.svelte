@@ -7,7 +7,7 @@
 
 <a
 	class="relative block py-3 px-8 text-2xl rounded-3xl bg-accent font-logo z-10
-	transition-transform hover:-translate-x-px hover:-translate-y-px
+	transition-transform hover:opacity-95
 	active:translate-x-1 active:translate-y-1 tracking-wide"
 	{href}
 	on:click

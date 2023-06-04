@@ -12,6 +12,14 @@
 	const enhanceCallback = async ({ data, cancel }) => {
 		cancel();
 
+		for (const [key, value] of data.entries()) {
+			if (key === "message" && value.length < 9) {
+				// eslint-disable-next-line no-alert
+				alert("Message is too small to send. It'll get lost.");
+				return;
+			}
+		}
+
 		try {
 			state = "loading";
 			const resp = await fetch("/api/intouch/submit", {

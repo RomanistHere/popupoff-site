@@ -13,6 +13,14 @@
 	const enhanceCallback = async ({ data, cancel }) => {
 		cancel();
 
+		for (const [key, value] of data.entries()) {
+			if (key === "message" && value.length < 9) {
+				// eslint-disable-next-line no-alert
+				alert("Message is too small to send. It'll get lost.");
+				return;
+			}
+		}
+
 		try {
 			state = "loading";
 			const resp = await fetch("/api/intouch/submit", {
@@ -39,7 +47,7 @@
 />
 
 <section class="min-h-screen bg-bright flex justify-center items-center text-dark">
-	<div class="max-w-7xl px-8 w-full text-center">
+	<div class="relative max-w-7xl px-8 w-full text-center">
 		<h1 class="text-title leading-[4.2rem]">Submit your issue</h1>
 
 		{#if state === "success"}
@@ -83,5 +91,8 @@
 				{/if}
 			</form>
 		{/if}
+
+		<a href="/" class="underline text-lg block absolute -bottom-16 left-1/2 -translate-x-1/2">← Go to main
+			page</a>
 	</div>
 </section>

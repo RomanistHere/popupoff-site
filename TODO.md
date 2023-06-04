@@ -1,6 +1,5 @@
 # todo
 
-- form should not be sent without message field
 - back from pages to main page
 - create submit issue form
 - create why-delete page/form
@@ -8,6 +7,7 @@
 - create thanks-for-support page
 - add a textarea there, so people can add a comment on their donation
 - update links to pass amount of money, so we will add to the list
+- ::highlight colors
 
 ### after extension update
 

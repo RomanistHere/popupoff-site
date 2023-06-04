@@ -234,7 +234,8 @@
 				shouldShow={state.eleventh}
 			>
 				<p class="block mb-4">
-					<span class="bg-accent">Not yet</span>, but we're researching this topic. Stay in touch!
+					<span class="bg-accent">Not yet</span>, but we're researching this topic. Stay
+					in touch!
 				</p>
 			</AnswerFAQ>
 		</ul>

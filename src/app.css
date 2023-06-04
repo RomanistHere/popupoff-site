@@ -24,6 +24,11 @@
 		text-shadow: 3px 3px 0 #efbb35;
 	}
 
+	::selection {
+		color: #F9FFEE;
+		background-color: #EFBB35;
+	}
+
 	@media screen and (max-width: 1440px) {
 		html {
 			font-size: 14px;

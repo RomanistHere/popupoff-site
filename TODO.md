@@ -1,11 +1,8 @@
 # todo
 
 - update why-delete page/form
-- how to use page
-- create thanks-for-support page
-- add a textarea there, so people can add a comment on their donation
+- how to use page (https://romanisthere.github.io/posts/popupoff-tutorial-2/)
 - update links to pass amount of money, so we will add to the list
-- ::highlight colors
 
 ### after extension update
 

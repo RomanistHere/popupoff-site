@@ -32,13 +32,9 @@
 		<h1 class="text-title leading-[4.2rem]">Get in touch</h1>
 
 		{#if state === "success"}
-			<p class="text-basic">
-				Thank you for contacting. We'll do our best to reply ASAP.
-			</p>
+			<p class="text-basic">Thank you for contacting. We'll do our best to reply ASAP.</p>
 		{:else if state === "fail"}
-			<p class="text-basic">
-				Something went wrong, please try again later.
-			</p>
+			<p class="text-basic">Something went wrong, please try again later.</p>
 		{:else}
 			<form
 				method="POST"

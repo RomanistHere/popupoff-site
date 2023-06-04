@@ -131,26 +131,24 @@
 			Privacy and performance <br />
 			from the beginning
 		</h1>
-		
+
 		<ul
 			bind:this={ref}
 			class="text-basic leading-10 list-disc list-inside"
 		>
+			<li>created for people, not for profit</li>
+			<li>no tracking or analytics</li>
 			<li>
-				created for people, not for profit
+				free & <a
+					href="https://github.com/RomanistHere/PopUpOFF"
+					rel="nofollow"
+					target="_blank"
+					class="underline transition-colors hover:bg-dark hover:no-underline hover:text-bright"
+					>open source</a
+				>
 			</li>
-			<li>
-				no tracking or analytics
-			</li>
-			<li>
-				free & <a href="https://github.com/RomanistHere/PopUpOFF" rel="nofollow" target="_blank" class="underline transition-colors hover:bg-dark hover:no-underline hover:text-bright">open source</a>
-			</li>
-			<li>
-				all information stored locally
-			</li>
-			<li>
-				maintained by individuals, not commerce
-			</li>
+			<li>all information stored locally</li>
+			<li>maintained by individuals, not commerce</li>
 			<li>
 				plain HTML, CSS and JavaScript, {"<"}50 KiB
 			</li>

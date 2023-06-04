@@ -1,18 +1,21 @@
 import { json } from "@sveltejs/kit";
 
-// import { Event } from "$db/models/event.model";
+import { UserMessage } from "$db/models/message.model";
 
 export async function POST(event) {
-	console.log("HEH");
 	try {
 		const formData = await event.request.formData();
 		const { message, email } = Object.fromEntries(formData);
 
-		console.log(message);
-		console.log(email);
+		await new UserMessage({
+			message,
+			email,
+			createdAt: new Date(),
+		}).save();
 
 		return json({ success: true });
 	} catch (e) {
 		console.log(e);
+		return json({ success: false });
 	}
 }

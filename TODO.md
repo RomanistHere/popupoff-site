@@ -1,8 +1,6 @@
 # todo
 
-- back from pages to main page
-- create submit issue form
-- create why-delete page/form
+- update why-delete page/form
 - how to use page
 - create thanks-for-support page
 - add a textarea there, so people can add a comment on their donation

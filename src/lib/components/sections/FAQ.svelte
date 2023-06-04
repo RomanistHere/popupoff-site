@@ -55,6 +55,14 @@
 					and from now on PopUpOFF will not work on this site unless you decide to change your
 					mind and choose another mode.
 				</p>
+				<p class="block mb-4">
+					Then <a
+						href="/submit-issue"
+						class="underline">submit</a
+					>
+					it to our <span class="bg-accent">database of known issues</span>
+					, so we know about the issue and can fix it.
+				</p>
 			</AnswerFAQ>
 
 			<AnswerFAQ
@@ -75,6 +83,14 @@
 					<span class="bg-accent">Your choice will be remembered</span>
 					and from now on PopUpOFF will not work on this site unless you decide to change your
 					mind and choose another mode.
+				</p>
+				<p class="block mb-4">
+					Then <a
+						href="/submit-issue"
+						class="underline">submit</a
+					>
+					it to our <span class="bg-accent">database of known issues</span>
+					, so we know about the issue and can fix it.
 				</p>
 			</AnswerFAQ>
 
@@ -135,7 +151,11 @@
 					mind and choose another mode.
 				</p>
 				<p class="block mb-4">
-					Then <span class="bg-accent">submit it to our database of known issues</span>
+					Then <a
+						href="/submit-issue"
+						class="underline">submit</a
+					>
+					it to our <span class="bg-accent">database of known issues</span>
 					, so we know about the issue and can fix it.
 				</p>
 			</AnswerFAQ>

@@ -100,6 +100,10 @@
 			</form>
 		{/if}
 
-		<a href="/" class="underline text-lg block absolute -bottom-16 left-1/2 -translate-x-1/2">← Go to main page</a>
+		<a
+			href="/"
+			class="underline text-lg block absolute -bottom-16 left-1/2 -translate-x-1/2"
+			>← Go to main page</a
+		>
 	</div>
 </section>

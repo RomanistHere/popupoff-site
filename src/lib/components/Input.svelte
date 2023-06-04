@@ -7,6 +7,7 @@
 	export let isInputValid = true;
 	export let autofocus = false;
 	export let maxlength = null;
+	export let placeholder;
 
 	let isInputActive = false;
 
@@ -59,6 +60,7 @@
 		bind:this={ref}
 		{autofocus}
 		{maxlength}
+		{placeholder}
 	/>
 
 	<span

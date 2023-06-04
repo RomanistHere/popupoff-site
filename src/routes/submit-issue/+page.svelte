@@ -6,6 +6,7 @@
 	import PrimaryButton from "$lib/components/PrimaryButton.svelte";
 	import Spinner from "$lib/components/Spinner.svelte";
 	import SEO from "$lib/components/SEO.svelte";
+	import FAQ from "$lib/components/sections/FAQ.svelte";
 
 	// state: null | "loading" | "success" | "fail"
 	let state = null;
@@ -14,16 +15,20 @@
 		cancel();
 
 		for (const [key, value] of data.entries()) {
-			if (key === "message" && value.length < 9) {
+			if (key === "description" && value.length < 9) {
 				// eslint-disable-next-line no-alert
-				alert("Message is too small to send. It'll get lost.");
+				alert("Provide some description to report the issue.");
+				return;
+			} else if (key === "link" && value.length < 9) {
+				// eslint-disable-next-line no-alert
+				alert("'Where happens' field cannot be this short.");
 				return;
 			}
 		}
 
 		try {
 			state = "loading";
-			const resp = await fetch("/api/intouch/submit", {
+			const resp = await fetch("/api/report/submit", {
 				method: "POST",
 				body: data,
 			});
@@ -48,12 +53,10 @@
 
 <section class="min-h-screen bg-bright flex justify-center items-center text-dark">
 	<div class="relative max-w-7xl px-8 w-full text-center">
-		<h1 class="text-title leading-[4.2rem]">Submit your issue</h1>
+		<h1 class="text-title leading-[4.2rem]">Report issue</h1>
 
 		{#if state === "success"}
-			<p class="text-basic">
-				Thank you for contacting us. We'll get to your message ASAP.
-			</p>
+			<p class="text-basic">Thank you for sharing. We've got it!</p>
 		{:else if state === "fail"}
 			<p class="text-basic">Something went wrong, please try again later.</p>
 		{:else}
@@ -64,11 +67,20 @@
 				class:opacity-0={state === "success" || state === "fail"}
 				class:absolute={state === "success" || state === "fail"}
 			>
+				<Input
+					title="Where happens"
+					placeholder="Paste a link from the browser"
+					id="issueLink"
+					type="text"
+					name="link"
+					maxlength={256}
+				/>
+
 				<Textarea
-					title="Your issue"
-					id="getInTouchMessage"
-					placeholder="Link to a website with a little description"
-					name="message"
+					title="What happens"
+					id="issueDescription"
+					placeholder="Describe briefly, write steps how to reproduce"
+					name="description"
 					maxlength={1024}
 				/>
 
@@ -92,7 +104,12 @@
 			</form>
 		{/if}
 
-		<a href="/" class="underline text-lg block absolute -bottom-16 left-1/2 -translate-x-1/2">← Go to main
-			page</a>
+		<a
+			href="/"
+			class="underline text-lg block absolute -bottom-16 left-1/2 -translate-x-1/2"
+			>← Go to main page</a
+		>
 	</div>
 </section>
+
+<FAQ />

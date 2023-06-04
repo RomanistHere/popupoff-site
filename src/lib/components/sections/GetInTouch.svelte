@@ -16,11 +16,12 @@
 				body: data,
 			});
 
-			const { success } = await resp.json();
+			const { error } = await resp.json();
 
-			if (success) {
+			if (!error) {
 				state = "success";
 			} else {
+				console.log(error);
 				state = "fail";
 			}
 		} catch (e) {

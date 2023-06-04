@@ -2,9 +2,10 @@ import { json } from "@sveltejs/kit";
 
 import { UserMessage } from "$db/models/message.model";
 
-export async function POST(event) {
+export async function POST({ request }) {
+	console.log("HEH");
 	try {
-		const formData = await event.request.formData();
+		const formData = await request.formData();
 		const { message, email } = Object.fromEntries(formData);
 
 		await new UserMessage({
@@ -13,9 +14,8 @@ export async function POST(event) {
 			createdAt: new Date(),
 		}).save();
 
-		return json({ success: true });
-	} catch (e) {
-		console.log(e);
-		return json({ success: false });
+		return json({ error: null });
+	} catch (error) {
+		return json({ error });
 	}
 }

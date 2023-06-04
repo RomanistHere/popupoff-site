@@ -33,7 +33,12 @@
 			</button>
 			<span class="absolute text-xs italic -top-10 -right-16 rotate-12">
 				YouTube version is separated<br />
-				because of <a href="https://deletegoogle.com/" class="underline" target="_blank">privacy concerns</a>
+				because of
+				<a
+					href="https://deletegoogle.com/"
+					class="underline"
+					target="_blank">privacy concerns</a
+				>
 			</span>
 		</div>
 

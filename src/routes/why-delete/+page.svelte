@@ -36,9 +36,15 @@
 	<div class="max-w-7xl px-8 w-full text-center">
 		<h1 class="text-title leading-[4.2rem]">Thank you for using my extension!</h1>
 
-		<p class="text-basic italic mb-2">While you were using PopUpOFF, you’ve been making the world of the web a little bit better.</p>
+		<p class="text-basic italic mb-2">
+			While you were using PopUpOFF, you’ve been making the world of the web a little bit
+			better.
+		</p>
 		<p class="text-basic italic mb-2">I appreciate you gave it a try.</p>
-		<p class="text-basic italic mb-12">If I wanted to make the extension better, what would I need to focus on from your point of view?</p>
+		<p class="text-basic italic mb-12">
+			If I wanted to make the extension better, what would I need to focus on from your
+			point of view?
+		</p>
 
 		{#if state === "success"}
 			<p class="text-basic">Thank you for sharing. I'll get to your message ASAP.</p>

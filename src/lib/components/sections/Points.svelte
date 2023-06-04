@@ -49,7 +49,7 @@
 	class="relative min-h-screen py-16 bg-bright flex justify-center items-center text-dark"
 >
 	<div class="absolute inset-0 z-0 pointer-events-none ">
-		<div class="absolute right-[15%] top-[70vh] w-[36rem] -rotate-12">
+		<div class="absolute right-[15%] top-[70vh] w-[36rem] -rotate-12 -lg:top-[65vh]">
 			<img
 				src="/bg/4.png"
 				alt=""
@@ -73,7 +73,7 @@
 			/>
 		</div>
 
-		<div class="absolute left-[12%] top-[80vh] rotate-12 -2xl:top-[75vh] -2xl:rotate-3">
+		<div class="absolute left-[12%] top-[80vh] rotate-12 -2xl:top-[75vh] -2xl:rotate-3 -lg:left-16">
 			<img
 				src="/bg/1.png"
 				alt=""
@@ -85,7 +85,7 @@
 			/>
 		</div>
 
-		<div class="absolute right-[5%] -rotate-6 top-[80vh]">
+		<div class="absolute right-[5%] -rotate-6 top-[80vh] -lg:top-[90vh]">
 			<img
 				src="/bg/2.png"
 				alt=""
@@ -97,7 +97,7 @@
 			/>
 		</div>
 
-		<div class="absolute left-[10%] top-[5vh] -rotate-1">
+		<div class="absolute left-[10%] top-[5vh] -rotate-1 -lg:left-8 -lg:top-2">
 			<img
 				src="/bg/3.png"
 				alt=""
@@ -109,7 +109,7 @@
 			/>
 		</div>
 
-		<div class="absolute left-[5%] top-[40vh] rotate-6">
+		<div class="absolute left-[5%] top-[40vh] rotate-6 -lg:top-[20vh]">
 			<img
 				src="/bg/5.png"
 				alt=""
@@ -121,7 +121,7 @@
 			/>
 		</div>
 
-		<div class="absolute right-[5%] top-[4vh] rotate-3">
+		<div class="absolute right-[5%] top-[4vh] rotate-3 -lg:top-20">
 			<img
 				src="/bg/7.png"
 				alt=""

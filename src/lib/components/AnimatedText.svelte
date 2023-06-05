@@ -25,8 +25,7 @@
 	};
 
 	onMount(() => {
-		if (!shouldAnimate)
-			return;
+		if (!shouldAnimate) return;
 
 		animateValue3(0, text, animationDuration);
 		isAnimating = true;
@@ -43,7 +42,9 @@
 		</span>
 		<span
 			class="absolute bottom-1 left-1 text-center transition-transform duration-1000 z-10"
-			style="transform: translate({isAnimating ? randomX : 0}px, {isAnimating ? randomY : 0}px) scale({isAnimating ? 3 : 1})"
+			style="transform: translate({isAnimating ? randomX : 0}px, {isAnimating
+				? randomY
+				: 0}px) scale({isAnimating ? 3 : 1})"
 		>
 			{counter}
 		</span>

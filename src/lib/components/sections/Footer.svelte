@@ -62,7 +62,13 @@
 
 	<div class="absolute bottom-8 left-1/2 -translate-x-1/2 whitespace-nowrap space-x-4">
 		<span>© All rights reserved. 2019-{new Date().getFullYear()}</span>
-		<a href="/terms-of-use" class="underline">Terms of use</a>
-		<a href="/privacy-policy" class="underline">Privacy policy</a>
+		<a
+			href="/terms-of-use"
+			class="underline">Terms of use</a
+		>
+		<a
+			href="/privacy-policy"
+			class="underline">Privacy policy</a
+		>
 	</div>
 </footer>

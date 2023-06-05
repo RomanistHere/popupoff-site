@@ -66,8 +66,8 @@
 		},
 	};
 
-	const secondsToHms = d => {
-		d = Number(d);
+	const secondsToHms = l => {
+		const d = Number(l);
 		const h = Math.floor(d / 3600);
 		const m = Math.floor((d % 3600) / 60);
 		const s = Math.floor((d % 3600) % 60);
@@ -126,11 +126,11 @@
 	});
 </script>
 
-<section class="min-h-screen py-16 px-8 bg-bright text-dark flex justify-center items-center">
+<section
+	class="min-h-screen py-16 px-8 bg-bright text-dark flex justify-center items-center"
+>
 	<main>
-		<h1 class="text-title text-center">
-			Your stats
-		</h1>
+		<h1 class="text-title text-center">Your stats</h1>
 
 		<ul class="text-2xl tracking-wide text-center mt-12 leading-[4.5rem]">
 			<li>
@@ -164,13 +164,11 @@
 			</li>
 		</ul>
 
-		<p class="absolute bottom-8 right-8">
-			No one but you can access your stats
-		</p>
+		<p class="absolute bottom-8 right-8">No one but you can access your stats</p>
 	</main>
 
 	<div
 		class="fixed inset-0 bg-dark opacity-0 pointer-events-none transition-opacity duration-1000"
 		class:opacity-100={isAnimating}
-	></div>
+	/>
 </section>

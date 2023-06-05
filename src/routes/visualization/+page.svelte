@@ -11,8 +11,7 @@
 	};
 
 	onMount(() => {
-		if (typeof document === "undefined")
-			return;
+		if (typeof document === "undefined") return;
 
 		document.dispatchEvent(
 			new CustomEvent("showPopUpOFFStats", { detail: "letTheShowBegin" })
@@ -21,8 +20,7 @@
 	});
 
 	onDestroy(() => {
-		if (typeof document === "undefined")
-			return;
+		if (typeof document === "undefined") return;
 
 		document.removeEventListener("PopUpOFFStats", onMessage);
 	});

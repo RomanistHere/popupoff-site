@@ -83,7 +83,9 @@
 					placeholder="Describe briefly, write steps how to reproduce"
 					name="description"
 					maxlength={1024}
-					on:input={() => { typingStarted = true }}
+					on:input={() => {
+						typingStarted = true;
+					}}
 				/>
 
 				<div

@@ -71,7 +71,9 @@
 		</p>
 
 		{#if state === "success"}
-			<p class="text-basic bg-dark text-accent inline-block mx-auto">Thank you for sharing. I'll get to your message ASAP.</p>
+			<p class="text-basic bg-dark text-accent inline-block mx-auto">
+				Thank you for sharing. I'll get to your message ASAP.
+			</p>
 		{:else if state === "fail"}
 			<p class="text-basic">Something went wrong, please try again later.</p>
 		{:else}
@@ -89,23 +91,48 @@
 					class:absolute={isCheckboxChecked}
 				>
 					<label class="py-3 flex items-start justify-center">
-						<input type="checkbox" on:change={checkboxChanged} class="accent-accent w-6 h-6 mr-2" name="doesntBlock">
+						<input
+							type="checkbox"
+							on:change={checkboxChanged}
+							class="accent-accent w-6 h-6 mr-2"
+							name="doesntBlock"
+						/>
 						It doesn't block what it should
 					</label>
 					<label class="py-3 flex items-start justify-center">
-						<input type="checkbox" on:change={checkboxChanged} class="accent-accent w-6 h-6 mr-2" name="blocksTooMuch">
+						<input
+							type="checkbox"
+							on:change={checkboxChanged}
+							class="accent-accent w-6 h-6 mr-2"
+							name="blocksTooMuch"
+						/>
 						It blocks what it shouldn't
 					</label>
 					<label class="py-3 flex items-start justify-center">
-						<input type="checkbox" on:change={checkboxChanged} class="accent-accent w-6 h-6 mr-2" name="looks">
+						<input
+							type="checkbox"
+							on:change={checkboxChanged}
+							class="accent-accent w-6 h-6 mr-2"
+							name="looks"
+						/>
 						I don't like how it looks
 					</label>
 					<label class="py-3 flex items-start justify-center">
-						<input type="checkbox" on:change={checkboxChanged} class="accent-accent w-6 h-6 mr-2" name="errors">
+						<input
+							type="checkbox"
+							on:change={checkboxChanged}
+							class="accent-accent w-6 h-6 mr-2"
+							name="errors"
+						/>
 						It doesn't work (errors, freezes, etc)
 					</label>
 					<label class="py-3 flex items-start justify-center">
-						<input type="checkbox" on:change={checkboxChanged} class="accent-accent w-6 h-6 mr-2" name="other">
+						<input
+							type="checkbox"
+							on:change={checkboxChanged}
+							class="accent-accent w-6 h-6 mr-2"
+							name="other"
+						/>
 						Something else
 					</label>
 				</div>
@@ -117,7 +144,9 @@
 						placeholder="What did you like, what did you not like and how could it be fixed?"
 						name="message"
 						maxlength={1024}
-						on:input={() => { typingStarted = true }}
+						on:input={() => {
+							typingStarted = true;
+						}}
 					/>
 
 					<div

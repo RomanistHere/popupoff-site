@@ -9,21 +9,31 @@
 
 	// state: null | "loading" | "success" | "fail"
 	let state = null;
+	let typingStarted = false;
+	let isCheckboxChecked = false;
+
+	const checkboxChanged = () => {
+		isCheckboxChecked = true;
+	};
 
 	const enhanceCallback = async ({ data, cancel }) => {
 		cancel();
 
+		let noKeys = true;
+
 		for (const [key, value] of data.entries()) {
-			if (key === "message" && value.length < 9) {
-				// eslint-disable-next-line no-alert
-				alert("Message is too small to send. It'll get lost.");
-				return;
-			}
+			noKeys = false;
+		}
+
+		if (noKeys) {
+			// eslint-disable-next-line no-alert
+			alert("Can't send feedback without the reason.");
+			return;
 		}
 
 		try {
 			state = "loading";
-			const resp = await fetch("/api/intouch/submit", {
+			const resp = await fetch("/api/delete/submit", {
 				method: "POST",
 				body: data,
 			});
@@ -51,7 +61,7 @@
 		<h1 class="text-title leading-[4.2rem]">Thank you for using my extension!</h1>
 
 		<p class="text-basic italic mb-2">
-			While you were using PopUpOFF, you’ve been making the world of the web a little bit
+			While you were using PopUpOFF, you’ve been making the world of web a little bit
 			better.
 		</p>
 		<p class="text-basic italic mb-2">I appreciate you gave it a try.</p>
@@ -61,7 +71,7 @@
 		</p>
 
 		{#if state === "success"}
-			<p class="text-basic">Thank you for sharing. I'll get to your message ASAP.</p>
+			<p class="text-basic bg-dark text-accent inline-block mx-auto">Thank you for sharing. I'll get to your message ASAP.</p>
 		{:else if state === "fail"}
 			<p class="text-basic">Something went wrong, please try again later.</p>
 		{:else}
@@ -72,21 +82,59 @@
 				class:opacity-0={state === "success" || state === "fail"}
 				class:absolute={state === "success" || state === "fail"}
 			>
-				<Textarea
-					title="Share your thoughts"
-					id="getInTouchMessage"
-					placeholder="What did you like, what did you not like and how could it be fixed?"
-					name="message"
-					maxlength={1024}
-				/>
+				<div
+					class="mb-12 text-xl"
+					class:opacity-0={isCheckboxChecked}
+					class:pointer-events-none={isCheckboxChecked}
+					class:absolute={isCheckboxChecked}
+				>
+					<label class="py-3 flex items-start justify-center">
+						<input type="checkbox" on:change={checkboxChanged} class="accent-accent w-6 h-6 mr-2" name="doesntBlock">
+						It doesn't block what it should
+					</label>
+					<label class="py-3 flex items-start justify-center">
+						<input type="checkbox" on:change={checkboxChanged} class="accent-accent w-6 h-6 mr-2" name="blocksTooMuch">
+						It blocks what it shouldn't
+					</label>
+					<label class="py-3 flex items-start justify-center">
+						<input type="checkbox" on:change={checkboxChanged} class="accent-accent w-6 h-6 mr-2" name="looks">
+						I don't like how it looks
+					</label>
+					<label class="py-3 flex items-start justify-center">
+						<input type="checkbox" on:change={checkboxChanged} class="accent-accent w-6 h-6 mr-2" name="errors">
+						It doesn't work (errors, freezes, etc)
+					</label>
+					<label class="py-3 flex items-start justify-center">
+						<input type="checkbox" on:change={checkboxChanged} class="accent-accent w-6 h-6 mr-2" name="other">
+						Something else
+					</label>
+				</div>
 
-				<Input
-					title="Expect a reply? Leave email!"
-					id="getInTouchEmail"
-					type="email"
-					name="email"
-					maxlength={96}
-				/>
+				{#if isCheckboxChecked}
+					<Textarea
+						title="Share your thoughts"
+						id="getInTouchMessage"
+						placeholder="What did you like, what did you not like and how could it be fixed?"
+						name="message"
+						maxlength={1024}
+						on:input={() => { typingStarted = true }}
+					/>
+
+					<div
+						class="max-h-0 transition-all duration-1000 opacity-0 pointer-events-none"
+						class:max-h-64={typingStarted}
+						class:opacity-100={typingStarted}
+						class:pointer-events-auto={typingStarted}
+					>
+						<Input
+							title="Expect a reply? Leave email!"
+							id="getInTouchEmail"
+							type="email"
+							name="email"
+							maxlength={96}
+						/>
+					</div>
+				{/if}
 
 				<PrimaryButton
 					title="Submit"

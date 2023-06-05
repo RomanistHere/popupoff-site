@@ -10,6 +10,7 @@
 
 	// state: null | "loading" | "success" | "fail"
 	let state = null;
+	let typingStarted = false;
 
 	const enhanceCallback = async ({ data, cancel }) => {
 		cancel();
@@ -82,15 +83,23 @@
 					placeholder="Describe briefly, write steps how to reproduce"
 					name="description"
 					maxlength={1024}
+					on:input={() => { typingStarted = true }}
 				/>
 
-				<Input
-					title="Want a reply? Leave email!"
-					id="getInTouchEmail"
-					type="email"
-					name="email"
-					maxlength={96}
-				/>
+				<div
+					class="max-h-0 transition-all duration-1000 opacity-0 pointer-events-none"
+					class:max-h-64={typingStarted}
+					class:opacity-100={typingStarted}
+					class:pointer-events-auto={typingStarted}
+				>
+					<Input
+						title="Expect a reply? Leave email!"
+						id="getInTouchEmail"
+						type="email"
+						name="email"
+						maxlength={96}
+					/>
+				</div>
 
 				<PrimaryButton
 					title="Submit"

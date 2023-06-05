@@ -1,8 +1,8 @@
 # todo
 
-- update why-delete page/form
 - how to use page (https://romanisthere.github.io/posts/popupoff-tutorial-2/)
 - update links to pass amount of money, so we will add to the list
+- privacy policy and terms of use
 
 ### after extension update
 

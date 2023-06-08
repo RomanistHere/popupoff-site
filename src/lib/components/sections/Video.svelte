@@ -54,25 +54,15 @@
 					allowfullscreen
 				/>
 			{:else}
-				<video
-					controls
-					autoplay
-					muted
+				<iframe
 					width="860"
 					height="490"
-				>
-					<source
-						src="PopUpOFF.mp4"
-						type="video/mp4"
-					/>
-					<p>
-						Your browser doesn't support HTML video. Here is a
-						<a href="https://www.youtube.com/watch?v=3jTKRCxLyPE">
-							link to the youtube video
-						</a>
-						instead.
-					</p>
-				</video>
+					src="https://customer-vlbvou0ablsk8yf5.cloudflarestream.com/a767b42bc5d14395ae45d8c23fac6576/iframe?muted=true&preload=true&autoplay=true&poster=https%3A%2F%2Fcustomer-vlbvou0ablsk8yf5.cloudflarestream.com%2Fa767b42bc5d14395ae45d8c23fac6576%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+					title="Cloudflare video player"
+					frameborder="0"
+					allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+					allowfullscreen
+				/>
 			{/if}
 		</div>
 	</div>

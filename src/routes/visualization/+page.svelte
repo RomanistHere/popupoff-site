@@ -10,13 +10,28 @@
 		state = { ...detail };
 	};
 
-	onMount(() => {
-		if (typeof document === "undefined") return;
-
+	const initConnection = () => {
 		document.dispatchEvent(
 			new CustomEvent("showPopUpOFFStats", { detail: "letTheShowBegin" })
 		);
+	};
+
+	onMount(() => {
+		if (typeof document === "undefined") return;
+
 		document.addEventListener("PopUpOFFStats", onMessage);
+		initConnection();
+
+		setTimeout(() => {
+			if (state)
+				return;
+			
+			initConnection();
+			setTimeout(() => {
+				if (!state)
+					initConnection();
+			}, 500);
+		}, 500);
 	});
 
 	onDestroy(() => {

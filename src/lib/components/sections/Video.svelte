@@ -92,7 +92,7 @@
 				<iframe
 					width="860"
 					height="490"
-					src="https://customer-vlbvou0ablsk8yf5.cloudflarestream.com/a767b42bc5d14395ae45d8c23fac6576/iframe?muted=true&autoplay=true"
+					src="https://customer-vlbvou0ablsk8yf5.cloudflarestream.com/a767b42bc5d14395ae45d8c23fac6576/iframe?muted=true&autoplay=true&startTime=6s"
 					title="Cloudflare video player"
 					frameborder="0"
 					allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"

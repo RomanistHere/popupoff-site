@@ -114,7 +114,7 @@
 		}
 	};
 
-	$: time = secondsToHms(state.cleanedArea * 1.32);
+	$: time = secondsToHms(state.cleanedArea * 0.3);
 	$: areaInMetres = state.cleanedArea * averageScreenArea;
 	$: areaInFt = state.cleanedArea * averageScreenArea * sqMetresToFt;
 
@@ -154,7 +154,7 @@
 			<li>
 				Approximate cleared area is about
 				<AnimatedText
-					text={areaInMetres.toFixed(1)}
+					text={parseFloat(parseFloat(areaInMetres).toFixed(2))}
 					shouldAnimate={true}
 					{animationDuration}
 				/> square metres or <AnimatedText text={areaInFt.toFixed(1)} /> square feet

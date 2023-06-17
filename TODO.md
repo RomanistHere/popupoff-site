@@ -1,9 +1,6 @@
 # todo
 
-- update overlay number when state changes
-- decrease number in seconds /10
 - add a string about restored items
-- display meters less then 1?
 
 - how to use page (https://romanisthere.github.io/posts/popupoff-tutorial-2/)
 - updates page (https://romanisthere.github.io/apps/popupoff/updates/)
@@ -11,4 +8,3 @@
 - (support section) connect with extension and check saved time, based on that change one of the points
 - (FAQ section) connect with extension, open options page, update text, etc.
 - add another section with new mode o_O
-- visualisation page

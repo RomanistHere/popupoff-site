@@ -6,6 +6,7 @@
 	export let animationDuration;
 
 	$: counter = 0;
+	$: adjustValue(text);
 	let isAnimating = false;
 
 	const randomX = Math.round(Math.random() * 600) - 300;
@@ -22,6 +23,12 @@
 			}
 		};
 		window.requestAnimationFrame(step);
+	};
+
+	const adjustValue = newVal => {
+		if (isAnimating || newVal === counter || !shouldAnimate) return;
+
+		animateValue(counter, newVal, 500);
 	};
 
 	onMount(() => {

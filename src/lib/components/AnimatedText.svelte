@@ -11,7 +11,7 @@
 	const randomX = Math.round(Math.random() * 600) - 300;
 	const randomY = Math.round(Math.random() * 400) - 200;
 
-	const animateValue3 = (start, end, duration) => {
+	const animateValue = (start, end, duration) => {
 		let startTimestamp = null;
 		const step = timestamp => {
 			if (!startTimestamp) startTimestamp = timestamp;
@@ -27,7 +27,7 @@
 	onMount(() => {
 		if (!shouldAnimate) return;
 
-		animateValue3(0, text, animationDuration);
+		animateValue(0, text, animationDuration);
 		isAnimating = true;
 		setTimeout(() => {
 			isAnimating = false;

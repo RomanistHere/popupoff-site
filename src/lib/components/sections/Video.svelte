@@ -2,6 +2,7 @@
 	import { onMount } from "svelte";
 
 	import Spinner from "$lib/components/Spinner.svelte";
+	import VideoElement from "$lib/components/VideoElement.svelte";
 
 	let isYouTube = false;
 	let scrolledEnough = false;
@@ -12,14 +13,17 @@
 			return;
 		}
 
-		const observer = new IntersectionObserver(entries => {
-			const first = entries[0];
-			if (first.isIntersecting) {
-				action();
+		const observer = new IntersectionObserver(
+			entries => {
+				const first = entries[0];
+				if (first.isIntersecting) {
+					action();
 
-				observer.disconnect();
-			}
-		});
+					observer.disconnect();
+				}
+			},
+			{ rootMargin: "1000px 0px" }
+		);
 
 		observer.observe(element);
 	};
@@ -89,21 +93,27 @@
 					allowfullscreen
 				/>
 			{:else if scrolledEnough}
-				<iframe
-					width="860"
-					height="490"
-					src="https://customer-vlbvou0ablsk8yf5.cloudflarestream.com/a767b42bc5d14395ae45d8c23fac6576/iframe?muted=true&autoplay=true&startTime=6s"
-					title="Cloudflare video player"
-					frameborder="0"
-					allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-					allowfullscreen
+				<!--				<iframe-->
+				<!--					width="860"-->
+				<!--					height="490"-->
+				<!--					src="https://customer-vlbvou0ablsk8yf5.cloudflarestream.com/a767b42bc5d14395ae45d8c23fac6576/iframe?muted=true&autoplay=true&startTime=6s"-->
+				<!--					title="Cloudflare video player"-->
+				<!--					frameborder="0"-->
+				<!--					allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"-->
+				<!--					allowfullscreen-->
+				<!--				/>-->
+				<VideoElement
+					src="https://customer-vlbvou0ablsk8yf5.cloudflarestream.com/a767b42bc5d14395ae45d8c23fac6576/manifest/video.m3u8"
 				/>
 			{:else}
 				<div class="max-w-2xl text-xl mt-12">
 					<p class="animation-1 transition-opacity">
 						Sorry to inform that our JavaScript code to show the video didn't work.
-						Currently we can't afford to show you the video without JS.
-						If you're still interested, see the video on <a href="https://www.youtube.com/watch?v=3jTKRCxLyPE" class="underline">YouTube</a>, enable JS or reload page.
+						Currently we can't afford to show you the video without JS. If you're still
+						interested, see the video on <a
+							href="https://www.youtube.com/watch?v=3jTKRCxLyPE"
+							class="underline">YouTube</a
+						>, enable JS or reload page.
 					</p>
 
 					<div class="relative block w-48 h-48 mx-auto">

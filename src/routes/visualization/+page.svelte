@@ -23,13 +23,11 @@
 		initConnection();
 
 		setTimeout(() => {
-			if (state)
-				return;
-			
+			if (state) return;
+
 			initConnection();
 			setTimeout(() => {
-				if (!state)
-					initConnection();
+				if (!state) initConnection();
 			}, 500);
 		}, 500);
 	});

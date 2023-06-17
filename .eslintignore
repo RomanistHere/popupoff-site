@@ -6,6 +6,7 @@ node_modules
 .env-test
 .env.*
 !.env.example
+/src/lib/components/icons
 
 # Ignore files for PNPM, NPM and YARN
 pnpm-lock.yaml

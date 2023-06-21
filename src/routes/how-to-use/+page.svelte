@@ -49,7 +49,7 @@
 		</ul>
 
 		<p class="my-4">
-			Every time you choose a new mode, <strong
+			Every time you choose (click) a new mode, <strong
 				>the extension will remember your choice</strong
 			> for the website and activate it automatically next time you visit this site.
 		</p>

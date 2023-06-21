@@ -72,4 +72,12 @@
 	.text-title {
 		@apply font-logo text-6xl mb-12 text-accent title-shadow -md:text-4xl;
 	}
+
+	.text-article-subtitle {
+		@apply font-bold mb-4 mt-8 text-bright bg-dark inline-block px-4
+	}
+
+	.text-article-title {
+		@apply text-3xl mt-16 mb-8 text-accent font-bold
+	}
 }

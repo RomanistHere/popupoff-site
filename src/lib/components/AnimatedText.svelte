@@ -44,11 +44,11 @@
 
 <span class="relative text-accent font-bold text-5xl">
 	{#if shouldAnimate}
-		<span class="opacity-0">
+		<span class="opacity-0 oldstyle-nums">
 			{Math.round(text)}
 		</span>
 		<span
-			class="absolute bottom-1 left-1 text-center transition-transform duration-1000 z-10"
+			class="absolute bottom-1 left-1 text-center transition-transform duration-1000 z-10 oldstyle-nums"
 			style="transform: translate({isAnimating ? randomX : 0}px, {isAnimating
 				? randomY
 				: 0}px) scale({isAnimating ? 3 : 1})"

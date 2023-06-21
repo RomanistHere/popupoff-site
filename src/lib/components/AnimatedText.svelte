@@ -13,6 +13,9 @@
 	const randomY = Math.round(Math.random() * 400) - 200;
 
 	const animateValue = (start, end, duration) => {
+		if (typeof window === "undefined")
+			return;
+
 		let startTimestamp = null;
 		const step = timestamp => {
 			if (!startTimestamp) startTimestamp = timestamp;

@@ -114,7 +114,7 @@
 		}
 	};
 
-	$: time = secondsToHms(state.cleanedArea * .3);
+	$: time = secondsToHms(state.cleanedArea * 0.3);
 	$: areaInMetres = state.cleanedArea * averageScreenArea;
 	$: areaInFt = state.cleanedArea * averageScreenArea * sqMetresToFt;
 

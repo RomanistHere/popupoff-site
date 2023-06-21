@@ -157,7 +157,13 @@
 					text={areaInMetres.toFixed(1)}
 					shouldAnimate={true}
 					{animationDuration}
-				/> square metres or <AnimatedText text={areaInFt.toFixed(1)} /> square feet
+				/> square metres or
+				<AnimatedText
+					text={areaInFt.toFixed(1)}
+					shouldAnimate={true}
+					{animationDuration}
+				/>
+				square feet
 			</li>
 			<li>
 				Which is <AnimatedText text={getArea(areaInMetres)} />.

@@ -18,7 +18,7 @@
 
 		<ul class="list-disc pl-4 mt-2 mb-4 space-y-2">
 			<li>
-				<strong>Aggressive</strong> removes all sticky elements
+				<strong>Aggressive</strong> removes all sticky elements (overlays, bars, cookies)
 			</li>
 			<li>
 				<strong>Moderate</strong> leaves sticky headers and other useful minor elements
@@ -32,39 +32,58 @@
 			</li>
 		</ul>
 
-		<p class="text-article-subtitle">
-			Don't want to enable PopUpOFF manually for every website?
-		</p>
-
-		<p class="mt-2 mb-4">
-			Go to the settings and set "<strong>Active by default (Automode)</strong>" option to
-			the mode you like. We recommend to test all 3 modes first though, so you have a
-			clear understanding what works best for you.
-		</p>
-
 		<img
 			src="images/popup_explained.png"
 			alt="Extension's popup opened and described."
 			class="block my-12"
 		/>
 
-		<p class="my-4">
-			Congratz, you've completed our tutorial. Keep in mind, that even with automode you
-			will need to adjust its work on certain websites -
-			<strong>"Moderate" is the best mode for most sites, but not for every one</strong>.
+		<p class="text-article-subtitle">
+			Don't want to enable PopUpOFF manually for every website?
+		</p>
+
+		<p class="mt-2 mb-4">
+			Go to the settings and set "<strong>Active by default (Automode)</strong>" option to
+			the mode you like. We recommend testing all 3 modes first though, so you have a
+			clear understanding of what works best for you.
+		</p>
+
+		<p class="text-article-subtitle">
+			You're good to go!
 		</p>
 
 		<p class="my-4">
-			Popups still block content? Try "Aggressive" or "Stationary". Expect a sign in popup
-			but it never appeared, select "Turn OFF" to restore layout. Configure a keyboard
-			shortcut to do it more effective.
+			Congrats, you've completed our tutorial. Keep in mind that even with automode you
+			will need to adjust its work on certain websites -
+			<strong>"Moderate" is the best mode for most sites, but not for all</strong>.
+		</p>
+
+		<p class="my-4">
+			Popups still block content? Try "Aggressive" or "Stationary".
+		</p>
+
+		<p class="my-4">
+			Expect a sign in popup, but it never appears or the website is broken?
+			Select "Turn OFF" to restore the layout.
+		</p>
+
+		<p class="my-4">
+			Configure a keyboard shortcut to do it more effective.
+		</p>
+
+		<p class="my-4">
+			P.S. There is a more
+			<a
+				href="/how-to-use"
+				class="text-link"
+			>
+				detailed guide
+			</a>
+			(2 min) if you want to learn more.
 		</p>
 
 		<p class="mb-12">
-			P.S. There is a more <a
-				href="/how-to-use"
-				class="text-link">detailed guide</a
-			> (2 min) if you want to learn more.
+			P.P.S. Try switching to "Stationary" now to see it work.
 		</p>
 
 		<div class="text-center">

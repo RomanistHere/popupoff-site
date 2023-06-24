@@ -3,7 +3,7 @@
 		<li>
 			<a
 				class="transition-colors border-b-2 border-dark hover:border-accent block p-2 mx-2 hover:text-accent"
-				href="#donate"
+				href="/#donate"
 			>
 				Donate
 			</a>
@@ -11,7 +11,7 @@
 		<li>
 			<a
 				class="transition-colors border-b-2 border-dark hover:border-accent block p-2 mx-2 hover:text-accent"
-				href="#faq"
+				href="/#faq"
 			>
 				FAQ
 			</a>
@@ -27,7 +27,7 @@
 		<li>
 			<a
 				class="transition-colors border-b-2 border-dark hover:border-accent block p-2 mx-2 hover:text-accent"
-				href="#getintouch"
+				href="/#getintouch"
 			>
 				Contact
 			</a>

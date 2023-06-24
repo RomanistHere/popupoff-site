@@ -25,9 +25,11 @@
 			</li>
 		</ul>
 
-		<a
-			href="/"
-			class="underline text-lg block text-center">← Go to main page</a
-		>
+		<div class="text-center">
+			<a
+				href="/"
+				class="text-link text-lg inline-block px-2">← Go to main page</a
+			>
+		</div>
 	</article>
 </main>

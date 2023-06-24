@@ -80,4 +80,8 @@
 	.text-article-title {
 		@apply text-3xl mt-16 mb-8 text-accent font-bold;
 	}
+
+	.text-link {
+		@apply py-0.5 border-b border-dark transition-colors hover:bg-dark hover:text-bright
+	}
 }

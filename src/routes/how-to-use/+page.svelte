@@ -95,7 +95,7 @@
 			If it doesn't work (sometimes you need to reload the page manually a few times),
 			<a
 				href="/submit-issue"
-				class="underline"
+				class="text-link"
 			>
 				send us a request
 			</a>
@@ -182,13 +182,15 @@
 			There's a video being recorded in which we will showcase all the features and how to
 			use them. For now, if you have additional questions, see the <a
 				href="/#faq"
-				class="underline">FAQ</a
+				class="text-link">FAQ</a
 			> section.
 		</p>
 
-		<a
-			href="/"
-			class="underline text-lg block text-center">← Go to main page</a
-		>
+		<div class="text-center">
+			<a
+				href="/"
+				class="text-link text-lg inline-block px-2">← Go to main page</a
+			>
+		</div>
 	</article>
 </main>

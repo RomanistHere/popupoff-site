@@ -95,10 +95,11 @@
 			</form>
 		{/if}
 
-		<a
-			href="/"
-			class="underline text-lg block absolute -bottom-16 left-1/2 -translate-x-1/2"
-			>← Go to main page</a
-		>
+		<div class="text-center absolute -bottom-16 left-1/2 -translate-x-1/2">
+			<a
+				href="/"
+				class="text-link text-lg inline-block px-2">← Go to main page</a
+			>
+		</div>
 	</div>
 </section>

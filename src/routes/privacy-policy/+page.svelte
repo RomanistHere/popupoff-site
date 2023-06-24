@@ -22,7 +22,7 @@
 			<li>
 				[Website only] <a
 					href="https://plausible.io/"
-					class="underline">Privacy friendly</a
+					class="text-link">Privacy friendly</a
 				> analytics.
 			</li>
 		</ul>
@@ -48,12 +48,12 @@
 				Both
 				<a
 					href="https://github.com/RomanistHere/popupoff-site"
-					class="underline">website</a
+					class="text-link">website</a
 				>
 				and
 				<a
 					href="https://github.com/RomanistHere/PopUpOFF"
-					class="underline">extension</a
+					class="text-link">extension</a
 				>
 				are open source, so feel free to make sure we tell the truth here.
 			</li>
@@ -65,9 +65,11 @@
 			</li>
 		</ul>
 
-		<a
-			href="/"
-			class="underline text-lg block text-center">← Go to main page</a
-		>
+		<div class="text-center">
+			<a
+				href="/"
+				class="text-link text-lg inline-block px-2">← Go to main page</a
+			>
+		</div>
 	</article>
 </main>

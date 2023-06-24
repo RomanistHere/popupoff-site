@@ -13,8 +13,7 @@
 	const randomY = Math.round(Math.random() * 400) - 200;
 
 	const animateValue = (start, end, duration) => {
-		if (typeof window === "undefined")
-			return;
+		if (typeof window === "undefined") return;
 
 		let startTimestamp = null;
 		const step = timestamp => {
@@ -45,7 +44,9 @@
 	});
 </script>
 
-<span class="relative text-accent font-bold text-5xl oldstyle-nums slashed-zero tabular-nums">
+<span
+	class="relative text-accent font-bold text-5xl oldstyle-nums slashed-zero tabular-nums"
+>
 	{#if shouldAnimate}
 		<span class="opacity-0">
 			{Math.round(text)}

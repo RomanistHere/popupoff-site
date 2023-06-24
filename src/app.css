@@ -82,6 +82,6 @@
 	}
 
 	.text-link {
-		@apply py-0.5 border-b border-dark transition-colors hover:bg-dark hover:text-bright
+		@apply py-0.5 border-b border-dark transition-colors hover:bg-dark hover:text-bright;
 	}
 }

@@ -1,7 +1,12 @@
 <script>
 	import Nav from "$lib/components/Nav.svelte";
-	// drop-shadow-[0_1px_2px_rgb(255,0,0)]
+	import SEO from "$lib/components/SEO.svelte";
 </script>
+
+<SEO
+	title="PopUpOFF | Tutorial"
+	description="Official PopUpOFF experience tutorial."
+/>
 
 <main class="bg-bright pb-32 text-dark">
 	<Nav />
@@ -79,9 +84,10 @@
 			This is an interactive PopUpOFF tutorial.
 		</h1>
 		<p class="my-4">
-			Learn how to get that famous great PopUpOFF experience. All you need is <strong
-				class="text-accent">30 seconds</strong
-			>.
+			Learn how to get that famous great PopUpOFF experience. All you need is
+			<strong class="text-accent">
+				30 seconds
+			</strong>.
 		</p>
 
 		<img
@@ -100,5 +106,6 @@
 			<li>a) Click the extension's icon at the top and press "Moderate" button</li>
 			<li>b) Right click anywhere on the page, find "PopUpOFF" and choose "Moderate"</li>
 		</ul>
+		<span class="hidden">gister for fre</span>
 	</div>
 </section>

@@ -24,7 +24,7 @@
 				<strong>Moderate</strong> leaves sticky headers and other useful minor elements
 			</li>
 			<li>
-				With the <strong>Stationary</strong> mode popups don't disappear, but moved somewhere
+				With the <strong>Delicate</strong> mode popups don't disappear, but moved somewhere
 				else - usually the top or bottom of the page
 			</li>
 			<li>
@@ -59,7 +59,7 @@
 		</p>
 
 		<p class="my-4">
-			Popups still block content? Try "Aggressive" or "Stationary".
+			Popups still block content? Try "Aggressive" or "Delicate".
 		</p>
 
 		<p class="my-4">
@@ -83,7 +83,7 @@
 		</p>
 
 		<p class="mb-12">
-			P.P.S. Try switching to "Stationary" now to see it work.
+			P.P.S. Try switching to "Delicate" now to see it work.
 		</p>
 
 		<div class="text-center">

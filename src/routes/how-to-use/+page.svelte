@@ -39,7 +39,7 @@
 				<strong>Moderate</strong> leaves sticky headers and other minor elements
 			</li>
 			<li>
-				With the <strong>Stationary</strong> mode popups don't disappear, but moved somewhere
+				With the <strong>Delicate</strong> mode popups don't disappear, but moved somewhere
 				else - usually the top or bottom of the page
 			</li>
 			<li>
@@ -160,7 +160,7 @@
 				article -> quit the site.
 			</li>
 			<li>
-				<strong>"Turn OFF" by default + "Moderate" or "Stationary" on shortcut.</strong>
+				<strong>"Turn OFF" by default + "Moderate" or "Delicate" on shortcut.</strong>
 				Precise blocking. Most of the time don't block anything, when you see annoyances press
 				Ctrl + X.
 			</li>

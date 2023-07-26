@@ -26,6 +26,14 @@
 		</li>
 		<li>
 			<a
+				class="transition-colors border-b-2 border-dark hover:border-accent block p-2 mx-2 hover:text-accent -md:hidden"
+				href="/changelog"
+			>
+				Changelog
+			</a>
+		</li>
+		<li>
+			<a
 				class="transition-colors border-b-2 border-dark hover:border-accent block p-2 mx-2 hover:text-accent"
 				href="/#getintouch"
 			>

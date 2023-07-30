@@ -11,7 +11,7 @@
 	<article class="max-w-2xl py-20 px-8 mx-auto text-lg">
 		<h1 class="text-title text-center mb-20">History of changes</h1>
 
-		<p class="text-article-subtitle">2.1.0 (in progress)</p>
+		<p class="text-article-subtitle">2.1.0</p>
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>New Delicate mode</li>

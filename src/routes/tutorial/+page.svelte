@@ -48,9 +48,7 @@
 			clear understanding of what works best for you.
 		</p>
 
-		<p class="text-article-subtitle">
-			You're good to go!
-		</p>
+		<p class="text-article-subtitle">You're good to go!</p>
 
 		<p class="my-4">
 			Congrats, you've completed our tutorial. Keep in mind that even with automode you
@@ -58,18 +56,14 @@
 			<strong>"Moderate" is the best mode for most sites, but not for all</strong>.
 		</p>
 
-		<p class="my-4">
-			Popups still block content? Try "Aggressive" or "Delicate".
-		</p>
+		<p class="my-4">Popups still block content? Try "Aggressive" or "Delicate".</p>
 
 		<p class="my-4">
-			Expect a sign in popup, but it never appears or the website is broken?
-			Select "Turn OFF" to restore the layout.
+			Expect a sign in popup, but it never appears or the website is broken? Select "Turn
+			OFF" to restore the layout.
 		</p>
 
-		<p class="my-4">
-			Configure a keyboard shortcut to do it more effective.
-		</p>
+		<p class="my-4">Configure a keyboard shortcut to do it more effective.</p>
 
 		<p class="my-4">
 			P.S. There is a more
@@ -82,9 +76,7 @@
 			(2 min) if you want to learn more.
 		</p>
 
-		<p class="mb-12">
-			P.P.S. Try switching to "Delicate" now to see it work.
-		</p>
+		<p class="mb-12">P.P.S. Try switching to "Delicate" now to see it work.</p>
 
 		<div class="text-center">
 			<a
@@ -104,9 +96,7 @@
 		</h1>
 		<p class="my-4">
 			Learn how to get that famous great PopUpOFF experience. All you need is
-			<strong class="text-accent">
-				30 seconds
-			</strong>.
+			<strong class="text-accent"> 30 seconds </strong>.
 		</p>
 
 		<img

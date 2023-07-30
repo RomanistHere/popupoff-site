@@ -150,7 +150,7 @@
 			<li>all information stored locally</li>
 			<li>maintained by individuals, not commerce</li>
 			<li>
-				plain HTML, CSS and JavaScript, {"<"}50 KiB
+				plain HTML, CSS and JavaScript, {"<"}100 KiB
 			</li>
 		</ul>
 	</div>

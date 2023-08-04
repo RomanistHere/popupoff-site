@@ -16,11 +16,11 @@
 		cancel();
 
 		for (const [key, value] of data.entries()) {
-			if (key === "description" && value.length < 9) {
+			if (key === "description" && value.length < 5) {
 				// eslint-disable-next-line no-alert
 				alert("Provide some description to report the issue.");
 				return;
-			} else if (key === "link" && value.length < 9) {
+			} else if (key === "link" && value.length < 4) {
 				// eslint-disable-next-line no-alert
 				alert("'Where happens' field cannot be this short.");
 				return;

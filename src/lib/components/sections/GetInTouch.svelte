@@ -13,7 +13,7 @@
 		cancel();
 
 		for (const [key, value] of data.entries()) {
-			if (key === "message" && value.length < 9) {
+			if (key === "message" && value.length < 5) {
 				// eslint-disable-next-line no-alert
 				alert("Message is too small to send. It'll get lost.");
 				return;

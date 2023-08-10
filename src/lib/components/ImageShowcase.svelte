@@ -21,6 +21,7 @@
 
 <div
 	class="fixed inset-0 bg-black opacity-0 pointer-events-none z-10 transition-opacity duration-1000"
+	data-popupoff="notification"
 	class:opacity-50={isHovered && !$isScrollingStore}
 />
 

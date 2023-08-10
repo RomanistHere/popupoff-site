@@ -175,6 +175,7 @@
 
 	<div
 		class="fixed inset-0 bg-dark opacity-0 pointer-events-none transition-opacity duration-1000"
+		data-popupoff="notification"
 		class:opacity-100={isAnimating}
 	/>
 </section>

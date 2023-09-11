@@ -9,6 +9,25 @@
 	// state: null | "loading" | "success" | "fail"
 	let state = null;
 
+	const reSubmitOnce = async data => {
+		try {
+			const resp = await fetch("/api/intouch/submit", {
+				method: "POST",
+				body: data,
+			});
+
+			const { error } = await resp.json();
+
+			if (!error) {
+				state = "success";
+			} else {
+				state = "fail";
+			}
+		} catch (e) {
+			state = "fail";
+		}
+	};
+
 	const enhanceCallback = async ({ data, cancel }) => {
 		cancel();
 
@@ -32,10 +51,10 @@
 			if (!error) {
 				state = "success";
 			} else {
-				state = "fail";
+				await reSubmitOnce(data);
 			}
 		} catch (e) {
-			state = "fail";
+			await reSubmitOnce(data);
 		}
 	};
 </script>

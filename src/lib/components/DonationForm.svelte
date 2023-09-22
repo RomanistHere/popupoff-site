@@ -1,6 +1,7 @@
 <script>
 	import PrimaryButtonLink from "$lib/components/PrimaryButtonLink.svelte";
 
+	// last update: Sep 22, 2023
 	const options = [
 		{
 			text: "$2.00",
@@ -12,7 +13,7 @@
 			text: "$5.00",
 			linkOneTime: "https://donate.stripe.com/00g6sv09DejG8la7sy",
 			linkSubscribe: "https://buy.stripe.com/7sI9EH2hL5Na1WMdQS",
-			number: 3,
+			number: 7,
 		},
 		{
 			text: "$10.00",
@@ -24,7 +25,7 @@
 			text: "$25.00",
 			linkOneTime: "https://donate.stripe.com/fZecQT6y10sQati28g",
 			linkSubscribe: "https://buy.stripe.com/14k18be0tejGati3cg",
-			number: 3,
+			number: 4,
 		},
 		{
 			text: "Custom",

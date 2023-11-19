@@ -13,22 +13,14 @@
 
 			<ul class="list-disc list-inside">
 				<li class="mb-4">
-					Fair <span class="bg-accent">exchange for the time and stress</span>
+					<span class="bg-accent">Fair exchange for the time and stress</span>
 					the extension has saved you
 				</li>
 				<li class="mb-4">To thank a single guy behind this project</li>
+				<li class="mb-4">To encourage people to make more useful free apps</li>
 				<li class="mb-4">
-					To encourage people to make <span class="bg-accent">more useful free apps</span>
-				</li>
-				<li class="mb-4">
-					Only 5$ monthly will boost speed of fixing bugs on your favorite websites due to
-					dedicated testers we’ll be able to afford on a monthly basis. <span
-						class="bg-accent"
-					>
-						Only 5 bucks from you is enough to turn this amazing extension into a
-						completely flawless app
-					</span>
-					.
+					$2 from you once per month = us having dedicated testers =
+					<span class="bg-accent"> no bugs on your favorite websites </span>
 				</li>
 			</ul>
 		</div>

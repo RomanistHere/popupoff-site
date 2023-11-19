@@ -6,6 +6,7 @@
 	import PrimaryButton from "$lib/components/PrimaryButton.svelte";
 	import Spinner from "$lib/components/Spinner.svelte";
 	import SEO from "$lib/components/SEO.svelte";
+	import { onMount } from "svelte";
 
 	// state: null | "loading" | "success" | "fail"
 	let state = null;
@@ -58,6 +59,13 @@
 			await reSubmitOnce(data);
 		}
 	};
+
+	onMount(() => {
+		const urlParams = new URLSearchParams(window.location.search);
+		const amount = urlParams.get("amount"); // "single" || "multi"
+		const term = urlParams.get("term"); // number or undefined
+		window.history.replaceState(null, "", window.location.pathname);
+	});
 </script>
 
 <SEO
@@ -71,6 +79,9 @@
 
 		<p class="text-basic italic mb-2">
 			I can't emphasize it enough how much I appreciate it!
+		</p>
+		<p class="text-basic italic mb-2 text-white bg-dark inline-block mx-auto px-2">
+			If it weren't for people like you I would have given up ages ago.
 		</p>
 		<p class="text-basic italic mb-12">If you want, add a comment to your donation.</p>
 

@@ -1,35 +1,35 @@
 <script>
 	import PrimaryButtonLink from "$lib/components/PrimaryButtonLink.svelte";
 
-	// last update: Sep 22, 2023
+	// last update: Nov 19, 2023
 	const options = [
 		{
 			text: "$2.00",
-			linkOneTime: "https://donate.stripe.com/7sI4kn5tXejGgRG3ch",
-			linkSubscribe: "https://buy.stripe.com/9AQ7wz7C58ZmcBq145",
-			number: 1,
-		},
-		{
-			text: "$5.00",
-			linkOneTime: "https://donate.stripe.com/00g6sv09DejG8la7sy",
-			linkSubscribe: "https://buy.stripe.com/7sI9EH2hL5Na1WMdQS",
-			number: 7,
-		},
-		{
-			text: "$10.00",
-			linkOneTime: "https://donate.stripe.com/3cs2cf8G9ejGgRG6ov",
-			linkSubscribe: "https://buy.stripe.com/dR69EH5tX2AYeJy9AD",
-			number: 5,
-		},
-		{
-			text: "$25.00",
-			linkOneTime: "https://donate.stripe.com/fZecQT6y10sQati28g",
-			linkSubscribe: "https://buy.stripe.com/14k18be0tejGati3cg",
+			linkOneTime: "https://donate.stripe.com/8wM6qbgJh69F9Xy3cf",
+			linkSubscribe: "https://buy.stripe.com/7sIaGr8cL2XtedOeUZ",
 			number: 4,
 		},
 		{
+			text: "$5.00",
+			linkOneTime: "https://donate.stripe.com/7sI29Vdx555B9XycMN",
+			linkSubscribe: "https://buy.stripe.com/3csaGrct1gOjfhSbIO",
+			number: 9,
+		},
+		{
+			text: "$10.00",
+			linkOneTime: "https://donate.stripe.com/9AQ8yj0Kj9lR2v6002",
+			linkSubscribe: "https://buy.stripe.com/aEUbKv9gP69F9Xy28f",
+			number: 6,
+		},
+		{
+			text: "$25.00",
+			linkOneTime: "https://donate.stripe.com/14k6qbakTeGb3za7sw",
+			linkSubscribe: "https://buy.stripe.com/7sIeWH3WvbtZ3zadQY",
+			number: 6,
+		},
+		{
 			text: "Custom",
-			linkOneTime: "https://donate.stripe.com/9AQ3gjg8B8Zm1WM6oo",
+			linkOneTime: "https://donate.stripe.com/7sIbKv3WveGb3za4gp",
 		},
 	];
 

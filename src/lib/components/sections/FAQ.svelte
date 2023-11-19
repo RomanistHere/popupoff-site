@@ -101,7 +101,7 @@
 				}}
 				shouldShow={state.third}
 			>
-				<p class="block mb-4">This feature is in development.</p>
+				<p class="block mb-4">Yep, you can find export/import on the settings page.</p>
 			</AnswerFAQ>
 
 			<AnswerFAQ

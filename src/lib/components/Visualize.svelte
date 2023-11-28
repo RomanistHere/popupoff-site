@@ -127,11 +127,13 @@
 			isAnimating = false;
 		}, animationDuration);
 
+		/* eslint-disable max-len */
 		console.log(
 			`I could’ve put here some ads or I could’ve sold “anonymised” info but I just don’t value money more than people. I simply enjoy that you guys find something I created useful (sometimes even cool).
 
 			However I’m alone on this journey, and a small $2 donation just once per month would make a whole difference in the world for this little app. I’d be able to hire a dedicated tester to find and fix bugs on your favorite websites, which would give me more opportunities to focus on improvements and new features which you would like even more.`
 		);
+		/* eslint-enable max-len */
 	});
 </script>
 

@@ -31,13 +31,14 @@
 			setTimeout(() => {
 				if (state) return;
 
+				// eslint-disable-next-line max-nested-callbacks
 				setTimeout(() => {
 					if (state) return;
 
 					isConnectionFailed = true;
 				}, 1500);
 			}, 1000);
-		}, 500);
+		}, 1000);
 	});
 
 	onDestroy(() => {

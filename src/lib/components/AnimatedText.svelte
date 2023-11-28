@@ -45,14 +45,14 @@
 </script>
 
 <span
-	class="relative text-accent font-bold text-5xl oldstyle-nums slashed-zero tabular-nums"
+	class="relative text-accent font-bold text-4xl oldstyle-nums slashed-zero tabular-nums"
 >
 	{#if shouldAnimate}
 		<span class="opacity-0">
 			{Math.round(text)}
 		</span>
 		<span
-			class="absolute bottom-1 left-1 text-center transition-transform duration-1000 z-10"
+			class="absolute bottom-0 left-1 text-center transition-transform duration-1000 z-10"
 			style="transform: translate({isAnimating ? randomX : 0}px, {isAnimating
 				? randomY
 				: 0}px) scale({isAnimating ? 3 : 1})"

@@ -22,7 +22,7 @@
 		},
 		3: {
 			size: 0.18,
-			value: "small bathroom mirror",
+			value: "a small bathroom mirror",
 		},
 		4: {
 			size: 0.41,
@@ -50,19 +50,19 @@
 		},
 		10: {
 			size: 307,
-			value: "world's smallest inhabited island",
+			value: "the world's smallest inhabited island",
 		},
 		11: {
 			size: 1250,
-			value: "olympic pool",
+			value: "an olympic-size swimming pool",
 		},
 		12: {
 			size: 10625,
-			value: "regular soccer field",
+			value: "a football pitch (soccer field)",
 		},
 		13: {
 			size: 490000,
-			value: "Vatican City",
+			value: "holy Vatican City",
 		},
 	};
 
@@ -75,8 +75,11 @@
 		const hDisplay = h > 0 ? h + (h === 1 ? " hour, " : " hours, ") : "";
 		const mDisplay = m > 0 ? m + (m === 1 ? " minute, " : " minutes, ") : "";
 		const sDisplay = s > 0 ? s + (s === 1 ? " second" : " seconds") : "";
+		const finalString = hDisplay + mDisplay + sDisplay;
 
-		return hDisplay + mDisplay + sDisplay;
+		return finalString.trim().slice(-1) === ","
+			? finalString.trim().slice(0, -1)
+			: finalString;
 	};
 
 	const setText = (ratio, key) => {
@@ -130,15 +133,17 @@
 	class="min-h-screen py-16 px-8 bg-bright text-dark flex justify-center items-center"
 >
 	<main>
-		<h1 class="text-title text-center">Your stats</h1>
-
-		<ul class="text-2xl tracking-wide text-center mt-12 leading-[4.5rem]">
+		<ul
+			class="text-2xl tracking-wide text-center leading-[3.75rem]"
+			class:max-w-7xl={!getArea(areaInMetres).includes("largest painting")}
+			class:max-w-5xl={getArea(areaInMetres).includes("largest painting")}
+		>
 			<li>
 				<AnimatedText
 					text={state.numbOfItems}
 					shouldAnimate={true}
 					{animationDuration}
-				/> of popups, overlays and other elements removed
+				/> of popups and overlays removed
 			</li>
 			<li>
 				With a total area about
@@ -146,13 +151,10 @@
 					text={state.cleanedArea}
 					shouldAnimate={true}
 					{animationDuration}
-				/> of your screen sizes
+				/> of your screen sizes...
 			</li>
 			<li>
-				Estimated time save is about <AnimatedText text={time ? time : "0 seconds"} />
-			</li>
-			<li>
-				Approximate cleared area is about
+				...and the cleared area about
 				<AnimatedText
 					text={areaInMetres.toFixed(1)}
 					shouldAnimate={true}
@@ -168,9 +170,30 @@
 			<li>
 				Which is <AnimatedText text={getArea(areaInMetres)} />.
 			</li>
+			<li>
+				While estimated time save is about <AnimatedText
+					text={time ? time : "0 seconds"}
+				/>
+			</li>
 		</ul>
 
 		<p class="absolute bottom-8 right-8">No one but you can access your stats</p>
+
+		<!--		<div class="absolute bottom-8 left-8 w-1/4">-->
+		<!--			<p class="mb-2">-->
+		<!--				I could’ve put here some ads or I could’ve sold “anonymised” info but I just don’t-->
+		<!--				value money more than people. I simply enjoy that you guys find something I-->
+		<!--				created useful (sometimes even cool).-->
+		<!--			</p>-->
+
+		<!--			<p>-->
+		<!--				However I’m alone on this journey, and a small $2 donation just once per month-->
+		<!--				would make a whole difference in the world for this little app. I’d be able to-->
+		<!--				hire a dedicated tester to find and fix bugs on your favorite websites, which-->
+		<!--				would give me more opportunities to focus on improvements and new features which-->
+		<!--				you would like even more.-->
+		<!--			</p>-->
+		<!--		</div>-->
 	</main>
 
 	<div

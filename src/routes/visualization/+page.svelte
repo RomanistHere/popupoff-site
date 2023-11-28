@@ -3,8 +3,10 @@
 
 	import SEO from "$lib/components/SEO.svelte";
 	import Visualize from "$lib/components/Visualize.svelte";
+	import Spinner from "$lib/components/Spinner.svelte";
 
 	let state = null;
+	let isConnectionFailed = false;
 
 	const onMessage = ({ detail }) => {
 		state = { ...detail };
@@ -27,8 +29,14 @@
 
 			initConnection();
 			setTimeout(() => {
-				if (!state) initConnection();
-			}, 500);
+				if (state) return;
+
+				setTimeout(() => {
+					if (state) return;
+
+					isConnectionFailed = true;
+				}, 1500);
+			}, 1000);
 		}, 500);
 	});
 
@@ -46,8 +54,30 @@
 
 {#if state}
 	<Visualize {state} />
+{:else if isConnectionFailed}
+	<section class="flex justify-center items-center text-lg text-center min-h-screen">
+		<div>
+			<div class="relative w-28 h-28 inline-block opacity-0">
+				<Spinner />
+			</div>
+			<p>
+				Couldn't connect.
+				<a
+					href="/submit-issue"
+					class="underline"
+				>
+					Contact us
+				</a>
+			</p>
+		</div>
+	</section>
 {:else}
-	<section class="flex justify-center items-center text-xl min-h-screen">
-		Just a usual page (come back when you install PopUpOFF though)
+	<section class="flex justify-center items-center text-lg text-center min-h-screen">
+		<div>
+			<div class="relative w-28 h-28 inline-block">
+				<Spinner />
+			</div>
+			<p>Connecting extension...</p>
+		</div>
 	</section>
 {/if}

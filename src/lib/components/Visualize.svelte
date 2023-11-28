@@ -177,7 +177,15 @@
 			</li>
 		</ul>
 
-		<p class="absolute bottom-8 right-8">No one but you can access your stats</p>
+		<div class="absolute bottom-8 inset-x-0 text-center text-lg">
+			<p class="italic opacity-80">No one but you can access your stats</p>
+			<a
+				class="underline mt-1"
+				href="/#donate"
+			>
+				Support the project
+			</a>
+		</div>
 
 		<!--		<div class="absolute bottom-8 left-8 w-1/4">-->
 		<!--			<p class="mb-2">-->

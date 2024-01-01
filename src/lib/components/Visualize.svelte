@@ -186,13 +186,18 @@
 		</ul>
 
 		<div class="absolute bottom-8 inset-x-0 text-center text-lg">
-			<p class="italic opacity-80">No one but you can access your stats</p>
 			<a
-				class="underline mt-1"
+				class="underline mt-1 italic"
 				href="/#donate"
 			>
-				Support the project
+				Donate.
 			</a>
+			<span class="opacity-80 italic"
+				>It keeps the project running without ads and other nonsense.</span
+			>
+			<p class="italic opacity-80">
+				And yeah... no one but you can access your stats. It is your right.
+			</p>
 		</div>
 
 		<!--		<div class="absolute bottom-8 left-8 w-1/4">-->

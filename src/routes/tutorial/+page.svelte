@@ -102,7 +102,7 @@
 		<img
 			src="/animated/animated-moderate.webp"
 			alt=""
-			class="max-w-3xl mx-auto my-4"
+			class="max-w-3xl mx-auto my-4 w-full"
 			width="720"
 			height="450"
 		/>

@@ -1,13 +1,13 @@
 <script>
 	import PrimaryButtonLink from "$lib/components/PrimaryButtonLink.svelte";
 
-	// last update: Nov 19, 2023
+	// last update: Jan 1, 2024
 	const options = [
 		{
 			text: "$2.00",
 			linkOneTime: "https://donate.stripe.com/8wM6qbgJh69F9Xy3cf",
 			linkSubscribe: "https://buy.stripe.com/7sIaGr8cL2XtedOeUZ",
-			number: 4,
+			number: 5,
 		},
 		{
 			text: "$5.00",
@@ -19,17 +19,21 @@
 			text: "$10.00",
 			linkOneTime: "https://donate.stripe.com/9AQ8yj0Kj9lR2v6002",
 			linkSubscribe: "https://buy.stripe.com/aEUbKv9gP69F9Xy28f",
-			number: 6,
+			number: 8,
 		},
 		{
 			text: "$25.00",
 			linkOneTime: "https://donate.stripe.com/14k6qbakTeGb3za7sw",
 			linkSubscribe: "https://buy.stripe.com/7sIeWH3WvbtZ3zadQY",
-			number: 6,
+			number: 8,
 		},
 		{
 			text: "Custom",
 			linkOneTime: "https://donate.stripe.com/7sIbKv3WveGb3za4gp",
+		},
+		{
+			text: "BTC/ETH",
+			linkOneTime: "/crypto-donation",
 		},
 	];
 

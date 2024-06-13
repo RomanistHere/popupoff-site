@@ -254,8 +254,8 @@
 				shouldShow={state.eleventh}
 			>
 				<p class="block mb-4">
-					<span class="bg-accent">Not yet</span>, but we're researching this topic. Stay
-					in touch!
+					If you use <span class="bg-accent">Firefox on your phone</span>, you can. We are
+					researching other options as well. Stay in touch!
 				</p>
 			</AnswerFAQ>
 		</ul>

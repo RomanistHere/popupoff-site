@@ -131,7 +131,7 @@
 		console.log(
 			`I could’ve put here some ads or I could’ve sold “anonymised” info but I just don’t value money more than people. I simply enjoy that you guys find something I created useful (sometimes even cool).
 
-			However I’m alone on this journey, and a small $2 donation just once per month would make a whole difference in the world for this little app. I’d be able to hire a dedicated tester to find and fix bugs on your favorite websites, which would give me more opportunities to focus on improvements and new features which you would like even more.`
+			However I’m alone on this journey, and a small $1 donation just once per month would make a whole difference in the world for this little app. I’d be able to hire a dedicated tester to find and fix bugs on your favorite websites, which would give me more opportunities to focus on improvements and new features which you would like even more.`
 		);
 		/* eslint-enable max-len */
 	});
@@ -197,22 +197,6 @@
 			</a>
 			<span class="opacity-80 italic">if you think it improves your life.</span>
 		</div>
-
-		<!--		<div class="absolute bottom-8 left-8 w-1/4">-->
-		<!--			<p class="mb-2">-->
-		<!--				I could’ve put here some ads or I could’ve sold “anonymised” info but I just don’t-->
-		<!--				value money more than people. I simply enjoy that you guys find something I-->
-		<!--				created useful (sometimes even cool).-->
-		<!--			</p>-->
-
-		<!--			<p>-->
-		<!--				However I’m alone on this journey, and a small $2 donation just once per month-->
-		<!--				would make a whole difference in the world for this little app. I’d be able to-->
-		<!--				hire a dedicated tester to find and fix bugs on your favorite websites, which-->
-		<!--				would give me more opportunities to focus on improvements and new features which-->
-		<!--				you would like even more.-->
-		<!--			</p>-->
-		<!--		</div>-->
 	</main>
 
 	<div

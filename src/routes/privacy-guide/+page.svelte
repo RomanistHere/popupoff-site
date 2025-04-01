@@ -12,7 +12,7 @@
 		<h1 class="text-title text-center mb-20">Privacy simplified.</h1>
 
 		<p class="my-4">
-			As a creator of privacy related tool, I get asked about other recommendations in
+			As a creator of a privacy related tool, I get asked about other recommendations in
 			this field pretty often by people with different backgrounds and goals. So while for
 			advanced users mentioning ad blockers doesn't make much sense, it can open the whole
 			new world for beginners and people who care (or rather don't) about ads, for example
@@ -35,7 +35,7 @@
 			<li>
 				<strong>uBlock Origin</strong> - the former king of the extensions. I say "former",
 				because it's not going to work in newer Chromium (Chrome-like) browsers soon/anymore.
-				So you can opt our for a light version (which is not that effective), not update your
+				So you can opt out for a light version (which is not that effective), not update your
 				Chromium browser or use a Firefox-based browser instead. Extension itself has no downsides
 				and will prevent many websites from showing you ads and protect your privacy at the
 				same time. 10/10 - never use internet without it!
@@ -52,9 +52,9 @@
 				of privacy is that it skips the step of accepting or declining cookie scripts by just
 				removing the overlay, which basically means that you're "skipping" initialisation of
 				many scripts since cookies and trackers are idling by default. And so PopUpOFF keeps
-				them idling while you can access the website. Downside of course is that it can be
-				too aggressive and break functionality so it's not recommended to use on every website,
-				just on ones you really need help with.
+				them idling while you can access the website. The downside of course is that it can
+				be too aggressive and break functionality so it's not recommended to use on every website,
+				just where you really need its help.
 			</li>
 		</ul>
 
@@ -84,8 +84,8 @@
 				using google because of the tracking and ads - if you in never sign in to any
 				google/facebook services in your browser and use extensions from the section above
 				- it's decent enough for beginner goals while maintaining good search results.
-				Plus if you're using it with VPN in incognito mode - there is very little info it
-				can gather about it.
+				Plus if you're using it with VPN in incognito mode - there is a very little amount
+				of info it can gather.
 			</li>
 		</ul>
 
@@ -170,8 +170,8 @@
 				<strong>Firefox</strong> - the best browser in terms of privacy but might have some
 				issues with user experience, that's why I only recommend it as a second choice. It's
 				a whole different platform beneath (unlike Brave which is a browser based on Chromium
-				with Google's code stripped down) - and it has both pros and cons. Don't take me wrong,
-				I like it and use it every day but your experience might be different from what you
+				with Google's code stripped down) - and it has both pros and cons. Don't get me wrong,
+				I like it and use it every day but your experience might be different from what you're
 				used to, and I would hate to see you drop the whole topic because of it. Any popular
 				Firefox-based browser would be better for privacy than almost any Chromium-based one.
 				Also if you pick Firefox, google something like "firefox privacy settings" to disable
@@ -201,8 +201,8 @@
 			Not using big popular email providers (Apple, Google, Microsoft, etc) is crucial
 			because those companies make money by showing you ads. You can guess how much useful
 			info about you a company can gather from analyzing your personal emails. Do they do
-			it? Short answer: "Yes". Long answer: "Absolutely". So what can you do? Switch to a
-			email that has a different business model.
+			it? Short answer: "Yes". Long answer: "Absolutely". So what can you do? Switch to an
+			email provider that has a different business model.
 		</p>
 
 		<p class="my-4">
@@ -210,7 +210,7 @@
 			<strong>Proton Mail</strong> - because that's what I started using long ago and never
 			looked back. It doesn't mean that there are no alternatives, it's just I think this one
 			is the best. And with proton you can get the whole pack (vpn, calendar, drive, etc) for
-			a better price together with email.
+			a better price.
 		</p>
 
 		<p class="my-4">
@@ -219,7 +219,7 @@
 			aliases. An alias is basically a dummy email that you generate for a specific website.
 			It will forward emails to your main email, thus giving you a possibility to not expose
 			your real personal email to the website. Thus endorsing not only your web privacy but
-			also web security which a whole another topic.
+			also web security which is a whole another topic.
 		</p>
 
 		<p class="text-article-subtitle">Password managers</p>
@@ -234,7 +234,7 @@
 		</p>
 
 		<p class="my-4">
-			<strong>Bitwarden</strong> is also good. <strong>Proton Pass</strong> is decent but lucks
+			<strong>Bitwarden</strong> is also good. <strong>Proton Pass</strong> is decent but lacks
 			certain features yet.
 		</p>
 
@@ -272,6 +272,44 @@
 			other popular free platform can give access to scripts and parsers to gather more
 			information about you so they can sell it later, thus making money on what you
 			thought was private.
+		</p>
+
+		<p class="text-article-subtitle">Messengers</p>
+
+		<p class="my-4">
+			If you read it this far, you should understand by now that your "private" messages
+			are even a better source of information that helps companies track your interests.
+			Direct messages on platforms like Instagram or Facebook are a gold mine for those
+			companies knowledge base about you. And you shouldn't ideally ever send any personal
+			information there.
+		</p>
+
+		<p class="my-4">However there are a few problems with this topic:</p>
+
+		<ul class="list-disc pl-4 my-8 space-y-2">
+			<li>
+				<strong>Limited reach</strong> - sometimes it's not possible to reach a person or business
+				in any other way. Then you kinda don't have any options, do you? What to do? Use it,
+				but be smart about it. And never share any sensitive info (bank card numbers, ID details,
+				etc), which brings us to another problem.
+			</li>
+			<li>
+				<strong>Security</strong> - you can check all the data leaks yourself here. Chances
+				are - if you're using a popular messenger tool - it has leaked in the past.
+			</li>
+		</ul>
+
+		<p class="my-4">
+			The visible solution is to use only encrypted and open source messengers with no
+			history of leaks, but there is another problem. Who are you going to chat with? If
+			you all your family and friends use WhatsApp/Viber or any other popular tool to
+			communicate, you'll find it hard to persuade them to change it.
+		</p>
+
+		<p class="my-4">
+			So the answer is... It's up to you, really. Is privacy worth sacrificing connections
+			with people? I can't say so. But if it's an option, ask a person if they have
+			<strong>Signal</strong> or <strong>Telegram</strong> first.
 		</p>
 
 		<p class="text-article-subtitle">Results</p>
@@ -323,7 +361,7 @@
 				is not much special about it: you'll be able to do the same things you do now,
 				like: use the same browser to do whatever it is you do in your browser, use Steam
 				to play games, watch movies - as far as I'm concerned it's what majority of us do
-				majority of time.
+				most of the time.
 			</li>
 			<li>
 				<strong>Pop OS!</strong>. Very similar to Ubuntu but a bit more customisable and
@@ -338,7 +376,7 @@
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
 				<strong>No support for some programs</strong>. If you use some programs a lot and
-				can't live without them, check (by googling: "is Ubuntu supports [insert my
+				can't live without them, check (by googling: "does Ubuntu supports [insert my
 				program]") if Linux supports it. One example would be Photoshop which can't be
 				simply run on Linux. Though who cares about it nowadays when you can do everything
 				from your browser. Also almost any program will have an open-source and private
@@ -507,7 +545,28 @@
 		<p class="my-4">
 			For any regular person there is no need in this. But of course there are ways to
 			make everything even crazier - as always. There are self-destroying emails and
-			messages.
+			messages, burner phones and apps, proxies and many, many, many other options to
+			eliminate all way to be traced but nothing there is actually of any interest to a
+			regular person.
+		</p>
+
+		<p class="my-4">
+			There are some less important (imo) things that I didn't cover, like health
+			trackers, translators, etc etc - which all contribute to your footprints, and if
+			you're using any tool pretty often, you can always find a better alternative for it
+			just by googling. I however will leave some pointers to other resources which you
+			can gain more knowledge from:
+		</p>
+
+		<ul class="list-disc pl-4 my-8 space-y-2">
+			<li>
+				<strong>privacytools.io</strong> - great collection of resources.
+			</li>
+		</ul>
+
+		<p class="my-4">
+			Hope it was an interesting and useful read, took me some time to write and edit.
+			Have a more private life now, bye!
 		</p>
 
 		<div class="text-center">

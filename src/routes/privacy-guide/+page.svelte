@@ -1,5 +1,7 @@
 <script>
 	import SEO from "$lib/components/SEO.svelte";
+
+	let shouldAllowAffiliateLinks = true;
 </script>
 
 <SEO
@@ -24,6 +26,18 @@
 			Will also share my setup and explain pros and cons of everything. Sounds cool? Let's
 			dive right in!
 		</p>
+
+		<label class="inline-flex items-center cursor-pointer mt-4">
+			<input
+				type="checkbox"
+				bind:checked={shouldAllowAffiliateLinks}
+				class="sr-only peer"
+			/>
+			<div
+				class="relative w-14 h-7 bg-dark peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-accent/50 rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[4px] after:bg-white after:border after:rounded-full after:h-6 after:w-6 after:transition-all peer-checked:bg-accent"
+			/>
+			<span class="ml-4"> Allow affiliate links </span>
+		</label>
 
 		<h2 class="text-article-title">
 			Beginners. Major quality of live improvements with minimal effort.
@@ -151,7 +165,9 @@
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
 				<a
-					href="https://nordvpn.com/"
+					href={shouldAllowAffiliateLinks
+						? "https://go.nordvpn.net/SH9Z9"
+						: "https://nordvpn.com/"}
 					class="text-link"
 				>
 					<strong>NordVPN</strong>
@@ -165,10 +181,12 @@
 			</li>
 			<li>
 				My number 2 option is <a
-					href="https://protonvpn.com/"
+					href={shouldAllowAffiliateLinks
+						? "https://go.getproton.me/SH1U7"
+						: "https://protonvpn.com/"}
 					class="text-link"><strong>ProtonVPN</strong></a
-				>. There are some unpleasant things you can find about proton products, but I
-				still consider them very decent. Plus
+				>. I generally consider Proton products very decent and have a subscription to all
+				ot them. Plus
 				<strong class="bg-accent/20 font-normal">ProtonVPN has a free option</strong> which
 				is probably what I would use if I needed a free VPN - which I can't recommend unless
 				you know what you're doing.
@@ -291,7 +309,9 @@
 		<p class="my-4">
 			There is going to be only one provider that I'll be recommending:
 			<a
-				href="https://proton.me/mail"
+				href={shouldAllowAffiliateLinks
+					? "https://go.getproton.me/SH1U8"
+					: "https://proton.me/mail"}
 				class="text-link"
 			>
 				<strong>Proton Mail</strong>
@@ -311,7 +331,9 @@
 			</a>
 			(or
 			<a
-				href="https://proton.me/pass"
+				href={shouldAllowAffiliateLinks
+					? "https://go.getproton.me/SH1U9"
+					: "https://proton.me/pass"}
 				class="text-link"
 			>
 				<strong>Proton Pass</strong></a
@@ -330,7 +352,9 @@
 			privacy directly, but rather security I'll just mention that it's important to use
 			one and some - like
 			<a
-				href="https://nordpass.com/"
+				href={shouldAllowAffiliateLinks
+					? "https://go.nordpass.io/SH9ZA"
+					: "https://nordpass.com/"}
 				class="text-link"
 			>
 				<strong>NordPass</strong>
@@ -348,7 +372,9 @@
 			</a>
 			is also good.
 			<a
-				href="https://proton.me/pass"
+				href={shouldAllowAffiliateLinks
+					? "https://go.getproton.me/SH1U9"
+					: "https://proton.me/pass"}
 				class="text-link"
 			>
 				<strong>Proton Pass</strong>
@@ -382,7 +408,9 @@
 			</li>
 			<li>
 				<a
-					href="https://proton.me/drive"
+					href={shouldAllowAffiliateLinks
+						? "https://go.getproton.me/SH1U6"
+						: "https://proton.me/drive"}
 					class="text-link"
 				>
 					<strong>Proton Drive</strong>

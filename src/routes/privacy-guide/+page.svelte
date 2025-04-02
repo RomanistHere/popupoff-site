@@ -33,28 +33,33 @@
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
-				<strong>uBlock Origin</strong> - the former king of the extensions. I say "former",
-				because it's not going to work in newer Chromium (Chrome-like) browsers soon/anymore.
-				So you can opt out for a light version (which is not that effective), not update your
-				Chromium browser or use a Firefox-based browser instead. Extension itself has no downsides
-				and will prevent many websites from showing you ads and protect your privacy at the
-				same time. 10/10 - never use internet without it!
+				<strong>uBlock Origin</strong> - the former king of the extensions. I say
+				"former", because it's not going to work in newer Chromium (Chrome-like) browsers
+				soon/anymore. So you can opt out for a light version (which is not that
+				effective), not update your Chromium browser or use a Firefox-based browser
+				instead.
+				<strong class="bg-accent/20 font-normal"
+					>Extension itself has no downsides and will prevent many websites from showing
+					you ads and protect your privacy at the same time</strong
+				>. 10/10 - never use internet without it!
 			</li>
 			<li>
 				<strong>Privacy Badger</strong> - does protect your privacy in slightly different ways
 				from uBlock Origin. Doesn't block ads. Some believe you shouldn't use them together
-				- in my experience it works really well together, encourage you to experiment. No downsides
-				for beginners. We will get back to it in the "advanced" section.
+				- in my experience it works really well in pair, I encourage you to experiment. No
+				downsides for beginners. We will get back to it in the "advanced" section.
 			</li>
 			<li>
-				<strong>PopUpOFF</strong> - ha! My website - my rules. Jokes aside, it's a tool that
-				removes annoying cookie notifications and different popups. What's important in terms
-				of privacy is that it skips the step of accepting or declining cookie scripts by just
-				removing the overlay, which basically means that you're "skipping" initialisation of
-				many scripts since cookies and trackers are idling by default. And so PopUpOFF keeps
-				them idling while you can access the website. The downside of course is that it can
-				be too aggressive and break functionality so it's not recommended to use on every website,
-				just where you really need its help.
+				<strong>PopUpOFF</strong> - ha! My website - my rules. Jokes aside, it's a tool
+				that removes annoying cookie notifications and different popups. What's important
+				in terms of privacy is that it skips the step of accepting or declining cookie
+				scripts by just removing the overlay, which basically means that
+				<strong class="bg-accent/20 font-normal"
+					>you're "skipping" initialisation of many scripts since cookies and trackers are
+					idling by default</strong
+				>. And so PopUpOFF keeps them idling while you can access the website. The
+				downside of course is that it can be too aggressive and break functionality so
+				it's not recommended to use on every website, just where you really need its help.
 			</li>
 		</ul>
 
@@ -73,8 +78,10 @@
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
-				<strong>Kagi.com</strong> - paid engine that searches results better than google by
-				now (which is google's fault partially) and focuses on privacy. I'm one of the early
+				<strong>Kagi.com</strong> - paid engine that
+				<strong class="bg-accent/20 font-normal"
+					>searches results better than google by now</strong
+				> (which is google's fault partially) and focuses on privacy. I'm one of the early
 				adopters and by now I'm using it daily and very happy with the results. Drawbacks:
 				it's paid and that means that you'll have to sign in and connect your card which is
 				not ideal for privacy of the more advanced levels, but is fine for us.
@@ -90,10 +97,11 @@
 		</ul>
 
 		<p class="my-4">
-			You can play with other search engines, like DuckDuckGo, Brave Search, Qwant - but
-			they are not that great in my experience in terms of results + have some privacy
-			related or moral concerns. I used all of them for long time and just couldn't settle
-			there.
+			You can play with other search engines, like DuckDuckGo, Brave Search, Qwant,
+			Startpage - but they are <strong class="bg-accent/20 font-normal"
+				>not that great in my experience in terms of results</strong
+			> + some have privacy or moral related concerns. I used all of them for long time and
+			just couldn't settle there.
 		</p>
 
 		<p class="text-article-subtitle">1 VPN</p>
@@ -107,15 +115,18 @@
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
 				<strong>NordVPN</strong> - you might hear different things about it or consider it
-				too mainstream because everyone advertises it. I am recommending it because I worked
-				there and I trust what I saw. Plus the quality is really good: for all the years I'm
-				using it, I've never had any issues.
+				too mainstream because everyone advertises it. I am recommending it because
+				<strong class="bg-accent/20 font-normal"
+					>I worked there and I trust what I saw</strong
+				>. Plus the quality is really good: for all the years I'm using it, I've never had
+				any issues.
 			</li>
 			<li>
 				My number 2 option is <strong>ProtonVPN</strong>. There are some unpleasant things
 				you can find about proton products, but I still consider them very decent. Plus
-				ProtonVPN has a free option which is probably what I would use if I needed a free
-				VPN - which I can't recommend unless you know what you're doing.
+				<strong class="bg-accent/20 font-normal">ProtonVPN has a free option</strong> which
+				is probably what I would use if I needed a free VPN - which I can't recommend unless
+				you know what you're doing.
 			</li>
 		</ul>
 
@@ -158,25 +169,31 @@
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
-				<strong>Brave</strong> - the first browser I'm going to recommend simply because it
-				looks and works very similar to Chrome or Edge, but does it better in terms or privacy
-				and ad protection. It has some crypto attached to it by default that might alert you,
-				but worry not - all of it can be disabled in the settings and it will become a regular
-				Chrome but better and with a native ad blocker installed by default. You can test it
-				with and without uBlock Origin to see what you prefer more. I use both. Also uBlock
-				Origin is going to be supported after Chrome's support will end.
+				<strong>Brave</strong> - the first browser I'm going to recommend simply because
+				<strong class="bg-accent/20 font-normal"
+					>it looks and works very similar to Chrome or Edge, but does it better in terms
+					or privacy and ad protection</strong
+				>. It has some crypto attached to it by default that might alert you, but worry
+				not - all of it can be disabled in the settings and it will become a regular
+				Chrome but better and with a native ad blocker installed by default. You can test
+				it with and without uBlock Origin to see what you prefer more. I use both. Also
+				uBlock Origin is going to be supported after Chrome's support will end.
 			</li>
 			<li>
-				<strong>Firefox</strong> - the best browser in terms of privacy but might have some
-				issues with user experience, that's why I only recommend it as a second choice. It's
-				a whole different platform beneath (unlike Brave which is a browser based on Chromium
-				with Google's code stripped down) - and it has both pros and cons. Don't get me wrong,
-				I like it and use it every day but your experience might be different from what you're
-				used to, and I would hate to see you drop the whole topic because of it. Any popular
-				Firefox-based browser would be better for privacy than almost any Chromium-based one.
-				Also if you pick Firefox, google something like "firefox privacy settings" to disable
-				a few flags here and there and make it better than by default and install a Facebook
-				container extension that will sandbox facebook related trackers thus limiting its power.
+				<strong>Firefox</strong> - the best browser in terms of privacy but might have
+				some issues with user experience, that's why I only recommend it as a second
+				choice. It's a whole different platform beneath (unlike Brave which is a browser
+				based on Chromium with Google's code stripped down) - and it has both pros and
+				cons. Don't get me wrong, I like it and use it every day but your experience might
+				be different from what you're used to, and I would hate to see you drop the whole
+				topic because of it.
+				<strong class="bg-accent/20 font-normal"
+					>Any popular Firefox-based browser would be better for privacy than almost any
+					Chromium-based one</strong
+				>. Also if you pick Firefox, google something like "firefox privacy settings" to
+				disable a few flags here and there and make it better than by default and install
+				a Facebook container extension that will sandbox facebook related trackers thus
+				limiting its power.
 			</li>
 			<li>
 				<strong>Ungoogled Chromium</strong> - is what I mainly use right now but sadly might
@@ -188,11 +205,13 @@
 		</ul>
 
 		<p class="my-4">
-			I can't recommend any other browser that I know. Vivaldi, Opera, Edge, Yandex and
-			most other popular browsers are closed sources and can be potential privacy threat
-			instead of salvation. Every action you do in the internet can be monitored and
-			recorded by browser - so pick wisely - pick open-source. Firefox is worth taking a
-			plunge for.
+			<strong class="bg-accent/10 font-normal">
+				I can't recommend any other browser that I know. Vivaldi, Opera, Edge, Yandex and
+				most other popular browsers are closed source and can be a potential privacy
+				threat instead of salvation. Every action you do in the internet can be monitored
+				and recorded by browser - so pick wisely - pick open-source. Firefox is worth
+				taking a plunge for.
+			</strong>
 		</p>
 
 		<p class="text-article-subtitle">Email providers</p>
@@ -241,19 +260,21 @@
 		<p class="text-article-subtitle">Cloud drives</p>
 
 		<p class="my-4">
-			This is the last topic for this section and is a complex one because some services
-			offer really strong privacy/encryption, but it often doesn't go very well with
-			convenience and speed so be prepared to sacrifice some bits here.
+			This is one of the last topics for this section and is a complex one because some
+			services offer really strong privacy/encryption, but it often doesn't go very well
+			with convenience and speed so be prepared to sacrifice some bits here.
 		</p>
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
 				<strong>MEGA</strong> - a decent combination of speed, convenience and privacy for
-				pictures and regular stuff. I would not advise to store there important docs, information,
-				private pictures without encrypting them first. But it's a general advise - if you're
-				storing something private - encrypt (archive with password) it first, store password
-				in a password manager and then upload to any cloud storage. This way it's 100% safe
-				even if someone or something can access your data.
+				pictures and regular stuff. I would not advise to store there important docs,
+				information, private pictures without encrypting them first. But it's a general
+				advise -
+				<strong class="bg-accent/20 font-normal"
+					>if you're storing something private - encrypt (archive with password) it first,
+					store password in a password manager and then upload to any cloud storage</strong
+				> This way it's 100% safe even if someone or something can access your data.
 			</li>
 			<li>
 				<strong>Proton Drive</strong> - not the most convenient from a user experience point
@@ -268,20 +289,22 @@
 		</p>
 
 		<p class="my-4">
-			Storing not encrypted "raw" files like pictures and documents on google drive or any
-			other popular free platform can give access to scripts and parsers to gather more
-			information about you so they can sell it later, thus making money on what you
-			thought was private.
+			<strong class="bg-accent/10 font-normal">
+				Storing not encrypted "raw" files like pictures and documents on google drive or
+				any other popular free platform will give access to scripts and parsers to gather
+				more information about you so they can sell it later. Thus making money on what
+				you thought was private.
+			</strong>
 		</p>
 
 		<p class="text-article-subtitle">Messengers</p>
 
 		<p class="my-4">
 			If you read it this far, you should understand by now that your "private" messages
-			are even a better source of information that helps companies track your interests.
-			Direct messages on platforms like Instagram or Facebook are a gold mine for those
-			companies knowledge base about you. And you shouldn't ideally ever send any personal
-			information there.
+			are even a better source of information that helps companies to track your
+			interests. Direct messages on platforms like Instagram or Facebook are a gold mine
+			for those companies knowledge base about you. And you shouldn't ideally ever send
+			any personal information there.
 		</p>
 
 		<p class="my-4">However there are a few problems with this topic:</p>
@@ -289,8 +312,8 @@
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
 				<strong>Limited reach</strong> - sometimes it's not possible to reach a person or business
-				in any other way. Then you kinda don't have any options, do you? What to do? Use it,
-				but be smart about it. And never share any sensitive info (bank card numbers, ID details,
+				in any other way. Then you kinda don't have any options, do you? What to do? Use, but
+				be smart about it. And never share any sensitive info (bank card numbers, ID details,
 				etc), which brings us to another problem.
 			</li>
 			<li>
@@ -308,8 +331,9 @@
 
 		<p class="my-4">
 			So the answer is... It's up to you, really. Is privacy worth sacrificing connections
-			with people? I can't say so. But if it's an option, ask a person if they have
-			<strong>Signal</strong> or <strong>Telegram</strong> first.
+			with people? I can't say so. But if that is an option, prefer
+			<strong>Signal</strong> or <strong>Telegram</strong> first. Those are not ideal but popular
+			enough so you can actually find people who use it and are better than most popular ones.
 		</p>
 
 		<p class="text-article-subtitle">Results</p>
@@ -348,7 +372,7 @@
 		<p class="my-4">
 			Linux is an OS that you can install (or pay someone to do so, sometimes even buy a
 			PC/laptop with the system already) on your device. For simplicity I'll call it a set
-			of different Operation Systems based on the same core technology. These variants are
+			of different Operation Systems based on the same core technology. Those variants are
 			called "distros" or "distributions" and there are many of them - all pursuing
 			different goals. I'm going to recommend 2 of them which I've used most and which are
 			the simplest to live with.
@@ -357,11 +381,12 @@
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
 				<strong>Ubuntu</strong>. Conventionally one of the best beginners distros there
-				are and for a reason: it's easy to get used to after Microsoft or Apple OSs. There
-				is not much special about it: you'll be able to do the same things you do now,
-				like: use the same browser to do whatever it is you do in your browser, use Steam
-				to play games, watch movies - as far as I'm concerned it's what majority of us do
-				most of the time.
+				are and for a reason:
+				<strong class="bg-accent/20 font-normal">it's easy to get used to it</strong> after
+				Microsoft or Apple OSs. There is not much special about it: you'll be able to do the
+				same things you do now, like: use the same browser to do whatever it is you do in your
+				browser, use Steam to play games, watch movies - as far as I'm concerned it's what
+				majority of us do most of the time.
 			</li>
 			<li>
 				<strong>Pop OS!</strong>. Very similar to Ubuntu but a bit more customisable and
@@ -379,9 +404,11 @@
 				can't live without them, check (by googling: "does Ubuntu supports [insert my
 				program]") if Linux supports it. One example would be Photoshop which can't be
 				simply run on Linux. Though who cares about it nowadays when you can do everything
-				from your browser. Also almost any program will have an open-source and private
-				alternative. Though not that fancy and polished of course. Most popular ones are
-				very decent, like LibreOffice for example.
+				from your browser.
+				<strong class="bg-accent/20 font-normal"
+					>Also almost any program will have an open-source and private alternative</strong
+				>. Though not that fancy and polished of course. Most popular ones are very
+				decent, like LibreOffice for example.
 			</li>
 			<li>
 				<strong>Sometimes no visual interface</strong>. It might sound scary, I
@@ -432,8 +459,10 @@
 
 		<p class="my-4">
 			As you might or might not be interested, my setup ends here. It's not about the lack
-			of knowledge. Life is complex and simple the same time. Everything needs balance,
-			including effort, time spent, energy.
+			of knowledge. Life is complex and simple the same time.
+			<strong class="bg-accent/20 font-normal"
+				>Everything needs balance, including effort, time spent, energy.</strong
+			>
 		</p>
 
 		<p class="my-4">
@@ -454,12 +483,14 @@
 		</p>
 
 		<p class="my-4">
-			Sure, I'd have liked a more private way to store pictures but the hardest task if
+			Sure, I'd have liked a more private way to store pictures but the hardest part if
 			making your family use it. And without family why would I need a cloud hosting for
-			pictures in the first place? So there is always a compromise and balance. Remember
-			that while privacy is important, relationships with your family are superior. Don't
-			be angry or spoil relationships because someone refuses to care about privacy as
-			much as you do.
+			pictures in the first place? So there is always a compromise and balance. <strong
+				class="bg-accent/20 font-normal"
+				>Remember that while privacy is important, relationships with your family are
+				superior. Don't be angry or spoil relationships because someone refuses to care
+				about privacy as much as you do.</strong
+			>
 		</p>
 
 		<p class="text-article-subtitle">Custom phone ROMs</p>
@@ -471,12 +502,13 @@
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
-				<strong>GrapheneOS</strong>. Only supports Google Pixel phones. As of now it's
-				considered superior to anything else you could get on the phone. Allows you to
-				sandbox apps so you can safely have Instagram and whatnot installed on your phone
-				and "wrap it in a box", so while the app thinks it has its usual access to
-				everything on your phone (pictures, contacts, etc), it will have zero access to
-				anything.
+				<strong>GrapheneOS</strong>. Only supports Google Pixel phones. As of now
+				<strong class="bg-accent/20 font-normal"
+					>it's considered superior to anything else you could get on the phone</strong
+				>. Allows you to sandbox apps so you can safely have Instagram and whatnot
+				installed on your phone and "wrap it in a box", so while the app thinks it has its
+				usual access to everything on your phone (pictures, contacts, etc), it will have
+				zero access to anything.
 			</li>
 			<li>
 				<strong>LineageOS</strong>. Supports many more devices, should be good generally -
@@ -516,8 +548,9 @@
 			Like that <strong>Privacy Badger</strong> that I mentioned. It doesn't have
 			downsides for beginners, but it might participate in leaving your digital footprint
 			which is not what you want to have at this point. Research everything you use. Most
-			of it is likely to be open-source. <strong>Brave</strong> is not that ideal anymore too.
-			There's been occasion with it affiliate with some services - you can't risk anymore.
+			of it is likely to be open-source. <strong>Brave</strong> is not that great any longer
+			too. There's been an occasion with it affiliating with some services - and you can't
+			risk anymore.
 		</p>
 
 		<p class="text-article-subtitle">Results</p>
@@ -546,7 +579,7 @@
 			For any regular person there is no need in this. But of course there are ways to
 			make everything even crazier - as always. There are self-destroying emails and
 			messages, burner phones and apps, proxies and many, many, many other options to
-			eliminate all way to be traced but nothing there is actually of any interest to a
+			eliminate all ways to be traced but nothing there is actually of any interest to a
 			regular person.
 		</p>
 

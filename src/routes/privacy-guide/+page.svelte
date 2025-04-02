@@ -33,21 +33,31 @@
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
-				<strong>uBlock Origin</strong> - the former king of the extensions. I say
-				"former", because it's not going to work in newer Chromium (Chrome-like) browsers
-				soon/anymore. So you can opt out for a light version (which is not that
-				effective), not update your Chromium browser or use a Firefox-based browser
-				instead.
+				<a
+					href="https://ublockorigin.com/"
+					class="text-link"
+				>
+					<strong>uBlock Origin</strong>
+				</a>
+				- the former king of the extensions. I say "former", because it's not going to work
+				in newer Chromium (Chrome-like) browsers soon/anymore. So you can opt out for a light
+				version (which is not that effective), not update your Chromium browser or use a Firefox-based
+				browser instead.
 				<strong class="bg-accent/20 font-normal"
 					>Extension itself has no downsides and will prevent many websites from showing
 					you ads and protect your privacy at the same time</strong
 				>. 10/10 - never use internet without it!
 			</li>
 			<li>
-				<strong>Privacy Badger</strong> - does protect your privacy in slightly different ways
-				from uBlock Origin. Doesn't block ads. Some believe you shouldn't use them together
-				- in my experience it works really well in pair, I encourage you to experiment. No
-				downsides for beginners. We will get back to it in the "advanced" section.
+				<a
+					href="https://privacybadger.org/"
+					class="text-link"
+				>
+					<strong>Privacy Badger</strong>
+				</a> - does protect your privacy in slightly different ways from uBlock Origin. Doesn't
+				block ads. Some believe you shouldn't use them together - in my experience it works
+				really well in pair, I encourage you to experiment. No downsides for beginners. We
+				will get back to it in the "advanced" section.
 			</li>
 			<li>
 				<strong>PopUpOFF</strong> - ha! My website - my rules. Jokes aside, it's a tool
@@ -64,9 +74,13 @@
 		</ul>
 
 		<p class="my-4">
-			There are of course many other extension that might help you, but they are either do
-			what others here are already doing (like DuckDuckGo Privacy Essentials) or too
-			specific to mention (but nevertheless great and useful) like NoScript.
+			There are of course many other extensions that might help you, but they are either
+			do what others here are already doing (like DuckDuckGo Privacy Essentials) or too
+			specific to mention (but nevertheless great and useful) like
+			<a
+				href="https://noscript.net/"
+				class="text-link">NoScript</a
+			>.
 		</p>
 
 		<p class="text-article-subtitle">2 search engines</p>
@@ -78,7 +92,13 @@
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
-				<strong>Kagi.com</strong> - paid engine that
+				<a
+					href="https://kagi.com/"
+					class="text-link"
+				>
+					<strong>Kagi.com</strong>
+				</a>
+				- paid engine that
 				<strong class="bg-accent/20 font-normal"
 					>searches results better than google by now</strong
 				> (which is google's fault partially) and focuses on privacy. I'm one of the early
@@ -97,8 +117,24 @@
 		</ul>
 
 		<p class="my-4">
-			You can play with other search engines, like DuckDuckGo, Brave Search, Qwant,
-			Startpage - but they are <strong class="bg-accent/20 font-normal"
+			You can play with other search engines, like <a
+				href="https://duckduckgo.com/"
+				class="text-link">DuckDuckGo</a
+			>,
+			<a
+				href="https://search.brave.com/"
+				class="text-link">Brave Search</a
+			>,
+			<a
+				href="https://www.qwant.com/?l=en"
+				class="text-link">Qwant</a
+			>,
+			<a
+				href="https://www.startpage.com/en/"
+				class="text-link">Startpage</a
+			>
+			- but they are
+			<strong class="bg-accent/20 font-normal"
 				>not that great in my experience in terms of results</strong
 			> + some have privacy or moral related concerns. I used all of them for long time and
 			just couldn't settle there.
@@ -114,16 +150,25 @@
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
-				<strong>NordVPN</strong> - you might hear different things about it or consider it
-				too mainstream because everyone advertises it. I am recommending it because
+				<a
+					href="https://nordvpn.com/"
+					class="text-link"
+				>
+					<strong>NordVPN</strong>
+				</a>
+				- you might hear different things about it or consider it too mainstream because everyone
+				advertises it. I am recommending it because
 				<strong class="bg-accent/20 font-normal"
 					>I worked there and I trust what I saw</strong
 				>. Plus the quality is really good: for all the years I'm using it, I've never had
 				any issues.
 			</li>
 			<li>
-				My number 2 option is <strong>ProtonVPN</strong>. There are some unpleasant things
-				you can find about proton products, but I still consider them very decent. Plus
+				My number 2 option is <a
+					href="https://protonvpn.com/"
+					class="text-link"><strong>ProtonVPN</strong></a
+				>. There are some unpleasant things you can find about proton products, but I
+				still consider them very decent. Plus
 				<strong class="bg-accent/20 font-normal">ProtonVPN has a free option</strong> which
 				is probably what I would use if I needed a free VPN - which I can't recommend unless
 				you know what you're doing.
@@ -169,7 +214,13 @@
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
-				<strong>Brave</strong> - the first browser I'm going to recommend simply because
+				<a
+					href="https://brave.com/"
+					class="text-link"
+				>
+					<strong>Brave</strong>
+				</a>
+				- the first browser I'm going to recommend simply because
 				<strong class="bg-accent/20 font-normal"
 					>it looks and works very similar to Chrome or Edge, but does it better in terms
 					or privacy and ad protection</strong
@@ -180,27 +231,40 @@
 				uBlock Origin is going to be supported after Chrome's support will end.
 			</li>
 			<li>
-				<strong>Firefox</strong> - the best browser in terms of privacy but might have
-				some issues with user experience, that's why I only recommend it as a second
-				choice. It's a whole different platform beneath (unlike Brave which is a browser
-				based on Chromium with Google's code stripped down) - and it has both pros and
-				cons. Don't get me wrong, I like it and use it every day but your experience might
-				be different from what you're used to, and I would hate to see you drop the whole
-				topic because of it.
+				<a
+					href="https://www.mozilla.org/en-US/firefox/"
+					class="text-link"
+				>
+					<strong>Firefox</strong>
+				</a>
+				- the best browser in terms of privacy but might have some issues with user experience,
+				that's why I only recommend it as a second choice. It's a whole different platform
+				beneath (unlike Brave which is a browser based on Chromium with Google's code stripped
+				down) - and it has both pros and cons. Don't get me wrong, I like it and use it every
+				day but your experience might be different from what you're used to, and I would hate
+				to see you drop the whole topic because of it.
 				<strong class="bg-accent/20 font-normal"
 					>Any popular Firefox-based browser would be better for privacy than almost any
 					Chromium-based one</strong
 				>. Also if you pick Firefox, google something like "firefox privacy settings" to
 				disable a few flags here and there and make it better than by default and install
-				a Facebook container extension that will sandbox facebook related trackers thus
-				limiting its power.
+				<a
+					href="https://www.mozilla.org/en-US/firefox/facebookcontainer/"
+					class="text-link">a Facebook container extension</a
+				> that will sandbox facebook related trackers thus limiting its power.
 			</li>
 			<li>
-				<strong>Ungoogled Chromium</strong> - is what I mainly use right now but sadly might
-				be dropping (or stop updating - which I already did) soon because newer versions are
-				not going to support extensions like uBlock Origin very soon. Apart from that, it's
-				best from two worlds. It looks and works as regular Chrome but without google's bullshit.
-				Though no sync and installation process makes it less user friendly for beginners.
+				<a
+					href="https://ungoogled-software.github.io/ungoogled-chromium-binaries/"
+					class="text-link"
+				>
+					<strong>Ungoogled Chromium</strong>
+				</a>
+				- is what I mainly use right now but sadly might be dropping (or stop updating - which
+				I already did) soon because newer versions are not going to support extensions like
+				uBlock Origin very soon. Apart from that, it's best from two worlds. It looks and works
+				as regular Chrome but without google's bullshit. Though no sync and installation process
+				makes it less user friendly for beginners.
 			</li>
 		</ul>
 
@@ -226,19 +290,36 @@
 
 		<p class="my-4">
 			There is going to be only one provider that I'll be recommending:
-			<strong>Proton Mail</strong> - because that's what I started using long ago and never
-			looked back. It doesn't mean that there are no alternatives, it's just I think this one
-			is the best. And with proton you can get the whole pack (vpn, calendar, drive, etc) for
-			a better price.
+			<a
+				href="https://proton.me/mail"
+				class="text-link"
+			>
+				<strong>Proton Mail</strong>
+			</a>
+			- because that's what I started using long ago and never looked back. It doesn't mean
+			that there are no alternatives, it's just I think this one is the best. And with proton
+			you can get the whole pack (vpn, calendar, drive, etc) for a better price.
 		</p>
 
 		<p class="my-4">
 			Another thing I really like about Proton Mail and recommend to use is a
-			<strong>Simplelogin</strong> (or Proton Pass) extension that automatically creates email
-			aliases. An alias is basically a dummy email that you generate for a specific website.
-			It will forward emails to your main email, thus giving you a possibility to not expose
-			your real personal email to the website. Thus endorsing not only your web privacy but
-			also web security which is a whole another topic.
+			<a
+				href="https://simplelogin.io/"
+				class="text-link"
+			>
+				<strong>Simplelogin</strong>
+			</a>
+			(or
+			<a
+				href="https://proton.me/pass"
+				class="text-link"
+			>
+				<strong>Proton Pass</strong></a
+			>) extension that automatically creates email aliases. An alias is basically a dummy
+			email that you generate for a specific website. It will forward emails to your main
+			email, thus giving you a possibility to not expose your real personal email to the
+			website. Thus endorsing not only your web privacy but also web security which is a
+			whole another topic.
 		</p>
 
 		<p class="text-article-subtitle">Password managers</p>
@@ -247,14 +328,32 @@
 			This is a complicated topic because many popular password managers had leaks at some
 			point which makes this topic spicy. But since password managers do not influence
 			privacy directly, but rather security I'll just mention that it's important to use
-			one and some - like <strong>NordPass</strong> - have email alias creation function as
-			well that does increase your privacy for reasons I mentioned above. I am using and would
-			recommend NordPass because I worked on it directly and helped to release it.
+			one and some - like
+			<a
+				href="https://nordpass.com/"
+				class="text-link"
+			>
+				<strong>NordPass</strong>
+			</a> - have email alias creation function as well that does increase your privacy for
+			reasons I mentioned above. I am using and would recommend NordPass because I worked on
+			it directly and helped to release it.
 		</p>
 
 		<p class="my-4">
-			<strong>Bitwarden</strong> is also good. <strong>Proton Pass</strong> is decent but lacks
-			certain features yet.
+			<a
+				href="https://bitwarden.com/"
+				class="text-link"
+			>
+				<strong>Bitwarden</strong>
+			</a>
+			is also good.
+			<a
+				href="https://proton.me/pass"
+				class="text-link"
+			>
+				<strong>Proton Pass</strong>
+			</a>
+			is decent but lacks certain features yet.
 		</p>
 
 		<p class="text-article-subtitle">Cloud drives</p>
@@ -267,18 +366,28 @@
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
-				<strong>MEGA</strong> - a decent combination of speed, convenience and privacy for
-				pictures and regular stuff. I would not advise to store there important docs,
-				information, private pictures without encrypting them first. But it's a general
-				advise -
+				<a
+					href="https://mega.io/storage"
+					class="text-link"
+				>
+					<strong>MEGA</strong>
+				</a>
+				- a decent combination of speed, convenience and privacy for pictures and regular stuff.
+				I would not advise to store there important docs, information, private pictures without
+				encrypting them first. But it's a general advise -
 				<strong class="bg-accent/20 font-normal"
 					>if you're storing something private - encrypt (archive with password) it first,
 					store password in a password manager and then upload to any cloud storage</strong
 				> This way it's 100% safe even if someone or something can access your data.
 			</li>
 			<li>
-				<strong>Proton Drive</strong> - not the most convenient from a user experience point
-				of view service, but has much more trust from me in relation to docs and private data.
+				<a
+					href="https://proton.me/drive"
+					class="text-link"
+				>
+					<strong>Proton Drive</strong>
+				</a> - not the most convenient from a user experience point of view service, but has
+				much more trust from me in relation to docs and private data.
 			</li>
 		</ul>
 
@@ -332,8 +441,20 @@
 		<p class="my-4">
 			So the answer is... It's up to you, really. Is privacy worth sacrificing connections
 			with people? I can't say so. But if that is an option, prefer
-			<strong>Signal</strong> or <strong>Telegram</strong> first. Those are not ideal but popular
-			enough so you can actually find people who use it and are better than most popular ones.
+			<a
+				href="https://signal.org/"
+				class="text-link"
+			>
+				<strong>Signal</strong>
+			</a>
+			or
+			<a
+				href="https://telegram.org/"
+				class="text-link"
+			>
+				<strong>Telegram</strong>
+			</a> first. Those are not ideal but popular enough so you can actually find people who
+			use it and are better than most popular ones.
 		</p>
 
 		<p class="text-article-subtitle">Results</p>
@@ -365,7 +486,12 @@
 			more preparation but also more effective.
 		</p>
 
-		<p class="my-4">Anyway, be ready to learn how to install Linux on your MacBook :)</p>
+		<p class="my-4">
+			Anyway, be ready to learn <a
+				href="https://www.reddit.com/r/pop_os/comments/xsylu0/how_to_dual_boot_pop_os_2204_on_macbook_pro_2020/"
+				class="text-link">how to install Linux on your MacBook</a
+			> :)
+		</p>
 
 		<p class="text-article-subtitle">Yes, Linux</p>
 
@@ -380,8 +506,12 @@
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
-				<strong>Ubuntu</strong>. Conventionally one of the best beginners distros there
-				are and for a reason:
+				<a
+					href="https://ubuntu.com/"
+					class="text-link"
+				>
+					<strong>Ubuntu</strong></a
+				>. Conventionally one of the best beginners distros there are and for a reason:
 				<strong class="bg-accent/20 font-normal">it's easy to get used to it</strong> after
 				Microsoft or Apple OSs. There is not much special about it: you'll be able to do the
 				same things you do now, like: use the same browser to do whatever it is you do in your
@@ -389,10 +519,15 @@
 				majority of us do most of the time.
 			</li>
 			<li>
-				<strong>Pop OS!</strong>. Very similar to Ubuntu but a bit more customisable and
-				beautiful by default with a nice community of people who are ready to help each
-				other. Ubuntu has a bigger knowledge base but PopOS is based on Ubuntu so most of
-				the stuff will be exactly the same.
+				<a
+					href="https://system76.com/pop/"
+					class="text-link"
+				>
+					<strong>Pop OS!</strong></a
+				>. Very similar to Ubuntu but a bit more customisable and beautiful by default
+				with a nice community of people who are ready to help each other. Ubuntu has a
+				bigger knowledge base but PopOS is based on Ubuntu so most of the stuff will be
+				exactly the same.
 			</li>
 		</ul>
 
@@ -470,9 +605,11 @@
 			custom ROM on my phone because I barely use it. I don't need to sandbox my
 			apps/browsers/tabs because I'm not using any social networks at all. I've got one
 			entire browser dedicated to google/facebook services I have to use and trust Firefox
-			with a sandboxing extension to do that heavy lifting. I use a dedicated Brave
-			browser for my work profiles with work google account signed in. And I use
-			everything else in a third browser.
+			with <a
+				href="https://www.mozilla.org/en-US/firefox/facebookcontainer/"
+				class="text-link">a sandboxing extension</a
+			> to do that heavy lifting. I use a dedicated Brave browser for my work profiles with
+			work google account signed in. And I use everything else in a third browser.
 		</p>
 
 		<p class="my-4">
@@ -502,7 +639,12 @@
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
-				<strong>GrapheneOS</strong>. Only supports Google Pixel phones. As of now
+				<a
+					href="https://grapheneos.org/"
+					class="text-link"
+				>
+					<strong>GrapheneOS</strong></a
+				>. Only supports Google Pixel phones. As of now
 				<strong class="bg-accent/20 font-normal"
 					>it's considered superior to anything else you could get on the phone</strong
 				>. Allows you to sandbox apps so you can safely have Instagram and whatnot
@@ -511,12 +653,20 @@
 				zero access to anything.
 			</li>
 			<li>
-				<strong>LineageOS</strong>. Supports many more devices, should be good generally -
-				but as a privacy person, I'd get Pixel and install GrapheneOS instead.
+				<a
+					href="https://lineageos.org/"
+					class="text-link"
+				>
+					<strong>LineageOS</strong></a
+				>. Supports many more devices, should be good generally - but as a privacy person,
+				I'd get Pixel and install GrapheneOS instead.
 			</li>
 			<li>
-				<strong>Any Linux based OS</strong>. Privacy: 10/10. Usability: you won't like it.
-				Fun to try on the older phone, but that's about it.
+				<a
+					href="https://itsfoss.com/open-source-alternatives-android/"
+					class="text-link"><strong>Any Linux based OS</strong></a
+				>. Privacy: 10/10. Usability: you won't like it. Fun to try on the older phone,
+				but that's about it.
 			</li>
 		</ul>
 
@@ -524,22 +674,40 @@
 
 		<p class="my-4">
 			Now that you're a master of Linux, you can redo most of the stuff from previous
-			sections but in a more private way. <strong>OpenVPN</strong> for VPN on your own
-			server. <strong>Nextcloud</strong> for cloud storage. <strong>Vaultwarden</strong> for
-			password manager. Do you have to? Sometimes, but not really, though for sure you can
-			and it might fit your goals better. You would need to master web security to make sure
-			it's all secure.
+			sections but in a more private way. <a
+				href="https://openvpn.net/"
+				class="text-link"><strong>OpenVPN</strong></a
+			>
+			for VPN on your own server.
+			<a
+				href="https://nextcloud.com/"
+				class="text-link"><strong>Nextcloud</strong></a
+			>
+			for cloud storage.
+			<strong>Vaultwarden</strong> for password manager. Do you have to? Sometimes, but not
+			really, though for sure you can and it might fit your goals better. You would need to
+			master web security to make sure it's all secure.
 		</p>
 
 		<p class="text-article-subtitle">Going offline</p>
 
 		<p class="my-4">
-			Using that <strong>LibreOffice</strong> app instead of Google docs on Linux. In rare
-			situations where you need something to be hosted and edited online - for example
-			sharing or collaborating with other people, use services like
-			<strong>CryptPad</strong>. No one except for you is likely to enjoy it. Save your
-			data on encrypted hard drives.
-			<strong>VeraCrypt</strong> is a default choice.
+			Using that <a
+				href="https://www.libreoffice.org/"
+				class="text-link"><strong>LibreOffice</strong></a
+			>
+			app instead of Google docs on Linux. In rare situations where you need something to be
+			hosted and edited online - for example sharing or collaborating with other people, use
+			services like
+			<a
+				href="https://cryptpad.org/"
+				class="text-link"><strong>CryptPad</strong></a
+			>. No one except for you is likely to enjoy it. Save your data on encrypted hard
+			drives.
+			<a
+				href="https://veracrypt.eu/en/"
+				class="text-link"><strong>VeraCrypt</strong></a
+			> is a default choice.
 		</p>
 
 		<p class="text-article-subtitle">Care more about tools you use</p>
@@ -593,7 +761,10 @@
 
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
-				<strong>privacytools.io</strong> - great collection of resources.
+				<a
+					href="https://www.privacytools.io/"
+					class="text-link"><strong>privacytools.io</strong></a
+				> - great collection of resources.
 			</li>
 		</ul>
 

@@ -53,6 +53,7 @@
 				<a
 					href="https://ublockorigin.com/"
 					class="text-link"
+					target="_blank"
 				>
 					<strong>uBlock Origin</strong>
 				</a>
@@ -69,6 +70,7 @@
 				<a
 					href="https://privacybadger.org/"
 					class="text-link"
+					target="_blank"
 				>
 					<strong>Privacy Badger</strong>
 				</a> - does protect your privacy in slightly different ways from uBlock Origin. Doesn't
@@ -77,10 +79,14 @@
 				will get back to it in the "advanced" section.
 			</li>
 			<li>
-				<strong>PopUpOFF</strong> - ha! My website - my rules. Jokes aside, it's a tool
-				that removes annoying cookie notifications and different popups. What's important
-				in terms of privacy is that it skips the step of accepting or declining cookie
-				scripts by just removing the overlay, which basically means that
+				<a
+					href="/"
+					class="text-link"><strong>PopUpOFF</strong></a
+				>
+				- ha! My website - my rules. Jokes aside, it's a tool that removes annoying cookie
+				notifications and different popups. What's important in terms of privacy is that it
+				skips the step of accepting or declining cookie scripts by just removing the overlay,
+				which basically means that
 				<strong class="bg-accent/20 font-normal"
 					>you're "skipping" initialisation of many scripts since cookies and trackers are
 					idling by default</strong
@@ -96,7 +102,8 @@
 			specific to mention (but nevertheless great and useful) like
 			<a
 				href="https://noscript.net/"
-				class="text-link">NoScript</a
+				class="text-link"
+				target="_blank">NoScript</a
 			>.
 		</p>
 
@@ -112,6 +119,7 @@
 				<a
 					href="https://kagi.com/"
 					class="text-link"
+					target="_blank"
 				>
 					<strong>Kagi.com</strong>
 				</a>
@@ -136,19 +144,23 @@
 		<p class="my-4">
 			You can play with other search engines, like <a
 				href="https://duckduckgo.com/"
-				class="text-link">DuckDuckGo</a
+				class="text-link"
+				target="_blank">DuckDuckGo</a
 			>,
 			<a
 				href="https://search.brave.com/"
-				class="text-link">Brave Search</a
+				class="text-link"
+				target="_blank">Brave Search</a
 			>,
 			<a
 				href="https://www.qwant.com/?l=en"
-				class="text-link">Qwant</a
+				class="text-link"
+				target="_blank">Qwant</a
 			>,
 			<a
 				href="https://www.startpage.com/en/"
-				class="text-link">Startpage</a
+				class="text-link"
+				target="_blank">Startpage</a
 			>
 			- but they are
 			<strong class="bg-accent/20 font-normal"
@@ -172,6 +184,7 @@
 						? "https://go.nordvpn.net/SH9Z9"
 						: "https://nordvpn.com/"}
 					class="text-link"
+					target="_blank"
 				>
 					<strong>NordVPN</strong>
 				</a>
@@ -187,7 +200,8 @@
 					href={shouldAllowAffiliateLinks
 						? "https://go.getproton.me/SH1U7"
 						: "https://protonvpn.com/"}
-					class="text-link"><strong>ProtonVPN</strong></a
+					class="text-link"
+					target="_blank"><strong>ProtonVPN</strong></a
 				>. I generally consider Proton products very decent and have a subscription to all
 				ot them. Plus
 				<strong class="bg-accent/20 font-normal">ProtonVPN has a free option</strong> which
@@ -238,6 +252,7 @@
 				<a
 					href="https://brave.com/"
 					class="text-link"
+					target="_blank"
 				>
 					<strong>Brave</strong>
 				</a>
@@ -255,6 +270,7 @@
 				<a
 					href="https://www.mozilla.org/en-US/firefox/"
 					class="text-link"
+					target="_blank"
 				>
 					<strong>Firefox</strong>
 				</a>
@@ -271,13 +287,15 @@
 				disable a few flags here and there and make it better than by default and install
 				<a
 					href="https://www.mozilla.org/en-US/firefox/facebookcontainer/"
-					class="text-link">a Facebook container extension</a
+					class="text-link"
+					target="_blank">a Facebook container extension</a
 				> that will sandbox facebook related trackers thus limiting its power.
 			</li>
 			<li>
 				<a
 					href="https://ungoogled-software.github.io/ungoogled-chromium-binaries/"
 					class="text-link"
+					target="_blank"
 				>
 					<strong>Ungoogled Chromium</strong>
 				</a>
@@ -316,6 +334,7 @@
 					? "https://go.getproton.me/SH1U8"
 					: "https://proton.me/mail"}
 				class="text-link"
+				target="_blank"
 			>
 				<strong>Proton Mail</strong>
 			</a>
@@ -329,6 +348,7 @@
 			<a
 				href="https://simplelogin.io/"
 				class="text-link"
+				target="_blank"
 			>
 				<strong>Simplelogin</strong>
 			</a>
@@ -338,6 +358,7 @@
 					? "https://go.getproton.me/SH1U9"
 					: "https://proton.me/pass"}
 				class="text-link"
+				target="_blank"
 			>
 				<strong>Proton Pass</strong></a
 			>) extension that automatically creates email aliases. An alias is basically a dummy
@@ -359,6 +380,7 @@
 					? "https://go.nordpass.io/SH9ZA"
 					: "https://nordpass.com/"}
 				class="text-link"
+				target="_blank"
 			>
 				<strong>NordPass</strong>
 			</a> - have email alias creation function as well that does increase your privacy for
@@ -370,6 +392,7 @@
 			<a
 				href="https://bitwarden.com/"
 				class="text-link"
+				target="_blank"
 			>
 				<strong>Bitwarden</strong>
 			</a>
@@ -379,6 +402,7 @@
 					? "https://go.getproton.me/SH1U9"
 					: "https://proton.me/pass"}
 				class="text-link"
+				target="_blank"
 			>
 				<strong>Proton Pass</strong>
 			</a>
@@ -398,6 +422,7 @@
 				<a
 					href="https://mega.io/storage"
 					class="text-link"
+					target="_blank"
 				>
 					<strong>MEGA</strong>
 				</a>
@@ -415,6 +440,7 @@
 						? "https://go.getproton.me/SH1U6"
 						: "https://proton.me/drive"}
 					class="text-link"
+					target="_blank"
 				>
 					<strong>Proton Drive</strong>
 				</a> - not the most convenient from a user experience point of view service, but has
@@ -471,10 +497,11 @@
 
 		<p class="my-4">
 			So the answer is... It's up to you, really. Is privacy worth sacrificing connections
-			with people? I can't say so. But if that is an option, prefer
+			with people? I can't say so. But if that is an option, prefer to ask for
 			<a
 				href="https://signal.org/"
 				class="text-link"
+				target="_blank"
 			>
 				<strong>Signal</strong>
 			</a>
@@ -482,10 +509,11 @@
 			<a
 				href="https://telegram.org/"
 				class="text-link"
+				target="_blank"
 			>
 				<strong>Telegram</strong>
-			</a> first. Those are not ideal but popular enough so you can actually find people who
-			use it and are better than most popular ones.
+			</a> first. Those are not ideal but popular enough so you can actually find regular people
+			who use it and they are better than more popular ones.
 		</p>
 
 		<p class="text-article-subtitle">Results</p>
@@ -520,7 +548,8 @@
 		<p class="my-4">
 			Anyway, be ready to learn <a
 				href="https://www.reddit.com/r/pop_os/comments/xsylu0/how_to_dual_boot_pop_os_2204_on_macbook_pro_2020/"
-				class="text-link">how to install Linux on your MacBook</a
+				class="text-link"
+				target="_blank">how to install Linux on your MacBook</a
 			> :)
 		</p>
 
@@ -540,6 +569,7 @@
 				<a
 					href="https://ubuntu.com/"
 					class="text-link"
+					target="_blank"
 				>
 					<strong>Ubuntu</strong></a
 				>. Conventionally one of the best beginners distros there are and for a reason:
@@ -553,6 +583,7 @@
 				<a
 					href="https://system76.com/pop/"
 					class="text-link"
+					target="_blank"
 				>
 					<strong>Pop OS!</strong></a
 				>. Very similar to Ubuntu but a bit more customisable and beautiful by default
@@ -638,7 +669,8 @@
 			entire browser dedicated to google/facebook services I have to use and trust Firefox
 			with <a
 				href="https://www.mozilla.org/en-US/firefox/facebookcontainer/"
-				class="text-link">a sandboxing extension</a
+				class="text-link"
+				target="_blank">a sandboxing extension</a
 			> to do that heavy lifting. I use a dedicated Brave browser for my work profiles with
 			work google account signed in. And I use everything else in a third browser.
 		</p>
@@ -673,6 +705,7 @@
 				<a
 					href="https://grapheneos.org/"
 					class="text-link"
+					target="_blank"
 				>
 					<strong>GrapheneOS</strong></a
 				>. Only supports Google Pixel phones. As of now
@@ -687,6 +720,7 @@
 				<a
 					href="https://lineageos.org/"
 					class="text-link"
+					target="_blank"
 				>
 					<strong>LineageOS</strong></a
 				>. Supports many more devices, should be good generally - but as a privacy person,
@@ -695,7 +729,8 @@
 			<li>
 				<a
 					href="https://itsfoss.com/open-source-alternatives-android/"
-					class="text-link"><strong>Any Linux based OS</strong></a
+					class="text-link"
+					target="_blank"><strong>Any Linux based OS</strong></a
 				>. Privacy: 10/10. Usability: you won't like it. Fun to try on the older phone,
 				but that's about it.
 			</li>
@@ -707,49 +742,99 @@
 			Now that you're a master of Linux, you can redo most of the stuff from previous
 			sections but in a more private way. <a
 				href="https://openvpn.net/"
-				class="text-link"><strong>OpenVPN</strong></a
+				class="text-link"
+				target="_blank"><strong>OpenVPN</strong></a
 			>
 			for VPN on your own server.
 			<a
 				href="https://nextcloud.com/"
-				class="text-link"><strong>Nextcloud</strong></a
+				class="text-link"
+				target="_blank"><strong>Nextcloud</strong></a
 			>
 			for cloud storage.
-			<strong>Vaultwarden</strong> for password manager. Do you have to? Sometimes, but not
-			really, though for sure you can and it might fit your goals better. You would need to
-			master web security to make sure it's all secure.
+			<a
+				href="https://www.passbolt.com/"
+				class="text-link"
+				target="_blank"><strong>Passbolt</strong></a
+			>
+			for password manager. Do you have to? Sometimes, but not really, though for sure you
+			can and it might fit your goals better. Plus you would need to master web security to
+			make sure it's all secure.
 		</p>
 
 		<p class="text-article-subtitle">Going offline</p>
 
 		<p class="my-4">
-			Using that <a
+			<a
 				href="https://www.libreoffice.org/"
-				class="text-link"><strong>LibreOffice</strong></a
+				class="text-link"
+				target="_blank"><strong>LibreOffice</strong></a
 			>
-			app instead of Google docs on Linux. In rare situations where you need something to be
-			hosted and edited online - for example sharing or collaborating with other people, use
-			services like
+			package instead of Google/Microsoft docs on Linux. In rare situations where you need
+			something to be hosted and edited online - for example sharing or collaborating with
+			other people - you can use encrypted services like
 			<a
 				href="https://cryptpad.org/"
-				class="text-link"><strong>CryptPad</strong></a
-			>. No one except for you is likely to enjoy it. Save your data on encrypted hard
-			drives.
+				class="text-link"
+				target="_blank"><strong>CryptPad</strong></a
+			>. No one except for you is likely to enjoy it, but that's the price for privacy.
+			Saving your data on encrypted hard drives is much more private by default,
+			especially with encryption.
 			<a
 				href="https://veracrypt.eu/en/"
-				class="text-link"><strong>VeraCrypt</strong></a
-			> is a default choice.
+				class="text-link"
+				target="_blank"><strong>VeraCrypt</strong></a
+			> is a default choice that.
+		</p>
+
+		<p class="my-4">
+			As you can see it all comes with a price of convenience. You can't show your
+			vacation pictures from your phone any time anymore because you have your hard drive
+			hidden at home. And if you lose/forget your password, all data will be gone.
 		</p>
 
 		<p class="text-article-subtitle">Care more about tools you use</p>
 
 		<p class="my-4">
-			Like that <strong>Privacy Badger</strong> that I mentioned. It doesn't have
-			downsides for beginners, but it might participate in leaving your digital footprint
-			which is not what you want to have at this point. Research everything you use. Most
-			of it is likely to be open-source. <strong>Brave</strong> is not that great any longer
-			too. There's been an occasion with it affiliating with some services - and you can't
-			risk anymore.
+			Like that <strong>Privacy Badger</strong> that I mentioned. It doesn't have downsides
+			for beginners, but it might participate in leaving your digital footprint which is not
+			what you want to have at this point.
+		</p>
+
+		<p class="my-4">
+			By now you should understand how privacy "works". Almost anything that you use: <a
+				href="https://www.consumerreports.org/electronics/privacy/smart-appliances-and-privacy-a1186358482/"
+				class="text-link"
+				target="_blank"
+				>smart speaker/clock, robot vacuum, doorbell camera, TV, game console, smart
+				fridge</a
+			>,
+			<a
+				href="https://foundation.mozilla.org/en/blog/privacy-nightmare-on-wheels-every-car-brand-reviewed-by-mozilla-including-ford-volkswagen-and-toyota-flunks-privacy-test/"
+				class="text-link"
+				target="_blank">car</a
+			>
+			- everything that has access to your information can be collecting it. And since "it"
+			has your data anyway, its company might as well sell it since the majority of users wouldn't
+			care about it anyway. Besides it also possesses a huge
+			<a
+				href="https://www.housebeautiful.com/lifestyle/a62455472/dangers-risks-of-using-smart-appliances-devices/"
+				class="text-link"
+				target="_blank">security risk</a
+			>.
+		</p>
+
+		<p class="my-4">
+			<strong class="bg-accent/20 font-normal"
+				>Research everything you use. Most of privacy-friendly tools are likely to be
+				open-source, but it doesn't guarantee</strong
+			>
+			it's going to respect your privacy just yet. For example <strong>Brave</strong> had
+			<a
+				href="https://www.tomsguide.com/news/brave-affiliate-links-autocomplete"
+				class="text-link"
+				target="_blank">an occasion</a
+			> with affiliate links for some services - even though it is open-source.
 		</p>
 
 		<p class="text-article-subtitle">Results</p>
@@ -761,14 +846,26 @@
 				<strong>Fun</strong> if you're into it.
 			</li>
 			<li>
-				<strong>Stink eyes</strong> from people you're talking about regular things like posting
-				pictures in social networks.
+				<strong>Stink eyes</strong> from people you're talking to about everyday things like
+				posting pictures in social networks.
 			</li>
 			<li>
-				<strong>To have an opportunity to be invisible</strong> in the internet. Like that
+				Probably even stronger <strong>web security</strong>. I'm saying probably because
+				you need some knowledge in that area to make things better than companies, but
+				again, don't overestimate companies. There is no need to even hack someone, on
+				many occasions employees are just not careful enough that they
+				<a
+					href="https://gizmodo.com/chatgpt-ai-samsung-employees-leak-data-1850307376"
+					class="text-link"
+					target="_blank">can leak sensitive info</a
+				> by themselves. Plus again, just having Linux on your device will protect you much
+				better than Microsoft ever.
+			</li>
+			<li>
+				<strong>To have a rare opportunity to be invisible</strong> in the internet. Like that
 				special agent in a movie who was thought to be dead 30 years but is still alive and
 				now is going for revenge. Except in the internet instead. And no revenge. And no one
-				cares.
+				generally cares.
 			</li>
 		</ul>
 
@@ -779,7 +876,8 @@
 			make everything even crazier - as always. There are self-destroying emails and
 			messages, burner phones and apps, proxies and many, many, many other options to
 			eliminate all ways to be traced but nothing there is actually of any interest to a
-			regular person.
+			regular person simply because convenience goes down into a negative field and pretty
+			far.
 		</p>
 
 		<p class="my-4">
@@ -793,15 +891,45 @@
 		<ul class="list-disc pl-4 my-8 space-y-2">
 			<li>
 				<a
-					href="https://www.privacytools.io/"
-					class="text-link"><strong>privacytools.io</strong></a
+					href="https://www.privacyguides.org/en/tools/"
+					class="text-link"
+					target="_blank"><strong>privacyguides.org</strong></a
 				> - great collection of resources.
+			</li>
+			<li>
+				<a
+					href="https://www.privacytools.io/"
+					class="text-link"
+					target="_blank"><strong>privacytools.io</strong></a
+				> - another great collection.
+			</li>
+			<li>
+				<a
+					href="https://www.reddit.com/r/privacy/top/?t=all"
+					class="text-link"
+					target="_blank"><strong>r/privacy</strong></a
+				> - subreddit with answers to all the questions you can imagine.
+			</li>
+			<li>
+				<a
+					href="https://nomoregoogle.com/"
+					class="text-link"
+					target="_blank"><strong>nomoregoogle.com</strong></a
+				> - google alternatives.
+			</li>
+			<li>
+				<a
+					href="https://www.reddit.com/r/degoogle/top/?t=all"
+					class="text-link"
+					target="_blank"><strong>r/degoogle</strong></a
+				> - subreddit dedicated to "degoogling".
 			</li>
 		</ul>
 
 		<p class="my-4">
-			Hope it was an interesting and useful read, took me some time to write and edit.
-			Have a more private life now, bye!
+			Hope it was an interesting and useful read, took me some time to write and edit. Let
+			me know if you'd like to read my view on <strong>web security</strong>. Have a more
+			private life now, bye!
 		</p>
 
 		<div class="text-center">

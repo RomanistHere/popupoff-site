@@ -178,12 +178,24 @@
 
 		<p class="text-article-subtitle">Afterword</p>
 
-		<p class="my-4 mb-16">
+		<p class="my-4">
 			There's a video being recorded in which we will showcase all the features and how to
 			use them. For now, if you have additional questions, see the <a
 				href="/#faq"
 				class="text-link">FAQ</a
 			> section.
+		</p>
+
+		<p class="my-4 mb-16">
+			There is <strong
+				><a
+					href="/privacy-guide"
+					class="text-link"
+				>
+					a privacy guide
+				</a> for all levels</strong
+			> that we carefully prepared. It can help you start your journey into a better world.
+			Reading part for beginners is highly recommended.
 		</p>
 
 		<div class="text-center">

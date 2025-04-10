@@ -76,7 +76,16 @@
 			(2 min) if you want to learn more.
 		</p>
 
-		<p class="mb-12">P.P.S. Try switching to "Delicate" now to see it work.</p>
+		<p class="my-4">P.P.S. Try switching to "Delicate" now to see it work.</p>
+
+		<p class="mb-12">
+			P.P.P.S. <a
+				href="/privacy-guide"
+				class="text-link"
+			>
+				Learn more
+			</a> about the privacy matter.
+		</p>
 
 		<div class="text-center">
 			<a

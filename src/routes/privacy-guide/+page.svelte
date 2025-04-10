@@ -926,7 +926,7 @@
 			</li>
 		</ul>
 
-		<p class="my-4">
+		<p class="my-4 mb-16">
 			Hope it was an interesting and useful read, took me some time to write and edit. Let
 			me know if you'd like to read my view on <strong>web security</strong>. Have a more
 			private life now, bye!

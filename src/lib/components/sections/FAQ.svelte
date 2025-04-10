@@ -114,6 +114,10 @@
 				<p class="block mb-4">
 					PopUpOFF <span class="bg-accent">does not block trackers</span>
 					, cookies or any other privacy related scripts. Its only goal is to remove overlays.
+					<a
+						href="/privacy-guide"
+						class="underline">Learn more about privacy</a
+					>
 				</p>
 				<p class="block mb-4">
 					We recommend to <span class="bg-accent">
@@ -226,6 +230,10 @@
 					</span>
 					, so you're free to check if we collect anything yourself. And without collecting
 					we can't really sell anything, can we? Proof enough.
+					<a
+						href="/privacy-guide"
+						class="underline">We are actually protecting your privacy</a
+					>.
 				</p>
 			</AnswerFAQ>
 
@@ -254,8 +262,8 @@
 				shouldShow={state.eleventh}
 			>
 				<p class="block mb-4">
-					If you use <span class="bg-accent">Firefox on your phone</span>, you can. We are
-					researching other options as well. Stay in touch!
+					If you're using <span class="bg-accent">Firefox on your phone</span>, you can.
+					We are researching other options as well. Stay in touch!
 				</p>
 			</AnswerFAQ>
 		</ul>

@@ -1,31 +1,31 @@
 <script>
 	import PrimaryButtonLink from "$lib/components/PrimaryButtonLink.svelte";
 
-	// last update: Jan 1, 2024
+	// last update: April 9, 2025
 	const options = [
 		{
 			text: "$2.00",
 			linkOneTime: "https://donate.stripe.com/8wM6qbgJh69F9Xy3cf",
 			linkSubscribe: "https://buy.stripe.com/7sIaGr8cL2XtedOeUZ",
-			number: 5,
+			number: 15,
 		},
 		{
 			text: "$5.00",
 			linkOneTime: "https://donate.stripe.com/7sI29Vdx555B9XycMN",
 			linkSubscribe: "https://buy.stripe.com/3csaGrct1gOjfhSbIO",
-			number: 9,
+			number: 16,
 		},
 		{
 			text: "$10.00",
 			linkOneTime: "https://donate.stripe.com/9AQ8yj0Kj9lR2v6002",
 			linkSubscribe: "https://buy.stripe.com/aEUbKv9gP69F9Xy28f",
-			number: 8,
+			number: 17,
 		},
 		{
 			text: "$25.00",
 			linkOneTime: "https://donate.stripe.com/14k6qbakTeGb3za7sw",
 			linkSubscribe: "https://buy.stripe.com/7sIeWH3WvbtZ3zadQY",
-			number: 8,
+			number: 12,
 		},
 		{
 			text: "Custom",

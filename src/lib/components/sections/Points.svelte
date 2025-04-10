@@ -152,6 +152,15 @@
 			<li>
 				plain HTML, CSS and JavaScript, {"<"}100 KiB
 			</li>
+			<li>
+				read
+				<a
+					href="/privacy-guide"
+					class="underline transition-colors hover:bg-dark hover:no-underline hover:text-bright"
+				>
+					our take on your privacy
+				</a>
+			</li>
 		</ul>
 	</div>
 </section>

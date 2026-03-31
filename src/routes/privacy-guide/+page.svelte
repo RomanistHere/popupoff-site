@@ -14,7 +14,11 @@
 		<h1 class="text-title text-center mb-20">Privacy simplified.</h1>
 
 		<p class="my-4">
-			As a creator of a privacy related tool, I get asked about other recommendations in
+			As a creator of a privacy related tool and a founder of a <a
+                href="https://khalifa-digital-security.com"
+                class="text-link"
+                target="_blank">web-security agency</a
+        >, I get asked about other recommendations in
 			this field pretty often by people with different backgrounds and goals. So while for
 			advanced users mentioning ad blockers doesn't make much sense, it can open the whole
 			new world for beginners and people who care (or rather don't) about ads, for example

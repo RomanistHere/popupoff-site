@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <footer
 	class="min-h-screen py-12 px-8 bg-bright flex justify-center items-center text-dark text-center relative"
 >
@@ -18,6 +21,16 @@
 		</h1>
 
 		<ul class="text-lg italic">
+            <li>
+                <a
+                    href="https://khalifa-digital-security.com"
+                    class="py-0.5 border-b border-dark transition-colors hover:bg-dark hover:text-accent"
+                >
+                    Khalifa Digital Security
+                </a>
+                to protect your business
+                <p class="mt-2">***</p>
+            </li>
 			<li>
 				<a
 					href="https://melme.io"
